@@ -9,7 +9,7 @@ const Services = () => {
         <div>
             <Header />
             <div>
-                <span>Services Page!!</span> Link to <Link to={CONSTANTS.ROUTES.CONTACT_PAGE}>Contact Us</Link>
+                <span>Services Pagesssss!!</span> Link to <Link to={CONSTANTS.ROUTES.CONTACT_PAGE}>Contact Us</Link>
             </div>
             <Footer />
         </div>
