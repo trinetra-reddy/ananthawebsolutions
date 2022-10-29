@@ -12,16 +12,17 @@
     max-width:220px;
 }
 .img{
-    width:100%;
+    max-width:100%;
 }
-.content{
+.about-content{
     animation-direction:alternate;
     position:relative;
     animation:content 5s 2;
     @keyframes content {
-        30%{left:400px;}
+        30%{left:200px;}
     }
 }
+
 
  
 @media screen and (min-width:998px){
@@ -29,14 +30,12 @@
         display:flex;
     }
     .img{
-        padding-left:100px;
-        height:400px;
-        width:500px;
-        padding-right:30px;
+        width:100%;
+        padding-left: 20px;
+        padding-bottom: 0px;
     }
-    .heading{
+    .about-heading{
         font-size:20px;
-
     }
     .content-wrapper{
         font-size:40px;
@@ -46,6 +45,15 @@
         max-width:505px;
         font-size:15px;
     }
+    .num-box-item{
+        border-right: 1px solid red;
+        padding-right:30px;
+    }
+    .flex{
+        display:flex;
+        gap:30px;
+    }
+    
     
         
     }
