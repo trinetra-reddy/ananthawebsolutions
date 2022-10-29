@@ -2,11 +2,12 @@ import React from "react";
 import './Footer.scss';
 
 const Footer = () => {
-    return (
-        <div>
-            <p>Footer Component!!</p>
-        </div>
-    );
-};
+    return <>
+    </>;
+       
+    
+    
+
+}
 
 export default Footer;
