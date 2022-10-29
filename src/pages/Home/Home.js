@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Header, Banner ,Tech,Quality, About ,Footer } from "../../components";
+import { Header, Banner , About ,Tech,Quality, Footer, Whychooseus } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Home.scss';
 
@@ -11,6 +11,7 @@ const Home = () => {
             <div>
                 <span>Home Page!!</span> Link to <Link to={CONSTANTS.ROUTES.SERVICES_PAGE}>Services</Link>
             </div>
+            <Whychooseus />
             <Banner />
             <Tech />
             <Quality />
