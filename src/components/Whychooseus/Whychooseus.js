@@ -9,8 +9,10 @@ const Whychooseus = () => {
     <>
       <div class="container">
         <div class="header">
-          <h3 class="header-1">OUR FEATURES</h3>
-          <h1 class="header-2">Why Choose Us</h1>
+          <div class="span">
+            <span class="header-1">OUR FEATURES</span>
+          </div>
+          <h2 class="header-2">Why Choose Us</h2>
           <p class="paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
             accumsan nisi Ut ut felis congue nisl hendrerit commodo.
