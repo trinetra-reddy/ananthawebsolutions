@@ -1,0 +1,108 @@
+.container{
+    background-image: url(./Background.svg);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin:0px 40px;
+}
+.divisions{
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+    
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 70px;
+}
+.header-1{
+    color:rgb(25, 148, 148);
+    margin-top:50px;
+    text-align:center;
+}
+.header-2{
+    text-align:center;
+    font-weight:500;
+}
+.paragraph{
+    color:#9b9595;
+    line-height:1.9;
+  letter-spacing:0.5px;
+   text-align:center;
+   font-size:16px;
+   justify-content:center;
+}
+.live{
+    background-color: #fff;
+    background-image: url(./cards-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom: 30px !important;
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
+}
+.service{
+    background-color: #fff;
+    background-image: url(./cards-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom: 30px !important;
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
+}
+.scale{
+    background-color: #fff;
+    background-image: url(./cards-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom: 30px !important;
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
+}
+
+.box-head{
+   color:#222;
+    margin-bottom:15px;
+    font-size:18px;
+    text-align:left;
+    font-weight:400px;
+}
+
+.image{
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 150px;
+}
+.content{
+    color:#888;
+    justify-content: center;
+    line-height:1.9;
+    font-size:16px;
+    text-align:left;
+    font-weight:400px;
+    max-width:100%;
+    letter-spacing:0.5px;
+
+}
+@media screen and (min-width:998px){
+    .divisions{
+        display:flex;
+    }
+    .live{
+        margin-right:25px;
+    }
+    .service{
+        margin-right:25px;
+    }
+    
+}
+
+
+
+
+
