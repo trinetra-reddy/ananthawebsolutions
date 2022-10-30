@@ -2,7 +2,7 @@
   background: url(./Get-Bg.png);
   background-position: center;
   background-size: cover;
-  padding: 100px 30px;
+  padding: 100px 18px;
 }
 .Touch-header-1 {
   background-image: linear-gradient(135deg, cyan 0%, cyan 100%) !important;
@@ -27,17 +27,17 @@
 .Touch-input-wrapper {
   background-color: #fff;
   border-radius: 35px;
-  padding: 18px;
+  padding: 15px;
   margin-top: 45px;
-  width: 100%;
+  max-width: 100%;
   box-shadow: 0 9px 68px 0 rgb(62 57 107 / 20%);
 }
 
 .Touch-input {
   border-radius: 25px;
   border: 1px solid #eee;
-  width: 100%;
-  font-size: 18px;
+  max-width:100%;
+  font-size: 16px;
   outline: green;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -61,10 +61,10 @@
   background-size: 200% auto;
   border: none;
   border-radius: 28px;
-  padding: 0px 20px;
-  font-weight: bold;
+  padding: 15px 40px;
+  font-weight: 550;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: 1px;
 }
 .Touch-button:hover {
@@ -72,7 +72,7 @@
   background-position: right center;
   color: #fff;
 }
-@media screen and (min-width: 996px) {
+@media screen and (min-width:767px) {
   .Touch-container {
     margin: auto;
     padding: 70px 80px;
@@ -84,12 +84,11 @@
     display: flex;
     max-width: 50%;
   }
-  .Touch-Mail-wrapper {
-    margin-right: 18px;
-    width: 96%;
+  .Touch-input {
+    margin-right: 10px;
+    max-width: 100%;
   }
   .Touch-button {
-    font-size: 14px;
-    padding: 20px 40px;
+    max-width: 100%;
   }
 }
