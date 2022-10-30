@@ -10,32 +10,34 @@ const Tech=()=>{
     <>
     <div class="main-card">
         <div class="tech-content">
-            <div class="heading">Our Tech Experts Ready</div>
-            <div class="heading"> To Give You What You Need</div>
-            <p id="p1">Sed ultricies eleifned.Sed tincidunt lectus justo,eu vulputate leo fermentum vel.</p>
+            <div class="tech-heading">Our Tech Experts Ready
+             To Give You What You Need</div>
+             <div class="tech-sub-heading">
+                Sed ultricies eleifned.Sed tincidunt lectus justo,eu vulputate leo fermentum vel.
+                </div>
         </div>
         <div class="tech-card">
             <img class="tech-icons" src={webImg} alt="webIcon" />
             <h3>Web Development</h3>
-            <p class="onhover">
+            <div class="tech-card-content">
                 User Experience Design 
                 Visual & Graphic Design 
                 Product Design
-            </p>
+            </div>
         </div>
         <div class="tech-card">
             <img class="tech-icons" src={mobileImg} alt="mobileIcon" />
             <h3>Mobile Development</h3>
-            <p class="onhover">
+            <div class="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
-            </p>
+            </div>
         </div>
         <div class="tech-card"> 
             <img class="tech-icons" src={uiuxImg} alt="uiuxIcon" />
             <h3>UIUX Design</h3>
-            <p class="onhover">
+            <div class="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
-            </p>
+            </div>
         </div>
     </div> 
         
