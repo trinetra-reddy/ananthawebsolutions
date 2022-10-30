@@ -1,82 +1,56 @@
-.container {
-  background-image: url(./Background.svg);
+.Choose-container {
+  background-image: url(./Choose-Images/ChooseBg.svg);
   background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  margin: 0px 40px;
+  padding: 10px;
+  margin: auto;
 }
-.divisions {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-}
-.header {
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 70px;
-}
-.span {
+
+.Choose-span {
   background-image: linear-gradient(135deg, #846ff4 0%, #f17674 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
   margin-bottom: 15px;
 }
-.header-1 {
+.Choose-header-1 {
   background-image: linear-gradient(35deg, #17ead9 0%, #6078ea 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 50px;
   font-weight: bold;
 }
-.header-2 {
+.Choose-header-2 {
   margin-top: -10px;
   text-align: center;
   font-weight: 500;
   font-size: 30px;
 }
-.paragraph {
+.Choose-paragraph {
   margin-top: -10px;
   color: #9b9595;
+  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.5px;
   text-align: center;
-  font-size: 16px;
   justify-content: center;
 }
-.live {
+.Choose-blocks {
+  margin-top: 70px;
+}
+.Choose-rows {
   background-color: #fff;
-  background-image: url(./cards-bg.png);
-  background-repeat: no-repeat;
+  background-image: url(./Choose-Images/Choose-cards-bg.png);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 30px !important;
   box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
-}
-.service {
-  background-color: #fff;
-  background-image: url(./cards-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
   padding: 20px;
-  margin-bottom: 30px !important;
-  box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
 }
-.scale {
-  background-color: #fff;
-  background-image: url(./cards-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 30px !important;
-  box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
+.Choose-icons {
+  margin-top: 10px;
+  max-width: 100%;
 }
-
-.box-head {
+.Choose-block-head {
   color: #222;
   margin-bottom: 15px;
   font-size: 18px;
@@ -84,32 +58,27 @@
   font-weight: 400px;
 }
 
-.image {
-  margin-top: 10px;
-  display: inline-block;
-  max-width: 150px;
-}
-.content {
+.Choose-block-content {
   color: #888;
-  justify-content: center;
   line-height: 1.9;
   font-size: 15px;
   text-align: left;
+  justify-content: center;
   font-weight: 400px;
   max-width: 100%;
   letter-spacing: 0.5px;
 }
 @media screen and (min-width: 998px) {
-  .divisions {
+  .Choose-blocks {
     display: flex;
   }
-  .live {
+  #Choose-live-block {
     margin-right: 25px;
   }
-  .service {
+  #Choose-service-block {
     margin-right: 25px;
   }
-  .paragraph {
+  .Choose-paragraph {
     max-width: 50%;
     padding-left: 25%;
   }
