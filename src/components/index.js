@@ -6,5 +6,6 @@ import Banner from "./Banner/Banner";
 import Tech from "./Tech/Tech";
 import Quality from "./Quality/Quality";
 import About from "./About/About";
+import GetTouch from "./GetTouch/GetTouch";
 
-export { Header, Footer,Banner,Tech,Quality,About , Whychooseus,Ourteam};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam};
