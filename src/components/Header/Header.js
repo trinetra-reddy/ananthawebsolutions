@@ -3,12 +3,6 @@ import './Header.scss';
 import logo from '../../images/anantha_logo.jpg';
 
 const Header = () => {
-    useEffect(() => {
-        setTimeout(() => {
-        }, 500)
-        
-      }, []);
-    
 const onToggleclick=()=>{const hamburger = document.querySelector('.hamburger');
 const navLink = document.querySelector('.nav__link');
 if(hamburger && navLink) {
@@ -19,7 +13,6 @@ if(hamburger && navLink) {
         } else {
             hamburger.classList.add('expanded');
         }
-       
     });
 }}
     return (
