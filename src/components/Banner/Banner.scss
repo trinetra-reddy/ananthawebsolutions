@@ -4,6 +4,7 @@
   margin: 0 auto;
   height: 330px;
   max-width: 100%;
+
 }
 .read-button {
   vertical-align: middle;
@@ -44,7 +45,7 @@
   margin-bottom: 15px;
   font-weight: 300;
   line-height: 1em;
-  font-size: 30px;
+  font-size: 48px;
   padding-left: 10px;
   background: -webkit-linear-gradient(#db8511 0%, #e63940 100%);
   -webkit-background-clip: text;
@@ -61,8 +62,8 @@
   }
   .content1 {
     display: inline-block;
-    max-width: 65%;
     letter-spacing: 0px;
+    margin-top:100px;
   }
   .main {
     padding-left: 70px;
@@ -73,8 +74,10 @@
   }
   .banner-text {
     display: flex;
+    padding-left:20px;
   }
   .text-wrapper {
     font-size: 18px;
+    font-weight: 250;
   }
 }
