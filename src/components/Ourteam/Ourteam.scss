@@ -30,7 +30,7 @@
 .ourTeam-card {
   border: 1px solid #4d519d;
   padding: 10px;
-  height: 290px;
+  height: 240px;
   text-align: center;
   background-color: transparent;
   border-radius: 18px;
@@ -52,6 +52,7 @@
 .ourTeam-card h4 {
   font-size: 14px;
   font-weight: 500;
+  color: #000;
 }
 /* Responsive columns */
 /* media screen above 450px */
@@ -264,7 +265,7 @@
     padding: 0 25px;
   }
   .ourTeam-column-container {
-    margin-left: 80px;
+    margin-left: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
