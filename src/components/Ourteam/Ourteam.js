@@ -24,10 +24,10 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Siri K</h3>
             <h4>Web Developer</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -35,10 +35,10 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Giridhar</h3>
             <h4>Web & Posters Developer</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -46,10 +46,10 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Amrutha A</h3>
             <h4>Web Developer</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -57,10 +57,10 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Haritha R</h3>
             <h4>Web & Java Developer</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -68,10 +68,10 @@ const Ourteam = () => {
             <img src={avatar2} alt="photo-1" />
             <h3>Subba Reddy</h3>
             <h4>Marketing Specialist</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -79,10 +79,10 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Manisha G</h3>
             <h4>Quality Analyst</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -90,10 +90,10 @@ const Ourteam = () => {
             <img src={avatar2} alt="photo-1" />
             <h3>Vinay</h3>
             <h4>Sales Manager</h4>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
       </div>
