@@ -25,16 +25,16 @@ const About = () => {
           </div>
           <div className="flex">
             <div className="num-box-item">
-              <div className="">124</div>
-              <div className="">Projects</div>
+              <div className="about-count">124</div>
+              <div className="about-text">Projects</div>
             </div>
             <div className="num-box-item">
-              <div className="">97</div>
-              <div className="">clients</div>
+              <div className="about-count">97</div>
+              <div className="about-text">clients</div>
             </div>
             <div>
-              <div className="">105</div>
-              <div className="">employee</div>
+              <div className="about-count">105</div>
+              <div className="about-text">employee</div>
             </div>
           </div>
         </div>
