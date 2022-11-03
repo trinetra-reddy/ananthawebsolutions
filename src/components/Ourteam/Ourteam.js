@@ -5,44 +5,98 @@ import avatar2 from '../../images/avatar2.png';
 
 const Ourteam = () => {
   return (
-<div class="card-container">
+    <div className="ourTeam-card-container">
       <h1>Our Creative Team</h1>
       <h2>Our Awesome Team</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptates labore voluptate 
-      exercitationem quos fugiat deleniti minus, aut voluptatem praesentium, suscipit animi. Obcaecati 
-      asperiores tempore saepe recusandae labore praesentium!</p>
-      <div class="row">
-            <div class="column-container">
-              <div class="column">
-                <div class="card">
-                  <img src={avatar} alt="photo-1"/>
-                  <h3>Employe Name</h3>
-                  <h4>Role/position</h4>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                  <img src={avatar2} alt="photo-1"/>
-                  <h3>Employe Name</h3>
-                  <h4>Role/position</h4>
-                </div>
-            </div>
-                <div class="column">
-                    <div class="card">
-                      <img src={avatar} alt="photo-1"/>
-                      <h3>Employe Name</h3>
-                      <h4>Role/position</h4>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <img src={avatar2} alt="photo-1"/>
-                        <h3>Employe Name</h3>
-                        <h4>Role/position</h4>
-                    </div>
-                </div>
-          </div> 
-      </div>          
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptates labore voluptate
+        exercitationem quos fugiat deleniti minus, aut voluptatem praesentium, suscipit animi. Obcaecati
+        asperiores tempore saepe recusandae labore praesentium!</p>
+      <div className="ourTeam-column-container">
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar} alt="photo-1" />
+            <h3>Baba Fakruddin G</h3>
+            <h4>Co-founder/operational Manager</h4>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar} alt="photo-1" />
+            <h3>Siri K</h3>
+            <h4>Web Developer</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar} alt="photo-1" />
+            <h3>Giridhar</h3>
+            <h4>Web & Posters Developer</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar} alt="photo-1" />
+            <h3>Amrutha A</h3>
+            <h4>Web Developer</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar} alt="photo-1" />
+            <h3>Haritha R</h3>
+            <h4>Web & Java Developer</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar2} alt="photo-1" />
+            <h3>Subba Reddy</h3>
+            <h4>Marketing Specialist</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar} alt="photo-1" />
+            <h3>Manisha G</h3>
+            <h4>Quality Analyst</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div className="ourTeam-column">
+          <div className="ourTeam-card">
+            <img src={avatar2} alt="photo-1" />
+            <h3>Vinay</h3>
+            <h4>Sales Manager</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
