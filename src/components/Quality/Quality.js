@@ -2,6 +2,7 @@ import React from 'react';
 import "./Quality.scss";
 import sideimage from "./img.png";
 
+
 const Quality=()=>{
     return(
         <>
@@ -18,15 +19,14 @@ const Quality=()=>{
                             Business-Oriented Software
                             <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
-                        <div class="quality-block">
+                        <div class="quality-block">                          
                             Excellent Price-Quality Ratio
                             <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
                     </div>
                     <div class="quality-card">
                         <div class="quality-block">
-                        Meetups for  Developers
-                                           
+                        Meetups for Developers                                    
                         <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
                         <div class="quality-block">
