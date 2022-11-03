@@ -18,7 +18,7 @@ const Banner = () => {
           <button className="read-button">Read More</button>
         </div>
         <div>
-          <img src={banner} alt="WEB" />
+          <img className="banner-img" src={banner} alt="WEB" />
         </div>
       </div>
     </>

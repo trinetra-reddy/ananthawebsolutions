@@ -54,6 +54,9 @@
 .text-wrapper {
   font-size: 20px;
 }
+.banner-img{
+  display:none;
+}
 
 //Desktop
 @media screen and (min-width: 998px) {
@@ -80,4 +83,8 @@
     font-size: 18px;
     font-weight: 250;
   }
+  .banner-img{
+    display:block;
+  }
+ 
 }
