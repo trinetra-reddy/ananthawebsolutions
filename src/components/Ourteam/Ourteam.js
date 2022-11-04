@@ -17,6 +17,10 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Baba Fakruddin G</h3>
             <h4>Co-founder/operational Manager</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
