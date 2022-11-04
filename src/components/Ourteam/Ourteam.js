@@ -27,7 +27,7 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar} alt="photo-1" />
+            <img src={avatar2} alt="photo-1" />
             <h3>Siri K</h3>
             <h4>Web Developer</h4>
             <a href="#"><i className="fa fa-github"></i></a>
@@ -49,7 +49,7 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar} alt="photo-1" />
+            <img src={avatar2} alt="photo-1" />
             <h3>Amrutha A</h3>
             <h4>Web Developer</h4>
             <a href="#"><i className="fa fa-github"></i></a>
@@ -60,7 +60,7 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar} alt="photo-1" />
+            <img src={avatar2} alt="photo-1" />
             <h3>Haritha R</h3>
             <h4>Web & Java Developer</h4>
             <a href="#"><i className="fa fa-github"></i></a>
@@ -71,7 +71,7 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar2} alt="photo-1" />
+            <img src={avatar} alt="photo-1" />
             <h3>Subba Reddy</h3>
             <h4>Marketing Specialist</h4>
             <a href="#"><i className="fa fa-github"></i></a>
@@ -82,7 +82,7 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar} alt="photo-1" />
+            <img src={avatar2} alt="photo-1" />
             <h3>Manisha G</h3>
             <h4>Quality Analyst</h4>
             <a href="#"><i className="fa fa-github"></i></a>
