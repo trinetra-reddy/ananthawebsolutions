@@ -1,21 +1,36 @@
+.quality-main{
+    margin:5% 0;
+}
 .quality-heading{
-    color:#4d519d;
-    font-size:25px;
-    padding:0 0 0 15px;
+    color:rgb(34,116,165);
+    padding:10px 0 0 15px;
+    font-size:18px;
+    font-weight:700;
+    text-align:left;
+    line-height:24px
 }
 .quality-sub-heading{
-    font-size:40px; 
-    padding:0 0 0 15px;
+    font-size:30px;
+    font-weight:300;
+    text-align:left;
+    color:rgb(26,24,27); 
+    padding:10px 0 0 15px;
 }
 .quality-block{
+    padding:10px 0 0 15px;
     font-size:20px;
-    padding:10px;
+        font-weight:400;
+        text-align:left;
+        margin:5px;
 }
 .quality-block:hover{
     box-shadow: 0px 5px 28.5px 1.5px rgb(149 152 200 / 20%); 
 }
 #quality-p{
-    font-size:15px;
+    font-size:14px;
+    font-weight:300;
+    text-align:left;
+    color:rgb(26,24,27);
 }
 img{
     max-width:100%;
@@ -24,19 +39,39 @@ img{
 @media screen and (min-width:998px){
     .quality-main{
         display:flex; 
-        margin:15%;
+        margin:5% 15%;
      }
     .quality-card{
         display:flex;
     }
     .quality-block{
-        font-size:22px;
+        font-size:20px;
+        font-weight:400;
+        text-align:left;
         width:40%;
+        margin:5px;
     }
     #quality-p{
-        font-size:12px;
+        font-size:14px;
+        font-weight:300;
+        text-align:left;
+        color:rgb(26,24,27);
     }
     .quality-sub-heading{
-        font-size:40px; 
+        font-size:30px;
+        font-weight:300;
+        text-align:left;
+        color:rgb(26,24,27); 
     }
+    .quality-heading{
+        font-size:18px;
+        font-weight:700;
+        text-align:left;
+        line-height:24px;
+        margin-bottom:15px;
+    }
+    .quality-block:hover{
+        color:#007cba;
+    }
+    
 }
