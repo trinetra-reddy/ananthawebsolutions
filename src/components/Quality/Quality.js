@@ -19,25 +19,14 @@ const Quality=()=>{
                             Business-Oriented Software
                             <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
-<<<<<<< HEAD
                         <div class="quality-block">                          
-=======
-                        <div className="quality-block">
->>>>>>> ad4bf1b456a1c2e711b3b5053c272e80d8cd473e
                             Excellent Price-Quality Ratio
                             <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="quality-card">
                         <div class="quality-block">
                         Meetups for Developers                                    
-=======
-                    <div className="quality-card">
-                        <div className="quality-block">
-                        Meetups for  Developers
-                                           
->>>>>>> ad4bf1b456a1c2e711b3b5053c272e80d8cd473e
                         <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
                         <div className="quality-block">
