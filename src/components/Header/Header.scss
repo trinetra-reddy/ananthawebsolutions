@@ -18,23 +18,21 @@
   .logo {
     width: 140px;
     margin-left: 30px;
-    padding-top: 5px;
+    padding-top: 4px;
     border: 1px solid #fff;
   }
   
   .hamburger {
-    padding-right: 30px;
-    padding-top: 20px;
+    padding-right: 25px;
+    padding-top: 5px;
     cursor: pointer;
   }
-  
-  .hamburger .line {
-    display: block;
-    width: 30px;
-    height: 3.5px;
-    margin-bottom: 8px;
-    border-radius: 5px;
-    background-color: var(--primary-color);
+  .menu {
+    width: 45px;
+    
+  }
+  .close {
+    width: 45px;
   }
   .hamburger .close {
     display: none;
@@ -49,7 +47,7 @@
     text-decoration: none;
     color: #000;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 20px;
     display: inherit;
   }
