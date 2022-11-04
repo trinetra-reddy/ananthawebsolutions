@@ -1,6 +1,5 @@
 // Mobile view
 .banner-main {
-  
   margin: 0 auto;
   height: 330px;
   width:100%;
@@ -18,7 +17,8 @@
   height: 50px;
   border-style: none;
   border-radius: 30px;
-  margin: 20px;
+  margin:10px;
+
 }
 .banner-work-button {
   width: 150px;
@@ -32,30 +32,31 @@
   text-decoration: none;
   font-weight: 400;
   color: white;
+  margin-left:10px;
 }
 .banner-left-text {
   line-height:1em;
   font-size:30px;
   margin:0;
   margin-bottom: 15px;
-  font-weight:200;
+  font-weight:300;
   max-width:600px;
-  padding: 10px;
+  padding-left:10px;
 }
 .banner-left-text-wrapper {
   margin-bottom: 15px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1em;
   font-size: 30px;
   background: -webkit-linear-gradient(#db8511 0%, #e63940 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 10px;
+  padding-left:10px;
 }
-.banneer-text-wrapper {
-  font-size: 20px;
-  font-weight: 250;
-  padding: 10px;
+.banner-text-wrapper {
+  font-size: 18px;
+  font-weight: 300;
+  padding-left:10px;
 }
 .banner-img{
   display:none;

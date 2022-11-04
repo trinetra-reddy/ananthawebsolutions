@@ -23,9 +23,7 @@ const GetTouch = () => {
               placeholder="Enter Your Email"
             />
           </div>
-          <div >
-            <button className="Touch-button">SUBSCRIBE</button>
-          </div>
+          <button className="Touch-button">SUBSCRIBE</button>
         </div>
       </div>
     </>
