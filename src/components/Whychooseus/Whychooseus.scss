@@ -1,7 +1,8 @@
 .Choose-container {
   background-image: url(./Choose-Images/ChooseBg.svg);
+  background-position: center;
   background-size: cover;
-  padding: 10px 10px 20px;
+  padding: 100px 10px;
   margin: auto;
 }
 
@@ -17,16 +18,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 50px;
-  font-weight: bold;
+  font-weight: 600;
+  line-height: 1px;
 }
 .Choose-header-2 {
-  margin-top: -10px;
+  margin-top: -8px;
   text-align: center;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 450;
+  font-size: 25px;
 }
 .Choose-paragraph {
-  margin-top: -10px;
+  margin-top: -8px;
   color: #9b9595;
   font-size: 16px;
   line-height: 1.9;
@@ -35,7 +37,7 @@
   justify-content: center;
 }
 .Choose-blocks {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .Choose-rows {
   background-color: #fff;
@@ -44,8 +46,8 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
-  padding: 20px;
-  margin-bottom: 10px;
+  padding: 28px 20px;
+  margin: 10px 10px 30px 10px;
 }
 .Choose-icons {
   margin-top: 10px;
@@ -56,7 +58,7 @@
   margin-bottom: 15px;
   font-size: 18px;
   text-align: left;
-  font-weight: 400px;
+  font-weight: 500;
 }
 
 .Choose-block-content {
@@ -72,7 +74,13 @@
 @media screen and (min-width: 998px) {
   .Choose-blocks {
     display: flex;
-    padding: 0px 70px;
+    padding: 0px 50px;
+  }
+  .Choose-header-2 {
+    font-size: 30px;
+  }
+  .Choose-icons {
+    margin-bottom: -20px;
   }
   #Choose-live-block {
     margin-right: 25px;
