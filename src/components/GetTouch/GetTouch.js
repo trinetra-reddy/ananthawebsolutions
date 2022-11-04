@@ -15,14 +15,12 @@ const GetTouch = () => {
             omnis iusto, veniam libero accusamus esse ab, enim temporibus.
           </p>
         </div>
-        <div className="Touch-input-wrapper">
-          <div>
+        <div className="Touch-form">
             <input
               className="Touch-input"
               type="text"
               placeholder="Enter Your Email"
             />
-          </div>
           <button className="Touch-button">SUBSCRIBE</button>
         </div>
       </div>
