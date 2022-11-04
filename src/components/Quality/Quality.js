@@ -6,37 +6,48 @@ import sideimage from "./img.png";
 const Quality=()=>{
     return(
         <>
-            <div class="quality-main">
-                <div class="quality-left">
-                    <div class="quality-heading">
+            <div className="quality-main">
+                <div className="quality-left">
+                    <div className="quality-heading">
                         ABOUT US
                     </div>
-                    <div class="quality-sub-heading">
+                    <div className="quality-sub-heading">
                         <span>We Want Your Application<br></br> to Have Best Quality Possible</span>
                     </div>
-                    <div class="quality-card">
-                        <div class="quality-block">
+                    <div className="quality-card">
+                        <div className="quality-block">
                             Business-Oriented Software
                             <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
+<<<<<<< HEAD
                         <div class="quality-block">                          
+=======
+                        <div className="quality-block">
+>>>>>>> ad4bf1b456a1c2e711b3b5053c272e80d8cd473e
                             Excellent Price-Quality Ratio
                             <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="quality-card">
                         <div class="quality-block">
                         Meetups for Developers                                    
+=======
+                    <div className="quality-card">
+                        <div className="quality-block">
+                        Meetups for  Developers
+                                           
+>>>>>>> ad4bf1b456a1c2e711b3b5053c272e80d8cd473e
                         <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
-                        <div class="quality-block">
+                        <div className="quality-block">
                         Agile Responsible Development
                         <p id="quality-p">Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="quality-right">
+                <div className="quality-right">
                     <img src={sideimage} alt="image" />
                 </div>
             </div>

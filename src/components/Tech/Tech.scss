@@ -21,6 +21,7 @@
 }
 .tech-card{
     box-shadow: 0px 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+<<<<<<< HEAD
     padding:30px;  
     color:#4d519e; 
     box-sizing:boreder;
@@ -31,6 +32,16 @@
     border-radius:8px;
     margin:10px 10px 30px ;   
     
+=======
+    height:30%;
+    width:80%;
+    text-align:center;
+    display:inline-block;
+    margin-left: 70px;
+    border-radius:8px; 
+    padding:30px;  
+    color:#4d519d;
+>>>>>>> ad4bf1b456a1c2e711b3b5053c272e80d8cd473e
 }
 .tech-card-content{
     opacity:1;
@@ -79,8 +90,12 @@ h4{
         font-weight:200;
         line-height:27px;
         text-align:center;
+<<<<<<< HEAD
         margin:18px;
         
+=======
+        margin:0 5%;
+>>>>>>> ad4bf1b456a1c2e711b3b5053c272e80d8cd473e
     }
     .tech-card-content{
         font-size:13px;

@@ -15,7 +15,7 @@ const About = () => {
             <div className="content-wrapper">
               We are the Pioneers Of IT Development
             </div>
-            <p class="text">
+            <p className="text">
               Sed lobortis vehicula eros.In efficitur,mi ac phareta
               suscipit,lectus est elementum ligula, in dictum odio urna
               velnulla.Curabitur viverra sed velit quis viverra.Sed eget viverra
