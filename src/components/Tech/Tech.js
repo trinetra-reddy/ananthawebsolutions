@@ -19,11 +19,9 @@ const Tech=()=>{
         <div className="tech-cards">
         <div className="tech-card">
             <img className="tech-icons" src={webImg} alt="webIcon" />
-            <h3>Web Development</h3>
+            <h4>Web Development</h4>
             <div className="tech-card-content">
-                User Experience Design 
-                Visual & Graphic Design 
-                Product Design
+            User Experience Design Visual & Graphic Design Product Design
             </div>
         </div>
         <div class="tech-card">

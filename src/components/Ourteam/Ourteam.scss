@@ -26,6 +26,7 @@
   display: block;
   margin-top: 50px;
 }
+
 .ourTeam-card {
   border: 1px solid #4d519d;
   padding: 10px;
@@ -332,10 +333,114 @@
   }
   .ourTeam-card h4 {
     font-weight: 500;
+    font-size: 14px;
   }
 
 }
 @media screen and (min-width: 1890px) {
+  .ourTeam-column {
+    float: left;
+    width: 20%;
+    padding: 0 25px;
+  }
+  .ourTeam-column-container {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ourTeam-card-container h1 {
+    font-size: 20px;
+    padding-left: 45%;
+    text-align: center;
+
+  }
+  .ourTeam-card-container h2 {
+    font-size: 28px;
+    padding-left: 42%;
+    padding-top: 20px;
+  }
+  .ourTeam-card-container p {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 30px;
+  }
+  .ourTeam-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 380px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 0px #4d519d;
+    border-radius: 18px;
+  }
+  .ourTeam-card img{
+    width: 70%;
+    border-radius: 50%;
+    border:  6px dotted #4d519d;
+  }
+  .ourTeam-card h3{
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .ourTeam-card h4 {
+    font-weight: 500;
+  }
+
+}
+@media screen and (min-width: 2490px) {
+  .ourTeam-column {
+    float: left;
+    width: 20%;
+    padding: 0 25px;
+  }
+  .ourTeam-column-container {
+    margin-left: 240px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .ourTeam-card-container h1 {
+    font-size: 20px;
+    padding-left: 45%;
+  }
+  .ourTeam-card-container h2 {
+    font-size: 28px;
+    padding-left: 42%;
+    padding-top: 20px;
+  }
+  .ourTeam-card-container p {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 30px;
+  }
+  .ourTeam-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 380px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 0px #4d519d;
+    border-radius: 18px;
+  }
+  .ourTeam-card img{
+    width: 70%;
+    border-radius: 50%;
+    border:  6px dotted #4d519d;
+  }
+  .ourTeam-card h3{
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .ourTeam-card h4 {
+    font-weight: 500;
+  }
+
+}
+@media screen and (min-width: 2990px) {
   .ourTeam-column {
     float: left;
     width: 20%;
