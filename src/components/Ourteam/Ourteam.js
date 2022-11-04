@@ -2,6 +2,8 @@ import React from "react";
 import './Ourteam.scss';
 import avatar from '../../images/avatar-1.png';
 import avatar2 from '../../images/avatar2.png';
+import baba from '../../images/Baba_1.jpg';
+import vinay from '../../images/Vinay.jpg';
 
 const Ourteam = () => {
   return (
@@ -14,9 +16,13 @@ const Ourteam = () => {
       <div className="ourTeam-column-container">
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar} alt="photo-1" />
+            <img src={baba} alt="photo-1" />
             <h3>Baba Fakruddin G</h3>
             <h4>Co-founder/operational Manager</h4>
+            <a href="#"><i className="fa fa-github"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+            <a href="#"><i className="fa fa-facebook"></i></a>
           </div>
         </div>
         <div className="ourTeam-column">
@@ -87,7 +93,7 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-            <img src={avatar2} alt="photo-1" />
+            <img src={vinay} alt="photo-1" />
             <h3>Vinay</h3>
             <h4>Sales Manager</h4>
             <a href="#"><i className="fa fa-github"></i></a>

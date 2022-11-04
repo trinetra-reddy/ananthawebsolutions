@@ -3,34 +3,33 @@
 }
 .ourTeam-card-container h1 {
   font-size: 20px;
-  padding-left: 35%;
+  text-align: center;
 }
 .ourTeam-card-container h2 {
   font-size: 28px;
-  padding-left: 30%;
+  text-align: center;
   padding-top: 3%;
 }
 .ourTeam-card-container p {
   font-size: 16px;
-  padding-left: 80px;
-  padding-right: 30px;
+  text-align: center;
 }
 /* Float four columns one by one */
 .ourTeam-column-container{
-  margin-left: 20px ;
+  margin-left: 60px ;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 .ourTeam-column {
-  width: 60%;
+  width: 80%;
   display: block;
   margin-top: 50px;
 }
 .ourTeam-card {
   border: 1px solid #4d519d;
   padding: 10px;
-  height: 240px;
+  height: 310px;
   text-align: center;
   background-color: transparent;
   border-radius: 18px;
@@ -41,7 +40,7 @@
 .ourTeam-card img{
   width: 75%;
   border-radius: 50%;
-  border: 5px dotted #4d519d;
+  border: 3px dashed #4d519d;
 }
 .ourTeam-card h3{
   padding-top: 2px;
@@ -72,7 +71,7 @@
   .ourTeam-card {
     border: 1px solid #4d519d;
     padding: 10px;
-    height: 250px;
+    height: 220px;
     text-align: center;
     background-color: transparent;
     border-radius: 18px;
@@ -88,7 +87,7 @@
   .ourTeam-card img{
     width: 80%;
     border-radius: 50%;
-    border:  6px dotted #4d519d;
+    border:  3px dashed #4d519d;
     
   }
   .ourTeam-card h3{
@@ -105,7 +104,7 @@
 @media screen and (min-width: 550px) {
   
   .ourTeam-column-container{
-    margin-left: 90px ;
+    margin-left: 55px ;
     display: flex;
     flex-direction: row;
   }
@@ -118,7 +117,7 @@
   .ourTeam-card {
     border: 1px solid #4d519d;
     padding: 10px;
-    height: 280px;
+    height: 240px;
     text-align: center;
     background-color: transparent;
     border-radius: 18px;
@@ -134,8 +133,7 @@
   .ourTeam-card img{
     width: 65%;
     border-radius: 50%;
-    border:  6px dotted #4d519d;
-    
+    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -145,13 +143,12 @@
   .ourTeam-card h4 {
     font-weight: 500;
   }
-
 }
 /* media screen above 690px */
 @media screen and (min-width: 690px) {
   
   .ourTeam-column-container{
-    margin-left: 140px ;
+    margin-left: 115px ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -181,8 +178,7 @@
   .ourTeam-card img{
     width: 75%;
     border-radius: 50%;
-    border:  6px dotted #4d519d;
-    
+    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 6px;
@@ -192,7 +188,6 @@
   .ourTeam-card h4 {
     font-weight: 500;
   }
-
 }
 /* media screen above 812px */
 @media screen and (min-width: 812px) {
@@ -228,8 +223,7 @@
   .ourTeam-card img{
     width: 75%;
     border-radius: 50%;
-    border:  6px dotted #4d519d;
-    
+    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -246,18 +240,16 @@
   
   .ourTeam-card-container h1 {
     font-size: 20px;
-    padding-left: 45%;
+    text-align: center;
   }
   .ourTeam-card-container h2 {
     font-size: 28px;
-    padding-left: 42%;
+    text-align: center;
     padding-top: 20px;
   }
   .ourTeam-card-container p {
     font-size: 20px;
-    padding-left: 80px;
-    padding-right: 30px;
-  
+   text-align: center;
   }
   .ourTeam-column {
     float: left;
@@ -265,7 +257,7 @@
     padding: 0 25px;
   }
   .ourTeam-column-container {
-    margin-left: 100px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -282,7 +274,7 @@
   .ourTeam-card img{
     width: 75%;
     border-radius: 50%;
-    border:  6px dotted #4d519d;
+    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -301,24 +293,23 @@
     padding: 0 25px;
   }
   .ourTeam-column-container {
-    margin-left: 65px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .ourTeam-card-container h1 {
     font-size: 20px;
-    padding-left: 45%;
+    text-align: center;
   }
   .ourTeam-card-container h2 {
     font-size: 28px;
-    padding-left: 42%;
+    text-align: center;
     padding-top: 20px;
   }
   .ourTeam-card-container p {
     font-size: 20px;
-    padding-left: 80px;
-    padding-right: 30px;
+    text-align: center;
   }
   .ourTeam-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -332,7 +323,7 @@
   .ourTeam-card img{
     width: 70%;
     border-radius: 50%;
-    border:  6px dotted #4d519d;
+    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
