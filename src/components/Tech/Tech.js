@@ -8,36 +8,38 @@ import uiuxImg from "../../icons/uiux.png";
 const Tech=()=>{
     return(
     <>
-    <div class="main-card">
-        <div class="tech-content">
-            <div class="tech-heading">Our Tech Experts Ready
+    <div className="main-card">
+        <div className="tech-content">
+            <div className="tech-heading">Our Tech Experts Ready
              To Give You What You Need</div>
-             <div class="tech-sub-heading">
+             <div className="tech-sub-heading">
                 Sed ultricies eleifned.Sed tincidunt lectus justo,eu vulputate leo fermentum vel.
                 </div>
         </div>
-        <div class="tech-card">
-            <img class="tech-icons" src={webImg} alt="webIcon" />
+        <div className="tech-cards">
+        <div className="tech-card">
+            <img className="tech-icons" src={webImg} alt="webIcon" />
             <h3>Web Development</h3>
-            <div class="tech-card-content">
+            <div className="tech-card-content">
                 User Experience Design 
                 Visual & Graphic Design 
                 Product Design
             </div>
         </div>
-        <div class="tech-card">
-            <img class="tech-icons" src={mobileImg} alt="mobileIcon" />
+        <div className="tech-card">
+            <img className="tech-icons" src={mobileImg} alt="mobileIcon" />
             <h3>Mobile Development</h3>
-            <div class="tech-card-content">
+            <div className="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
             </div>
         </div>
-        <div class="tech-card"> 
-            <img class="tech-icons" src={uiuxImg} alt="uiuxIcon" />
+        <div className="tech-card"> 
+            <img className="tech-icons" src={uiuxImg} alt="uiuxIcon" />
             <h3>UIUX Design</h3>
-            <div class="tech-card-content">
+            <div className="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
             </div>
+        </div>
         </div>
     </div> 
         

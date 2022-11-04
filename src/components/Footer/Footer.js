@@ -1,41 +1,49 @@
 import React from "react";
-import './Footer.scss';
+import "./Footer.scss";
+import footer_logo from '../../images/anantha_logo.jpg';
 
 const Footer = () => {
-    return <>
-    <div className="footer-main">
-        <ul className="division1">
-            <li className="logo">Anantha</li>
-            <li className="para"> Our business accounting packages are tailored to
-                 suit your individual financial requirements and 
-                 unique business needs.</li>
-                 <li className="copyright">(c) Anantha,2022.All Rights Reserved. </li>
-        </ul>
-        <ul className="division2">
-            <li className="link">links</li>
-            <li>ABOUT US</li>
-            <li>BLOG</li>
-            <li>CONTACT US</li>
-            <li>IT DEVELOPERS</li>
-        </ul>
-        <ul className="division3">
-            <li className="recent">recent news</li>
-            <li className="text">5 Incredibly Useful Water Tips For Small Businesses<div className="foot">May,2022</div></li>
-            <li>Little Known Ways To Rid Yourself Of Banana
-                <div className="foot">May,2022</div>
-            </li>
-        </ul>
-        <ul>
-            <li className="news">newsletter</li>
-            <li>If you would like more information on how 
-                call our consultants could help your business, contact us today.</li>
-        </ul>
+  return (
+    <>
+    <div className="footer-main-container">
+    <div className="footer-container-1" >
+      <img src={footer_logo} className="footer_logo" alt="logo"/>
+      <p>adipisicing elit.Suscipit autem praesentium</p>
+      <p>Lorem ipsum dolor sit amet consectetur,</p>
+      <h1>(c) ananthawebsolutions,2022. All Rights Reserved.</h1>
     </div>
-    </>;
-       
-    
-    
-
-}
+    <div className="footer-container-2" >
+      <h1>LINKS</h1>
+      <ul>
+        <li>ABOUT US</li>
+        <li>BLOG</li>
+        <li>CONTACT US</li>
+        <li>SHOP</li>
+        <li>IT DEVELOPERS</li>
+      </ul>
+    </div>
+    <div className="footer-container-3" >
+      <h1>recent news</h1>
+      <h2>Best web development service award</h2>
+      <h3>SEPTEMBER 30, 2022</h3>
+      <h4>Best service provider award</h4>
+      <h5>SEPTEMBER 30, 2022</h5>
+    </div>
+    <div className="footer-container-4" >
+      <h1>newsletter</h1>
+      <p>if you would like to get more information about</p>
+      <p> us and get from down below</p>
+      <div className="footer-email">
+        <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xlevpvdb"
+          method="post">
+          <input type="email" maxLength="50" required placeholder="E-mail"/>
+          <button className="button">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </>
+  );
+};
 
 export default Footer;
