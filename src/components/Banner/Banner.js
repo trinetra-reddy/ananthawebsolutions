@@ -6,16 +6,19 @@ const Banner = () => {
   return (
     <>
       <div className="banner-text">
-        <div className="main">
-          <div className="content1">
-            <span className="left-text">There is More Than Just Software</span>
-            <span className="left-text-wrapper">Development</span>
+        <div className="banner-main">
+          <div className="banner-content1">
+            <div className="banner-left-text">There is More Than Just</div>
+            <div className="banner-wrapper">
+            <div className="banner-left-text">Software</div>
+            <div className="banner-left-text-wrapper">Development</div>
+            </div>
           </div>
-          <p className="text-wrapper">
+          <p className="banner-text-wrapper">
             Thirteen new services will help solve machine learning problems
           </p>
-          <button className="work-button">Work With Us</button>
-          <button className="read-button">Read More</button>
+          <button className="banner-work-button">Work With Us</button>
+          <button className="banner-read-button">Read More</button>
         </div>
         <div>
           <img className="banner-img" src={banner} alt="WEB" />

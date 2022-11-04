@@ -16,6 +16,7 @@ const Tech=()=>{
                 Sed ultricies eleifned.Sed tincidunt lectus justo,eu vulputate leo fermentum vel.
                 </div>
         </div>
+        <div className="tech-cards">
         <div className="tech-card">
             <img className="tech-icons" src={webImg} alt="webIcon" />
             <h3>Web Development</h3>
@@ -38,6 +39,7 @@ const Tech=()=>{
             <div className="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
             </div>
+        </div>
         </div>
     </div> 
         
