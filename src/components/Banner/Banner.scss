@@ -1,6 +1,6 @@
 // Mobile view
 .banner-main {
-  padding-left: 15px;
+  
   margin: 0 auto;
   height: 330px;
   width:100%;
@@ -35,24 +35,27 @@
 }
 .banner-left-text {
   line-height:1em;
-  font-size:35px;
+  font-size:30px;
   margin:0;
   margin-bottom: 15px;
   font-weight:200;
   max-width:600px;
+  padding-left: 10px;
 }
 .banner-left-text-wrapper {
   margin-bottom: 15px;
   font-weight: 200;
   line-height: 1em;
-  font-size: 35px;
+  font-size: 30px;
   background: -webkit-linear-gradient(#db8511 0%, #e63940 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 10px;
 }
 .banneer-text-wrapper {
   font-size: 20px;
   font-weight: 250;
+  padding: 10px;
 }
 .banner-img{
   display:none;
