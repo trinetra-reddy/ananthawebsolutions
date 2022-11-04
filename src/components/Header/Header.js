@@ -3,18 +3,26 @@ import './Header.scss';
 import logo from '../../images/anantha_logo.jpg';
 
 const Header = () => {
+  useEffect(() => {
+      setTimeout(() => {
+      }, 500)
+      
+    }, []);
+  
 const onToggleclick=()=>{const hamburger = document.querySelector('.hamburger');
 const navLink = document.querySelector('.nav__link');
 if(hamburger && navLink) {
-    hamburger.addEventListener('click', () => {
-        navLink.classList.toggle('hide');
-        if(hamburger.classList.contains('expanded')) {
-            hamburger.classList.remove('expanded');
-        } else {
-            hamburger.classList.add('expanded');
-        }
-    });
-}}
+
+      navLink.classList.toggle('hide');
+      if(hamburger.classList.contains('expanded')) {
+          hamburger.classList.remove('expanded');
+      } else {
+          hamburger.classList.add('expanded');
+      }
+     
+  
+}
+}
     return (
         <header>
         <nav className="nav">

@@ -17,7 +17,7 @@
 }
 /* Float four columns one by one */
 .ourTeam-column-container{
-  margin-left: 20px ;
+  margin-left: 90px ;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@
 .ourTeam-card {
   border: 1px solid #4d519d;
   padding: 10px;
-  height: 240px;
+  height: 290px;
   text-align: center;
   background-color: transparent;
   border-radius: 18px;
@@ -72,7 +72,7 @@
   .ourTeam-card {
     border: 1px solid #4d519d;
     padding: 10px;
-    height: 250px;
+    height: 220px;
     text-align: center;
     background-color: transparent;
     border-radius: 18px;
@@ -105,7 +105,7 @@
 @media screen and (min-width: 550px) {
   
   .ourTeam-column-container{
-    margin-left: 90px ;
+    margin-left: 55px ;
     display: flex;
     flex-direction: row;
   }
@@ -118,7 +118,7 @@
   .ourTeam-card {
     border: 1px solid #4d519d;
     padding: 10px;
-    height: 280px;
+    height: 240px;
     text-align: center;
     background-color: transparent;
     border-radius: 18px;
@@ -151,7 +151,7 @@
 @media screen and (min-width: 690px) {
   
   .ourTeam-column-container{
-    margin-left: 140px ;
+    margin-left: 115px ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -229,7 +229,6 @@
     width: 75%;
     border-radius: 50%;
     border:  6px dotted #4d519d;
-    
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -265,7 +264,7 @@
     padding: 0 25px;
   }
   .ourTeam-column-container {
-    margin-left: 100px;
+    margin-left: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
