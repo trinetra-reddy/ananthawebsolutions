@@ -2,7 +2,6 @@
   background-image: url(./Choose-Images/ChooseBg.svg);
   background-position: center;
   background-size: cover;
-  margin: auto;
 }
 
 .Choose-span {
@@ -24,9 +23,6 @@
   text-align: center;
   font-weight: 450;
   font-size: 25px;
-}
-.Choose-blocks{
-  padding:0 5% 5% ;
 }
 .Choose-paragraph {
   margin-top: -8px;
@@ -73,6 +69,9 @@
   letter-spacing: 0.5px;
 }
 @media screen and (min-width: 998px) {
+  .Choose-container {
+    margin-top: 60px;
+  }
   .Choose-blocks {
     display: flex;
   }
