@@ -28,17 +28,9 @@
         30%{left:200px;}
     }
 }
-
-
- 
 @media screen and (min-width:998px){
     .about-main{
         display:flex;
-<<<<<<< HEAD
-        justify-content:space-between;
-=======
-        margin-top:60px;
->>>>>>> 62c7ec322430b2374439b3b5310f0e3419ea6433
     }
     .about-img{
         width:100%;
@@ -67,9 +59,10 @@
     .about-content{
         flex:1;
     }
-    
-    
-    
-    
-        
+}
+@media screen and (min-width:1400px){
+    .about-main{
+        justify-content: center;
+        align-items: center;
     }
+}
