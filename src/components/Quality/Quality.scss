@@ -42,20 +42,20 @@ img{
 @media screen and (min-width:998px){
     .quality-main{
         display:flex; 
-        margin:5% 15%;
+        margin:5% 5%;
      }
     .quality-card{
         display:flex;
     }
     .quality-block{
-        font-size:20px;
+        font-size:22px;
         font-weight:400;
         text-align:left;
         width:40%;
         margin:5px;
     }
     #quality-p{
-        font-size:14px;
+        font-size:15px;
         font-weight:300;
         text-align:left;
         color:rgb(26,24,27);
@@ -75,6 +75,9 @@ img{
     }
     .quality-block:hover{
         color:#007cba;
+    }
+    .quality-right{
+       margin-top:100px;
     }
     
 }
