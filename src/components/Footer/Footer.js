@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 import footer_logo from '../../images/anantha_logo.jpg';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,14 +15,15 @@ const Footer = () => {
     <div className="footer-container-2" >
       <h1>LINKS</h1>
       <ul>
-        <li><a href="">ABOUT US</a></li>
-        <li>BLOG</li>
-        <li>CONTACT US</li>
-        <li>SHOP</li>
-        <li>IT DEVELOPERS</li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT US</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="/contactus">CONTACT US</a></li>
+        <li><a href="/services">SERVICES</a></li>
+        
       </ul>
     </div>
-    <div className="footer-container-3" >
+    <div className="footer-container-3">
       <h1>recent news</h1>
       <h2>Best web development service award</h2>
       <h3>SEPTEMBER 30, 2022</h3>
