@@ -40,9 +40,7 @@
   background-color: transparent;
   border-radius: 18px;
 }
-.ourTeam-card:hover {
-  transform: translateY(-15px)
-}
+
 .ourTeam-card img{
   width: 75%;
   border-radius: 50%;
@@ -275,6 +273,52 @@
 
 }
 @media screen and (min-width: 1024px) {
+  .ourTeam-card {
+    position: relative;
+    overflow: hidden;
+    
+      .social-icons {
+        list-style: none;
+        padding: 23px 15px;
+        width: auto;
+        position: absolute;
+        background: #4d519d;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        transition: 0.2s all;
+        top: -185px;
+        z-index: 2;
+        // top: -17px;
+        right: 17px;
+
+        a {
+          color: #fff;
+        }
+    }
+
+    &:hover {
+      .social-icons {
+        top: -17px;
+      }
+
+      img {
+        position: relative;
+        &::after {
+          position: absolute;
+          background-color: rgba(0,0,0,0.2);
+          top:0;
+          bottom: 0;
+          right: 0;
+          left:0;
+        }
+      }
+    }
+  }
+
   .ourTeam-column {
     float: left;
     width: 20%;
