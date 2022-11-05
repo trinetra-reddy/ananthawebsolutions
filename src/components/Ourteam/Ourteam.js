@@ -11,71 +11,164 @@ const Ourteam = () => {
       <h1>Our Creative Team</h1>
       <h2>Our Awesome Team</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptates labore voluptate
-        exercitationem quos fugiat deleniti minus, aut voluptatem praesentium, suscipit animi. Obcaecati
+      exercitationem quos fugiat deleniti minus, aut voluptatem praesentium, suscipit animi. Obcaecati
         asperiores tempore saepe recusandae labore praesentium!</p>
       <div className="ourTeam-column-container">
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+          <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={baba} alt="photo-1" />
             <h3>Baba Fakruddin G</h3>
             <h4>Co-founder/operational Manager</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+            <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={avatar2} alt="photo-1" />
             <h3>Siri K</h3>
             <h4>Web Developer</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+            {/* Social icons */}
+            <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={avatar} alt="photo-1" />
             <h3>Giridhar</h3>
             <h4>Web & Posters Developer</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+            {/* Social icons */}
+            <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={avatar2} alt="photo-1" />
             <h3>Amrutha A</h3>
             <h4>Web Developer</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+            {/* Social icons */}
+            <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={avatar2} alt="photo-1" />
             <h3>Haritha R</h3>
             <h4>Web & Java Developer</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+            {/* Social icons */}
+            <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={avatar} alt="photo-1" />
             <h3>Subba Reddy</h3>
             <h4>Marketing Specialist</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+            {/* Social icons */}
+            <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={avatar2} alt="photo-1" />
             <h3>Manisha G</h3>
             <h4>Quality Analyst</h4>
-            
+
           </div>
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
+          <ul className="social-icons">
+              <li>
+                <a href="#">F</a>
+              </li>
+              <li>
+                <a href="#">L</a>
+              </li>
+              <li>
+                <a href="#">T</a>
+              </li>
+            </ul>
             <img src={vinay} alt="photo-1" />
             <h3>Vinay</h3>
             <h4>Sales Manager</h4>
-            
+
           </div>
         </div>
       </div>
@@ -83,4 +176,4 @@ const Ourteam = () => {
   )
 }
 
-export default Ourteam;   
+export default Ourteam;
