@@ -14,14 +14,12 @@
     padding-top: 20px;
     z-index: 10;
   }
-  
   .logo {
     width: 140px;
-    margin-left: 30px;
+    margin-left: 0px;
     padding-top: 4px;
     border: 1px solid #000;
   }
-  
   .hamburger {
     padding-right: 25px;
     padding-top: 5px;
@@ -88,7 +86,7 @@
   @media screen and (min-width: 992px) {
     .logo {
       width: 140px;
-      margin-left: 90px;
+      margin-left: 0px;
     }
     .nav {
       padding-top: 15px;
@@ -99,7 +97,7 @@
       position: static;
       width: 100%;
       height: auto;
-      margin-right: 90px;
+      margin-right: 0px;
       padding-top: 0px;
       background: none;
       text-align: right;
