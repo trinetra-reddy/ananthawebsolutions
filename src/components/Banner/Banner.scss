@@ -22,7 +22,7 @@
   height: 50px;
   border-style: none;
   border-radius: 30px;
-  background-image: linear-gradient(to left, #5ea2d5 0%, #2a7aac 100%);
+  background-color: linear-gradient(to left, #5ea2d5 0%, #2a7aac 100%);
   vertical-align: middle;
   position: relative;
   font-size: 14px;
@@ -30,6 +30,9 @@
   font-weight: 400;
   color: white;
   margin-left:10px;
+}
+.banner-work-button:hover{
+  
 }
 .banner-left-text {
   line-height:1em;
