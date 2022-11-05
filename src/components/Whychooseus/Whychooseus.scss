@@ -25,10 +25,13 @@
   font-weight: 450;
   font-size: 25px;
 }
+.Choose-blocks{
+  padding:0 5% 5% ;
+}
 .Choose-paragraph {
   margin-top: -8px;
   color: #9b9595;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.5px;
   text-align: center;
@@ -62,7 +65,7 @@
 .Choose-block-content {
   color: #888;
   line-height: 1.9;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
   justify-content: center;
   font-weight: 400px;
@@ -72,7 +75,6 @@
 @media screen and (min-width: 998px) {
   .Choose-blocks {
     display: flex;
-    padding: 0 5%;
   }
   .Choose-header-2 {
     font-size: 30px;
