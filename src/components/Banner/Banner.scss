@@ -1,4 +1,7 @@
 // Mobile view
+.banner-text{
+  margin-top:30px;
+}
 .banner-read-button {
   vertical-align: middle;
   position: relative;
@@ -56,6 +59,7 @@
   display:none;
 }
 
+
 //Desktop
 @media screen and (min-width: 998px) {
   .banner-content1 {
@@ -67,6 +71,7 @@
     display: flex;
     align-items:center;
     justify-content: center;
+    margin-top:60px;
   }
   .banner-text-wrapper {
     font-weight:250;
