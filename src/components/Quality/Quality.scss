@@ -1,5 +1,5 @@
 .quality-main{
-    margin:5% 0;
+    margin: 50px 20px; ;
 }
 .quality-heading{
     color:rgb(34,116,165);
@@ -35,11 +35,14 @@
 img{
     max-width:100%;
 }
+.quality-block:hover{
+    color:#007cba;
+}
 
 @media screen and (min-width:998px){
     .quality-main{
         display:flex; 
-        margin:5% 10%;
+        margin:5% 15%;
      }
     .quality-card{
         display:flex;
