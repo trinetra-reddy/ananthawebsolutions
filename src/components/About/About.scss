@@ -3,8 +3,9 @@
 .about-main{
     background-color:$primary-color;
     color:white;
-    padding:10px;
+    padding:20px 10px;
     margin-top:30px;
+    border-radius:4px;
 }
 .text{
     font-size:13px;
@@ -26,18 +27,11 @@
 .about-content{
     animation-direction:alternate;
     position:relative;
-    animation:content 5s 2;
-    @keyframes content {
-        30%{left:200px;}
-    }
 }
-
-
- 
 @media screen and (min-width:998px){
     .about-main{
         display:flex;
-        justify-content:space-between;
+        justify-content: space-between;
         margin-top:60px;
     }
     .about-img{
@@ -64,12 +58,11 @@
         display:flex;
         gap:30px;
     }
-    .about-content{
-        flex:1;
+}
+@media screen and (min-width:1400px){
+    .about-main{
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
     }
-    
-    
-    
-    
-        
-    }
+}
