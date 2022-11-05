@@ -2,7 +2,6 @@
   background-image: url(./Choose-Images/ChooseBg.svg);
   background-position: center;
   background-size: cover;
-  padding: 10% 5%;
   margin: auto;
 }
 
@@ -71,12 +70,9 @@
   letter-spacing: 0.5px;
 }
 @media screen and (min-width: 998px) {
-  .Choose-container {
-    padding: 5%;
-  }
   .Choose-blocks {
     display: flex;
-    padding: 0px 50px;
+    padding: 0 5%;
   }
   .Choose-header-2 {
     font-size: 30px;
