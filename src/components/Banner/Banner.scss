@@ -1,9 +1,6 @@
 // Mobile view
 .banner-main {
-  margin: 0 auto;
   height: 330px;
-  width:100%;
-
 }
 .banner-read-button {
   vertical-align: middle;
@@ -65,7 +62,7 @@
 //Desktop
 @media screen and (min-width: 998px) {
   .banner-left-text {
-    font-size: 48px;
+    font-size:30px;
   }
   .banner-content1 {
     display: inline-block;
@@ -76,7 +73,7 @@
     padding-left: 70px;
   }
   .banner-left-text-wrapper {
-    font-size: 48px;
+    font-size:30px;
     padding-left:15px;
   }
   .banner-text {
@@ -84,11 +81,12 @@
     padding-left:20px;
   }
   .banner-text-wrapper {
-    font-size: 18px;
-    font-weight: 250;
+    font-size: 14px;
+    font-weight: 300;
   }
   .banner-img{
     display:block;
+    max-width:100%;
   }
   .banner-wrapper{
     display:flex;

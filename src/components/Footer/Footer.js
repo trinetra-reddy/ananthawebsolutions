@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="footer-container-2" >
       <h1>LINKS</h1>
       <ul>
-        <li>ABOUT US</li>
+        <li><a href="">ABOUT US</a></li>
         <li>BLOG</li>
         <li>CONTACT US</li>
         <li>SHOP</li>
