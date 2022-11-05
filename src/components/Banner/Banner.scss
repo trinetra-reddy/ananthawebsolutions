@@ -1,7 +1,4 @@
 // Mobile view
-.banner-main {
-  height: 330px;
-}
 .banner-read-button {
   vertical-align: middle;
   position: relative;
@@ -22,7 +19,7 @@
   height: 50px;
   border-style: none;
   border-radius: 30px;
-  background-color: linear-gradient(to left, #5ea2d5 0%, #2a7aac 100%);
+  background-image: linear-gradient(to left, #5ea2d5 0%, #2a7aac 100%);
   vertical-align: middle;
   position: relative;
   font-size: 14px;
@@ -32,7 +29,7 @@
   margin-left:10px;
 }
 .banner-work-button:hover{
-  
+
 }
 .banner-left-text {
   line-height:1em;
@@ -65,7 +62,7 @@
 //Desktop
 @media screen and (min-width: 998px) {
   .banner-left-text {
-    font-size:30px;
+    font-size:33px;
   }
   .banner-content1 {
     display: inline-block;
@@ -73,14 +70,16 @@
     margin-top:100px;
   }
   .banner-left-text-wrapper {
-    font-size:30px;
+    font-size:33px;
   }
   .banner-text {
     display: flex;
+    align-items:center;
+    justify-content: center;
   }
   .banner-text-wrapper {
-    font-size: 14px;
-    font-weight: 300;
+    font-size:20px;
+    font-weight:250;
   }
   .banner-img{
     display:block;
@@ -89,5 +88,18 @@
   .banner-wrapper{
     display:flex;
   }
+  .banner-main{
+    width:50%;
+
+
+  }
  
+}
+@media screen and (min-width:1400px){
+  .banner-left-text-wrapper {
+    font-size:48px;
+  }
+  .banner-left-text {
+    font-size:48px;
+  }
 }
