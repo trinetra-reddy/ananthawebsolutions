@@ -19,24 +19,24 @@ const Whychooseus = () => {
           </p>
         </div>
         <div className="Choose-blocks">
-          <div className="Choose-rows" id="Choose-live-block">
-            <img className="Choose-icons" src={RowIcon1} alt="RowIcon1" />
+          <div className="Choose-row" id="Choose-live-block">
+            <img className="Choose-icon" src={RowIcon1} alt="RowIcon1" />
             <h6 className="Choose-block-head">Go Live in Minutes</h6>
             <p className="Choose-block-content">
               Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,
               maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.
             </p>
           </div>
-          <div className="Choose-rows" id="Choose-service-block">
-            <img className="Choose-icons" src={RowIcon2} alt="RowIcon2" />
+          <div className="Choose-row" id="Choose-service-block">
+            <img className="Choose-icon" src={RowIcon2} alt="RowIcon2" />
             <h6 className="Choose-block-head">Manage like A Pro</h6>
             <p className="Choose-block-content">
               Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,
               maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.
             </p>
           </div>
-          <div className="Choose-rows" id="Choose-scale-block">
-            <img className="Choose-icons" src={RowIcon3} alt="RowIcon3" />
+          <div className="Choose-row" id="Choose-scale-block">
+            <img className="Choose-icon" src={RowIcon3} alt="RowIcon3" />
             <h6 className="Choose-block-head">Scale to Success</h6>
             <p className="Choose-block-content">
               Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,

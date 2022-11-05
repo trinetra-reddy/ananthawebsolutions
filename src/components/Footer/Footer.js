@@ -8,8 +8,7 @@ const Footer = () => {
     <div className="footer-main-container">
     <div className="footer-container-1" >
       <img src={footer_logo} className="footer_logo" alt="logo"/>
-      <p>adipisicing elit.Suscipit autem praesentium</p>
-      <p>Lorem ipsum dolor sit amet consectetur,</p>
+      <p>adipisicing elit.Suscipit autem praesentium Lorem ipsum dolor sit amet consectetur,</p>
       <h1>(c) ananthawebsolutions,2022. All Rights Reserved.</h1>
     </div>
     <div className="footer-container-2" >

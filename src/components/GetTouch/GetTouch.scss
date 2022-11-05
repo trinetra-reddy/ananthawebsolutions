@@ -2,7 +2,7 @@
   background: url(./Get-Bg.png);
   background-position: center;
   background-size: cover;
-  padding: 80px 18px 90px;
+  padding: 15% 5% 20%;
 }
 .Touch-header-1 {
   background-image: linear-gradient(135deg, cyan 0%, cyan 100%) !important;
@@ -11,6 +11,7 @@
   text-align: left;
   margin-bottom: -10px;
   font-weight: bold;
+  font-size: 15px;
 }
 .Touch-header-2 {
   color: #fff;
@@ -25,25 +26,24 @@
   justify-content: left;
   line-height: 1.9;
 }
-.Touch-input-wrapper {
+.Touch-form {
   background-color: #fff;
   border-radius: 35px;
-  padding: 15px;
+  padding: 12px;
   margin-top: 45px;
-  max-width: 100%;
   box-shadow: 0 9px 68px 0 rgb(62 57 107 / 20%);
+  display: inline-block;
 }
-
 .Touch-input {
   border-radius: 25px;
   border: 1px solid #eee;
   font-size: 16px;
-  width: 85%;
   outline: green;
   line-height: 1.5;
+  width: 85%;
   letter-spacing: 1px;
-  margin-bottom: 18px;
   padding: 10px 10px 10px 40px;
+  margin-bottom: 10px;
 }
 .Touch-input:focus {
   border: 1px solid green;
@@ -81,23 +81,19 @@
   }
   .Touch-container {
     margin: auto;
-    padding: 50px 0px 100px 80px;
+    padding: 5% 8% 8%;
   }
   .Touch-paragraph {
     max-width: 45%;
     margin-bottom: -13px;
   }
-  .Touch-input-wrapper {
+  .Touch-form {
     display: flex;
-    max-width: 43%;
-    height: 48px;
+    height: 46px;
+    max-width: 40%;
   }
   .Touch-input {
     margin-right: 12px;
-    width: auto;
-    padding-right: 100px;
-  }
-  .Touch-button {
-    max-width: 100%;
+    padding: 22px;
   }
 }
