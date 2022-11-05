@@ -16,11 +16,11 @@ const GetTouch = () => {
           </p>
         </div>
         <div className="Touch-form">
-            <input
-              className="Touch-input"
-              type="text"
-              placeholder="Enter Your Email"
-            />
+          <input
+            className="Touch-input"
+            type="text"
+            placeholder="Enter Your Email"
+          />
           <button className="Touch-button">SUBSCRIBE</button>
         </div>
       </div>
