@@ -1,5 +1,7 @@
+@import '../../styles/variables';
+
 .about-main{
-    background-color:#4d519d;
+    background-color:$primary-color;
     color:white;
     padding:10px;
 }
