@@ -1,8 +1,8 @@
 .Choose-container {
-  background-image: url(./Choose-Images/ChooseBg.svg);
+  background-image: url(./Choose-Images/Choose-Bg.svg);
   background-position: center;
   background-size: cover;
-  margin: auto;
+  margin-top: 30px;
 }
 
 .Choose-span {
@@ -25,9 +25,6 @@
   font-weight: 450;
   font-size: 25px;
 }
-.Choose-blocks{
-  padding:0 5% 5% ;
-}
 .Choose-paragraph {
   margin-top: -8px;
   color: #9b9595;
@@ -41,7 +38,7 @@
   margin-top: 80px;
 }
 .Choose-row {
-  background-color: #fff;
+  background-color: white;
   background-image: url(./Choose-Images/Choose-cards-bg.png);
   background-position: center;
   background-size: cover;
@@ -73,6 +70,9 @@
   letter-spacing: 0.5px;
 }
 @media screen and (min-width: 998px) {
+  .Choose-container {
+    margin-top: 60px;
+  }
   .Choose-blocks {
     display: flex;
   }
