@@ -1,3 +1,4 @@
+@import '../../styles/variables';
 // Mobile view
 .banner-text{
   margin-top:30px;
@@ -8,8 +9,8 @@
   font-size: 14px;
   text-decoration: none;
   font-weight: 400;
-  background-image: linear-gradient(to left, #db8511 0%, #e63940 100%);
-  color: white;
+  background-image: $gradientcolor-4;
+  color: $white;
   width: 150px;
   height: 50px;
   border-style: none;
@@ -22,13 +23,13 @@
   height: 50px;
   border-style: none;
   border-radius: 30px;
-  background-image: linear-gradient(to left, #5ea2d5 0%, #2a7aac 100%);
+  background-image: $gradientcolor-3;
   vertical-align: middle;
   position: relative;
   font-size: 14px;
   text-decoration: none;
   font-weight: 400;
-  color: white;
+  color: $white;
   margin-left:10px;
 }
 .banner-left-text {
@@ -45,7 +46,7 @@
   font-weight: 300;
   line-height: 1em;
   font-size: 30px;
-  background: -webkit-linear-gradient(#db8511 0%, #e63940 100%);
+  background: $gradientcolor-4;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-left:10px;

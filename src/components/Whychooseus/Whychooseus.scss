@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .Choose-container {
   background-image: url(./Choose-Images/Choose-Bg.svg);
   background-position: center;
@@ -13,7 +15,7 @@
   margin-bottom: 15px;
 }
 .Choose-header-1 {
-  background-image: linear-gradient(35deg, #17ead9 0%, #6078ea 100%);
+  background-image: $gradientcolor-1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -27,7 +29,7 @@
 }
 .Choose-paragraph {
   margin-top: -8px;
-  color: #9b9595;
+  color: $color-9;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.5px;
@@ -38,7 +40,7 @@
   margin-top: 80px;
 }
 .Choose-row {
-  background-color: white;
+  background-color: $white;
   background-image: url(./Choose-Images/Choose-cards-bg.png);
   background-position: center;
   background-size: cover;
@@ -52,7 +54,7 @@
   max-width: 100%;
 }
 .Choose-block-head {
-  color: #222;
+  color: $color-10;
   margin-bottom: 15px;
   font-size: 18px;
   text-align: left;
@@ -60,7 +62,7 @@
 }
 
 .Choose-block-content {
-  color: #888;
+  color: $color-9;
   line-height: 1.9;
   font-size: 14px;
   text-align: left;

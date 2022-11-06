@@ -1,11 +1,13 @@
+@import '../../styles/variables';
+
 .ourTeam-card-container {
-  background-color: #fff;
+  background-color: $white;
   margin-top:30px;
 }
 .ourTeam-card-container h1 {
   font-size: 20px;
   text-align: center;
-  background-image: linear-gradient(135deg, #846ff4 0%, #f17674 100%);
+  background-image: $gradientcolor-2;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -34,7 +36,7 @@
   padding: 10px;
 }
 .ourTeam-card {
-  border: 1px solid #4d519d;
+  border: 1px solid $primary-color;
   padding: 5px;
   height: 310px;
   text-align: center;
@@ -45,18 +47,18 @@
 .ourTeam-card img{
   width: 75%;
   border-radius: 50%;
-  border: 3px dashed #4d519d;
+  border: 3px dashed $primary-color;
 }
 .ourTeam-card h3{
   padding-top: 2px;
-  color: var(--primary-color);
+  color: $primary-color;
   font-size: 16px;
   font-weight: bold;
 }
 .ourTeam-card h4 {
   font-size: 14px;
   font-weight: 500;
-  color: #000;
+  color: $black;
 }
 /* media screen above 320px */
 @media screen and (min-width: 320px) {
@@ -72,17 +74,14 @@
     padding: 15px;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 5px;
     height: 220px;
     text-align: center;
-    background-color: transparent;
-    border-radius: 18px;
   }
   .ourTeam-card img{
     width: 80%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
+    border:  3px dashed $primary-color;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -109,7 +108,7 @@
     padding: 15px;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
+    border: 1px solid $primary-color;
     padding: 10px;
     height: 240px;
     text-align: center;
@@ -119,7 +118,6 @@
   .ourTeam-card img{
     width: 65%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -145,7 +143,6 @@
     padding: 35px;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 10px;
     height: 300px;
     text-align: center;
@@ -155,7 +152,6 @@
   .ourTeam-card img{
     width: 75%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 6px;
@@ -181,7 +177,6 @@
     padding: 30px;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 10px;
     height: 300px;
     text-align: center;
@@ -191,7 +186,6 @@
   .ourTeam-card img{
     width: 75%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 6px;
@@ -216,7 +210,6 @@
     padding: 70px;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 10px;
     height: 270px;
     text-align: center;
@@ -226,7 +219,6 @@
   .ourTeam-card img{
     width: 75%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -252,7 +244,6 @@
     justify-content: center;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 15px;
     height: 290px;
     text-align: center;
@@ -262,7 +253,6 @@
   .ourTeam-card img{
     width: 80%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -288,8 +278,8 @@
         padding: 23px 15px;
         width: auto;
         position: absolute;
-        background: #4d519d;
-        color: #fff;
+        background: $primary-color;
+        color: $white;
         display: flex;
         flex-direction: column;
         gap: 23px;
@@ -302,7 +292,7 @@
         right: 17px;
 
         a {
-          color: #fff;
+          color: $white;
         }
     }
 
@@ -337,7 +327,6 @@
     justify-content: center;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 5px;
     height: 290px;
     text-align: center;
@@ -347,7 +336,6 @@
   .ourTeam-card img{
     width: 70%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -374,7 +362,6 @@
     justify-content: center;
   }
   .ourTeam-card {
-    border: 1px solid #4d519d;
     padding: 10px;
     height: 320px;
     text-align: center;
@@ -384,7 +371,6 @@
   .ourTeam-card img{
     width: 70%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     padding-top: 2px;
@@ -423,7 +409,6 @@
     text-align: center;
   }
   .ourTeam-card {
-    border: 1px solid #000;
     padding: 10px;
     height: 480px;
     text-align: center;
@@ -433,7 +418,6 @@
   .ourTeam-card img{
     width: 70%;
     border-radius: 50%;
-    border:  3px dashed #4d519d;
   }
   .ourTeam-card h3{
     font-size: 20px;
