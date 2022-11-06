@@ -1,7 +1,11 @@
+@import '../../styles/variables';
+
 .about-main{
-    background-color:#4d519d;
-    color:white;
-    padding:10px;
+    background-color:$primary-color;
+    color:$white;
+    padding:20px 10px;
+    margin-top:30px;
+    border-radius:4px;
 }
 .text{
     font-size:13px;
@@ -11,7 +15,7 @@
     font-weight: 300;
     max-width:220px;
 }
-.img{
+.about-img{
     max-width:100%;
 }
 .about-count{
@@ -23,22 +27,17 @@
 .about-content{
     animation-direction:alternate;
     position:relative;
-    animation:content 5s 2;
-    @keyframes content {
-        30%{left:200px;}
-    }
 }
-
-
- 
 @media screen and (min-width:998px){
     .about-main{
         display:flex;
+        justify-content: space-between;
+        margin-top:60px;
     }
-    .img{
+    .about-img{
         width:100%;
-        padding-left:70px;
         padding-bottom: 0px;
+        flex:1;
     }
     .about-heading{
         font-size:20px;
@@ -52,18 +51,18 @@
         font-size:15px;
     }
     .num-box-item{
-        border-right: 1px solid white;
+        border-right: 1px solid $white;
         padding-right:30px;
     }
     .flex{
         display:flex;
         gap:30px;
     }
-    .about-content{
-        margin-left:90px;
+}
+@media screen and (min-width:1400px){
+    .about-main{
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
     }
-    
-    
-    
-        
-    }
+}

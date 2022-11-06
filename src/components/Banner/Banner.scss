@@ -1,6 +1,7 @@
+@import '../../styles/variables';
 // Mobile view
-.banner-main {
-  height: 330px;
+.banner-text{
+  margin-top:30px;
 }
 .banner-read-button {
   vertical-align: middle;
@@ -8,8 +9,8 @@
   font-size: 14px;
   text-decoration: none;
   font-weight: 400;
-  background-image: linear-gradient(to left, #db8511 0%, #e63940 100%);
-  color: white;
+  background-image: $gradientcolor-4;
+  color: $white;
   width: 150px;
   height: 50px;
   border-style: none;
@@ -22,17 +23,14 @@
   height: 50px;
   border-style: none;
   border-radius: 30px;
-  background-color: linear-gradient(to left, #5ea2d5 0%, #2a7aac 100%);
+  background-image: $gradientcolor-3;
   vertical-align: middle;
   position: relative;
   font-size: 14px;
   text-decoration: none;
   font-weight: 400;
-  color: white;
+  color: $white;
   margin-left:10px;
-}
-.banner-work-button:hover{
-  
 }
 .banner-left-text {
   line-height:1em;
@@ -48,7 +46,7 @@
   font-weight: 300;
   line-height: 1em;
   font-size: 30px;
-  background: -webkit-linear-gradient(#db8511 0%, #e63940 100%);
+  background: $gradientcolor-4;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-left:10px;
@@ -62,25 +60,22 @@
   display:none;
 }
 
+
 //Desktop
 @media screen and (min-width: 998px) {
-  .banner-left-text {
-    font-size:30px;
-  }
   .banner-content1 {
     display: inline-block;
     letter-spacing: 0px;
     margin-top:100px;
   }
-  .banner-left-text-wrapper {
-    font-size:30px;
-  }
   .banner-text {
     display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:60px;
   }
   .banner-text-wrapper {
-    font-size: 14px;
-    font-weight: 300;
+    font-weight:250;
   }
   .banner-img{
     display:block;
@@ -89,5 +84,31 @@
   .banner-wrapper{
     display:flex;
   }
+  .banner-main{
+    width:50%;
+
+
+  }
  
 }
+@media screen and (min-width:1400px){
+  .banner-left-text-wrapper {
+    font-size:38px;
+  }
+  .banner-left-text {
+    font-size:38px;
+  }
+  .banner-text-wrapper {
+    
+    font-weight:300;
+  }
+}
+@media screen and (min-width:1600px){
+  .banner-left-text-wrapper {
+    font-size:48px;
+  }
+  .banner-left-text {
+    font-size:48px;
+  }
+}
+

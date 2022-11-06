@@ -1,8 +1,10 @@
+@import '../../styles/variables';
+
 .quality-main{
-    margin: 50px 20px; ;
+    margin-top:30px;
 }
 .quality-heading{
-    color:rgb(34,116,165);
+    color:$color-1;
     padding:10px 0 0 15px;
     font-size:18px;
     font-weight:700;
@@ -13,7 +15,7 @@
     font-size:30px;
     font-weight:300;
     text-align:left;
-    color:rgb(26,24,27); 
+    color: $color-2; 
     padding:10px 0 0 15px;
 }
 .quality-block{
@@ -30,20 +32,19 @@
     font-size:14px;
     font-weight:300;
     text-align:left;
-    color:rgb(26,24,27);
+    color:$color-2;
 }
 img{
     max-width:100%;
 }
 .quality-block:hover{
-    color:#007cba;
+    color:$color-6;
 }
 
 @media screen and (min-width:998px){
     .quality-main{
         display:flex; 
-        margin:5% 0%;
-        justify-content:space-between;
+        margin-top:60px;
      }
     .quality-card{
         display:flex;
@@ -59,13 +60,13 @@ img{
         font-size:15px;
         font-weight:300;
         text-align:left;
-        color:rgb(26,24,27);
+        color:$color-2;
     }
     .quality-sub-heading{
         font-size:30px;
         font-weight:300;
         text-align:left;
-        color:rgb(26,24,27); 
+        color:$color-2; 
     }
     .quality-heading{
         font-size:18px;
@@ -75,7 +76,7 @@ img{
         margin-bottom:15px;
     }
     .quality-block:hover{
-        color:#007cba;
+        color:$color-6;
     }
     .quality-right{
        margin-top:100px;
