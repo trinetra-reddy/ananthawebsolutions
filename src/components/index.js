@@ -7,5 +7,6 @@ import Tech from "./Tech/Tech";
 import Quality from "./Quality/Quality";
 import About from "./About/About";
 import GetTouch from "./GetTouch/GetTouch";
+import Siri from "./Siri/Siri";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,Siri};
