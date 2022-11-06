@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Footer, Header } from "../../components";
+import { Footer,CompanyCulture,CompanyVision, Header } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './About.scss';
+
 
 const About = () => {
     return (
@@ -10,7 +11,10 @@ const About = () => {
             <Header />
             <div>
                 <span>About Page!!</span> Link to <Link to={CONSTANTS.ROUTES.HOME_PAGE}>Home</Link>
+                
             </div>
+            <CompanyCulture />
+            <CompanyVision />
             <Footer />
         </div>
     );

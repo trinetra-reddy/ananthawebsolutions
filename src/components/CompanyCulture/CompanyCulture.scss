@@ -1,0 +1,35 @@
+.builder-about-main{
+    display:flex;
+    margin:5% 10%;;
+    justify-content:space-between;
+}
+
+.builder-img{
+    height:100%;
+    width:80%;
+   float:right;
+}
+.builder-heading{
+    font-size:20px;
+    font-weight:400;
+    color:red;
+    padding:0 25px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+li{
+    margin-bottom:50px;
+    font-size:18px;
+    font-weight:400;
+}
+ul{
+    list-style:none;
+}
+ul li::before{
+    content:"\2022";
+    color:red;
+    display:inline-block;
+    width:1em;
+    font-size:20px;
+
+}
