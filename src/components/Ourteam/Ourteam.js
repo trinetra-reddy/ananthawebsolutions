@@ -4,6 +4,9 @@ import avatar from '../../images/avatar-1.png';
 import avatar2 from '../../images/avatar2.png';
 import baba from '../../images/Baba_1.jpg';
 import vinay from '../../images/Vinay.jpg';
+import facebook from '../../images/facebook.png';
+import linkedin from '../../images/linkedin.png';
+import twitter from '../../images/twitter.png';
 
 const Ourteam = () => {
   return (
@@ -18,16 +21,18 @@ const Ourteam = () => {
           <div className="ourTeam-card">
           <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon"/></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon"/></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon"/></a>
               </li>
             </ul>
-            <img src={baba} alt="photo-1" />
+            <div className="ourTeam-photo">
+              <img src={baba} alt="photo-1" />
+            </div>
             <h3>Baba Fakruddin G</h3>
             <h4>Co-founder/operational Manager</h4>
 
