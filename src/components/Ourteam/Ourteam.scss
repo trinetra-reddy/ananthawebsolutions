@@ -80,7 +80,7 @@
         border-bottom-left-radius: 18px;
         border-bottom-right-radius: 18px;
         transition: 0.3s all;
-        top: -270px;
+        top: -240px;
         z-index: 2;
         right: 17px;
 
@@ -91,7 +91,11 @@
 
     &:hover {
       .social-icons {
+<<<<<<< HEAD
         top: -17px;
+=======
+        top: -15px;
+>>>>>>> 15539994b049060a864917b0f7d4d0e8b340c005
       }
 
       img {
@@ -185,6 +189,9 @@
   }
 }
 @media screen and (min-width: 896px) {
+  .ourTeam-card-container {
+    margin-top: 60px;
+  }
   .ourTeam-column {
     padding: 25px 10px 0px 10px;
     flex: 1 0 20%;

@@ -14,20 +14,20 @@ const Ourteam = () => {
       <h1>Our Creative Team</h1>
       <h2>Our Awesome Team</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis voluptates labore voluptate
-      exercitationem quos fugiat deleniti minus, aut voluptatem praesentium, suscipit animi. Obcaecati
+        exercitationem quos fugiat deleniti minus, aut voluptatem praesentium, suscipit animi. Obcaecati
         asperiores tempore saepe recusandae labore praesentium!</p>
       <div className="ourTeam-column-container">
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-          <ul className="social-icons">
+            <ul className="social-icons">
               <li>
-                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon"/></a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon"/></a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon"/></a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <div className="ourTeam-photo">
@@ -42,13 +42,13 @@ const Ourteam = () => {
           <div className="ourTeam-card">
             <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar2} alt="photo-1" />
@@ -62,13 +62,13 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar} alt="photo-1" />
@@ -82,13 +82,13 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar2} alt="photo-1" />
@@ -102,13 +102,13 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar2} alt="photo-1" />
@@ -122,13 +122,13 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar} alt="photo-1" />
@@ -142,13 +142,13 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar2} alt="photo-1" />
@@ -159,15 +159,15 @@ const Ourteam = () => {
         </div>
         <div className="ourTeam-column">
           <div className="ourTeam-card">
-          <ul className="social-icons">
+            <ul className="social-icons">
               <li>
-                <a href="#">F</a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#">L</a>
+                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#">T</a>
+                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={vinay} alt="photo-1" />
