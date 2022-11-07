@@ -7,12 +7,13 @@ import vector2 from './vector2.svg';
 const Companymission = () => {
     return (
     <>
+        <div className="companymission-main" >
         <img classname="companymission-img" src={image} alt="about-us image" />
-        <div className="companymission-text">About Us</div>
+        </div>
+        <div className="companymission-head">About Us</div>
         <img className="companymission-vector1" src={vector1} alt="vector1"/>
         <img className="companymission-vector2" src={vector2} alt="vector2"/>
-       
-        <div classname="companymission-wrapper">Company mission</div>
+        <button className="button-wrapper">Discover</button>
     </>
     );
 }
