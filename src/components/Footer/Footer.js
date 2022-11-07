@@ -9,31 +9,31 @@ const Footer = () => {
     <div className="footer-main-container">
     <div className="footer-container-1" >
       <img src={footer_logo} className="footer_logo" alt="logo"/>
-      <p>adipisicing elit.Suscipit autem praesentium Lorem ipsum dolor sit amet consectetur,</p>
+      <p>adipisicing elit.Suscipit autem praesentium Lorem ipsum dolor sit amet consectetur,
+      adipisicing elit.Suscipit autem praesentium Lorem ipsum dolor sit amet  
+      </p>
       <h1>(c) ananthawebsolutions,2022. All Rights Reserved.</h1>
     </div>
     <div className="footer-container-2" >
-      <h1>LINKS</h1>
-      <ul>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/about">ABOUT US</a></li>
-        <li><a href="">BLOG</a></li>
-        <li><a href="/contactus">CONTACT US</a></li>
-        <li><a href="/services">SERVICES</a></li>
-        
-      </ul>
+      <div className="content">LINKS</div>
+        <div className="links">
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT US</a>
+        <a href="">BLOG</a>
+        <a href="/contactus">CONTACT US</a>
+        <a href="/services">SERVICES</a>
+        </div>
     </div>
     <div className="footer-container-3">
-      <h1>recent news</h1>
-      <h2>Best web development service award</h2>
-      <h3>SEPTEMBER 30, 2022</h3>
-      <h4>Best service provider award</h4>
-      <h5>SEPTEMBER 30, 2022</h5>
+      <h2>recent news</h2>
+      <div className="content_1">Best web development service award</div>
+      <div className="content_2">SEPTEMBER 30, 2022</div>
+      <div className="content_3">Best service provider award</div>
+      <div className="content_4">SEPTEMBER 30, 2022</div>
     </div>
     <div className="footer-container-4" >
-      <h1>newsletter</h1>
-      <p>if you would like to get more information about</p>
-      <p> us and get from down below</p>
+      <h3>newsletter</h3>
+      <p>if you would like to get more information about us and get from down below</p>
       <div className="footer-email">
         <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xlevpvdb"
           method="post">

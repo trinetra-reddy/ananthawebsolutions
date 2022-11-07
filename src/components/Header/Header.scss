@@ -71,10 +71,10 @@
   .nav__link a:hover::after{
     width: 25%;
   }
-  .nav__link i {
-      font-size: 35px;
-      color: $primary-color;
-      padding-left: 20px;
+  .nav__link img {
+      height: 30px;
+      width: 35px;
+      padding-left:10px;
   }
   
   .hide {

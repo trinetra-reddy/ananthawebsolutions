@@ -8,7 +8,7 @@
   font-size: 20px;
   text-align: center;
   background-image: $gradientcolor-2;
-  -webkit-background-clip: text;
+  -webkit-background-clip : text;
   -webkit-text-fill-color: transparent;
 }
 .ourTeam-card-container h2 {
@@ -59,6 +59,54 @@
   font-size: 14px;
   font-weight: 500;
   color: $black;
+}
+.ourTeam-card {
+  position: relative;
+  overflow: hidden;
+  
+    .social-icons {
+      list-style: none;
+      text-decoration: none;
+      padding: 18px 10px;
+      width: auto;
+      position: absolute;
+      background: $primary-color;
+      color: $white;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      border-bottom-left-radius: 18px;
+      border-bottom-right-radius: 18px;
+      transition: 0.3s all;
+      top: -320px;
+      z-index: 2;
+      right: 17px;
+
+      a {
+        color: $white;
+        font-size: 10px;
+        list-style-type: none;
+        gap: 3;
+      }
+  }
+
+  &:hover {
+    .social-icons {
+      top: -20px;
+    }
+
+    img {
+      position: relative;
+      &::after {
+        position: absolute;
+        background-color: rgba(0,0,0,0.2);
+        top:0;
+        bottom: 0;
+        right: 0;
+        left:0;
+      }
+    }
+  }
 }
 /* media screen above 320px */
 @media screen and (min-width: 320px) {
@@ -275,20 +323,20 @@
     
       .social-icons {
         list-style: none;
-        padding: 23px 15px;
+        text-decoration: none;
+        padding: 25px 10px;
         width: auto;
         position: absolute;
         background: $primary-color;
         color: $white;
         display: flex;
         flex-direction: column;
-        gap: 23px;
+        gap: 2px;
         border-bottom-left-radius: 18px;
         border-bottom-right-radius: 18px;
-        transition: 0.2s all;
-        top: -185px;
+        transition: 0.3s all;
+        top: -px;
         z-index: 2;
-        // top: -17px;
         right: 17px;
 
         a {
@@ -298,7 +346,7 @@
 
     &:hover {
       .social-icons {
-        top: -17px;
+        top: -20px;
       }
 
       img {
