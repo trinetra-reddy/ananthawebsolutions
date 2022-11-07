@@ -1,9 +1,9 @@
 import React,{useEffect} from "react";
 import './Header.scss';
 import logo from '../../images/anantha_logo.jpg';
-import menu from '../../images/menu_icon.png';
-import close from '../../images/close_icon.png';
-import phone from '../../images/phone_icon.png';
+import menu from '../../images/menu-icon.png';
+import close from '../../images/close-icon.png';
+import phone from '../../images/phone-icon.png';
 
 const Header = () => {
   useEffect(() => {
