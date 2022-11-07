@@ -50,7 +50,16 @@
   justify-content: center;
   border: 3px dashed $primary-color;
 }
-.ourTeam-card h3 {
+.ourTeam-card .social-icons .facebook{
+  border:none;
+}
+.ourTeam-card .social-icons .twitter{
+  border:none;
+}
+.ourTeam-card .social-icons .linkedin{
+  border:none;
+}
+.ourTeam-card h3{
   padding-top: 10px;
   color: $primary-color;
   font-size: 16px;
@@ -63,8 +72,27 @@
   padding-bottom: 15px;
 }
 .ourTeam-card {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    
+      .social-icons {
+        list-style: none;
+        text-decoration: none;
+        padding: 20px 10px;
+        width: auto;
+        position: absolute;
+        background: #e83e8c;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        transition: 0.3s all;
+        top: -270px;
+        z-index: 2;
+        right: 17px;
+         
 
   .social-icons {
     list-style: none;
@@ -232,4 +260,5 @@
     font-weight: 500;
     font-size: 18px;
   }
+}
 }
