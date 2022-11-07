@@ -13,4 +13,4 @@ import CompanyVision from "./CompanyVision/CompanyVision";
 import Companymission from "./Companymission/Companymission";
 import Companymissiontext from "./Companymissiontext/Companymissiontext";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Companymission,Companymissiontext,Contactus};
