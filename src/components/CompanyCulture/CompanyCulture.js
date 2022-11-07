@@ -9,12 +9,12 @@ const CompanyCulture=() =>{
                 <div className="builder-about-left">
                     <div className="builder-heading">COMPANY CULTURE</div>
                     <div className="builder-content">
-                        <ul>
-                            <li>Foster a professional and ethical work environment.</li>
-                            <li>Set safety and quality as our top priorities.</li>
-                            <li>Encourage creativity and innovation in every aspect of our work.</li>
-                            <li>Recognize the value of a continuous improvement.</li>
-                            <li>Be open,lesten to our customers,and adapt to change.</li>
+                        <ul id="culture-ulist">
+                            <li id="company-li">Foster a professional and ethical work environment.</li>
+                            <li id="company-li">Set safety and quality as our top priorities.</li>
+                            <li id="company-li">Encourage creativity and innovation in every aspect of our work.</li>
+                            <li id="company-li">Recognize the value of a continuous improvement.</li>
+                            <li id="company-li">Be open,lesten to our customers,and adapt to change.</li>
                         </ul>
                     </div>
                 </div>
