@@ -1,18 +1,51 @@
 .builder-about-main{
-    display:flex;
-    margin:5% 10%;;
-    justify-content:space-between;
-}
-
-.builder-img{
-    height:100%;
-    width:80%;
-   float:right;
+    margin:50% 5% 5% 5%;
 }
 .builder-heading{
-    font-size:20px;
+    color:#EC1C24;
+    font-size:22px;
     font-weight:400;
-    color:red;
+    padding-top:20px;
+    padding-left:20px;
+}
+#culture-ulist{
+    list-style:none;
+}
+#company-li::before{
+    content:"\2022";
+    color:#EC1C24;
+    display: inline-block;
+    width:1em;
+    margin-left:-1em;
+    font-size:1.5rem;
+    font-weight:bolder;
+}
+.builder-img{
+    width:100%;
+    
+ }
+ #company-li{
+    margin-bottom:10px;
+    font-size:15px;
+    font-weight:400;
+    color:#131D3B;
+    line-height:40px;
+}
+@media screen and (min-width:998px){
+.builder-about-main{
+    display:flex;
+    margin:50% 5% 5% 5%;
+    justify-content:space-between;
+    top:1538;
+}
+.builder-img{
+   width:602px;
+   height:594px;
+}
+.builder-heading{
+    font-size:22px;
+    font-weight:400;
+    color:#EC1C24;
     padding:0 25px;
     margin-top:20px;
     margin-bottom:50px;
@@ -20,16 +53,6 @@
 #company-li{
     margin-bottom:50px;
     font-size:18px;
-    font-weight:400;
+    line-height:40px;
 }
-#culture-ulist{
-    list-style:none;
-}
-#culture-ulist #culture-li::before{
-    content:"\2022";
-    color:red;
-    display:inline-block;
-    width:1em;
-    font-size:20px;
-
 }
