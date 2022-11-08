@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="content_4">SEPTEMBER 30, 2022</div>
         </div>
         <div className="footer-container-4" >
-          <h3>newsletter</h3>
+          <h4>newsletter</h4>
           <p>if you would like to get more information about us and get from down below</p>
           <div className="footer-email">
             <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xlevpvdb"

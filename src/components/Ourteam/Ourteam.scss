@@ -80,12 +80,14 @@
         border-bottom-left-radius: 18px;
         border-bottom-right-radius: 18px;
         transition: 0.3s all;
-        top: -240px;
+        top: -270px;
         z-index: 2;
         right: 17px;
 
         img {
-          width: 25px;
+          color: $white;
+          width: 35px;
+          border: none;
         }
     }
 
@@ -128,7 +130,6 @@
   .ourTeam-card h4 {
     font-size: 14px;
   }
-
 }
 /* media screen above 425px */
 @media screen and (min-width: 425px) {
@@ -203,17 +204,17 @@
     font-weight: 700;
   }
   .ourTeam-card h4 {
-    font-size: 14px;
+    font-size: 11px;
     padding-bottom: 15px;
   }
 }
 @media screen and (min-width: 1440px) {
   .ourTeam-column {
     padding: 25px 10px 0px 10px;
-    flex: 1 0 20%;
+    justify-content: center;
   }
   .ourTeam-card {
-    width: 80%;
+    width: 100%;
     height: auto;
     position: relative;
     text-align: center;
@@ -225,6 +226,8 @@
   }
   .ourTeam-card h4 {
     font-weight: 500;
+    font-size: 12px;
+    justify-content: center;
   }
 
 }

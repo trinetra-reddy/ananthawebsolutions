@@ -4,9 +4,9 @@ import avatar from '../../images/avatar-1.png';
 import avatar2 from '../../images/avatar2.png';
 import baba from '../../images/Baba_1.jpg';
 import vinay from '../../images/Vinay.jpg';
-import facebook from '../../images/facebook.png';
-import linkedin from '../../images/linkedin.png';
-import twitter from '../../images/twitter.png';
+import facebook from '../../images/facebook__icon.png';
+import linkedin from '../../images/linkedin__icon.png';
+import twitter from '../../images/twitter__icon.png';
 
 const Ourteam = () => {
   return (
