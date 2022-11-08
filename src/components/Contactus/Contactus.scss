@@ -1,0 +1,80 @@
+@import "../../styles/variables";
+
+.Contactus-header{
+    background-image: url(./Contact-img.svg);
+    background-size:cover;
+    padding:10% 0 8% 20%;
+}
+.Contactus-header1{
+    color:$white;
+    font-size:40px;
+    line-height: 0.7;
+    font-weight:600;
+}
+.Contactus-header2{
+    color:$white;
+    font-size:14px;
+    font-weight:400;
+}
+.Contactus-body{
+    margin:5% 20%;
+}
+.Contactus-form1{
+    display:flex;
+}
+.Contactus-form2{
+    margin-top:16px;
+    display: flex;
+}
+.Contactus-form3{
+    margin-top:16px;
+}
+.Contactus-input{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    width:100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.14);
+    background: $white;
+}
+#Contactus-input1{
+    margin-right:16px;
+}
+#Contactus-input3{
+    margin-right:16px;
+}
+#Contactus-input5{
+    padding-bottom:35px;
+    width:98%;
+}
+.Contactus-input:hover{
+    cursor:pointer;
+}
+.Contactus-button{
+    position:absolute;
+    margin-top:16px;
+    padding:10px 25px 10px 10px;
+    background:$color-11;
+    border:none;
+    color:$white;
+    border-radius:8px;
+}
+.Contactus-button:hover{
+    cursor:pointer;
+}
+.Contactus-company-address{
+    box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.2);
+    border:none;
+    border-left:2px solid $color-8;
+    padding:10px;
+}
+.Contactus-company-address-header{
+    font-weight:300;
+    color:$color-9;
+    text-align:left;
+}
+.Contactus-company-address-content{
+    font-weight:400;
+    text-align:left;
+    justify-content:left;
+}
