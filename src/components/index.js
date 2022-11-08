@@ -7,9 +7,10 @@ import Tech from "./Tech/Tech";
 import Quality from "./Quality/Quality";
 import About from "./About/About";
 import GetTouch from "./GetTouch/GetTouch";
+import Contactus from "./Contactus/Contactus";
 import CompanyCulture from "./CompanyCulture/CompanyCulture";
 import CompanyVision from "./CompanyVision/CompanyVision";
 import Companymission from "./Companymission/Companymission";
 import Companymissiontext from "./Companymissiontext/Companymissiontext";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Companymission,Companymissiontext};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Companymission,Companymissiontext,Contactus};

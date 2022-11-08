@@ -1,17 +1,18 @@
+@media screen and (min-width:998px){
+.companymission-main{
+  width:100%;
+  height: 629px;
+  background-color: #131d3b;
+}
 .companymission-img {
   position: absolute;
-  width: 1440px;
-  height: 629px;
   left: 0px;
-  background: #131d3b;
-  opacity: 0.5;
 }
-.companymission-text {
+.companymission-head {
   position: absolute;
-  width: 234px;
-  height: 81px;
-  left: 500px;
-  top: 350px;
+  display:flex;
+  left: 602px;
+  top: 325px;
   font-weight: 700;
   font-size: 48px;
   line-height: 81px;
@@ -20,17 +21,13 @@
 }
 .companymission-vector1 {
   position: absolute;
-  width: 39.1px;
-  height: 41.01px;
   left: 417px;
   top: 267px;
 }
 .companymission-vector2{
     position: absolute;
-width: 39.1px;
-height: 41.01px;
-left: 1000.56px;
-top: 463px;
+top: 421px;
+left:984.46px;
 }
 
 .companymission-wrapper{
@@ -42,4 +39,19 @@ color:red;
 flex: none;
 order: 0;
 flex-grow: 0;
+}
+.button-wrapper{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.4839px 36.2097px;
+gap: 16px;
+position: absolute;
+left: 637px;
+top: 543px;
+background: #EC1C24;
+border:none;
+color:white;
+}
 }
