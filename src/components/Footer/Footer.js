@@ -17,13 +17,11 @@ const Footer = () => {
         <div className="footer-container-2" >
           <div className="content">LINKS</div>
           <div className="links">
-            <ul>
-              <li><a href="/">HOME</a></li>
-              <li><a href="/about">ABOUT US</a></li>
-              <li><a href="">BLOG</a></li>
-              <li><a href="/contactus">CONTACT US</a></li>
-              <li><a href="/services">SERVICES</a></li>
-            </ul>
+            <div className="link_1"><a href="/">HOME</a></div>
+            <div className="link_1"><a href="/about">ABOUT US</a></div>
+            <div className="link_1"><a href="">BLOG</a></div>
+            <div className="link_1"><a href="/contactus">CONTACT US</a></div>
+            <div className="link_1"><a href="/services">SERVICES</a></div>
           </div>
         </div>
         <div className="footer-container-3">
@@ -34,7 +32,7 @@ const Footer = () => {
           <div className="content_4">SEPTEMBER 30, 2022</div>
         </div>
         <div className="footer-container-4" >
-          <h4>newsletter</h4>
+          <h4>NEWSLETTER</h4>
           <p>if you would like to get more information about us and get from down below</p>
           <div className="footer-email">
             <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xlevpvdb"
