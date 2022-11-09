@@ -44,7 +44,7 @@
 }
 .Contactus-button:hover {
   cursor: pointer;
-  border:1px solid $black;
+  border: 1px solid $black;
 }
 .Contactus-company-info {
   padding: 0 15%;
@@ -52,19 +52,16 @@
 .Contactus-footer-wrapper {
   padding-top: 4%;
 }
-.Contactus-address-wrapper {
-  border: none;
+.Contactus-address-wrapper1 {
   box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.2);
+  border-left: 4px solid $color-11;
   padding: 2px 8px;
 }
-#Contactus-address-wrapper1 {
-  border-left: 4px solid $color-11;
+.Contactus-address-wrapper2 {
+  margin-top: 12px;
 }
-#Contactus-address-wrapper2{
-    margin-top:12px;
-}
-#Contactus-address-wrapper3{
-    margin-top:12px;
+.Contactus-address-wrapper3 {
+  margin-top: 12px;
 }
 .Contactus-location-content {
   font-weight: 400;
@@ -75,7 +72,6 @@
   font-weight: 300;
   color: $color-9;
   text-align: left;
-
 }
 .Contactus-caller-icon {
   float: left;
@@ -121,16 +117,25 @@
   .Contactus-footer-wrapper {
     display: flex;
   }
-  .Contactus-address-wrapper {
+  .Contactus-address-wrapper1 {
+    margin-right: 28px;
     width: 100%;
   }
-  #Contactus-address-wrapper1 {
-    margin-right: 18px;
+  .Contactus-address-wrapper2 {
+    margin-top: -10px;
+    margin-right: 28px;
+    width: 100%;
   }
-  #Contactus-address-wrapper2 {
-    margin-right: 18px;
+  .Contactus-address-wrapper3 {
+    margin-top: -10px;
+    width: 100%;
   }
   .Contactus-list {
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 1330px) {
+  #Contactus-input5 {
+    width: 97%;
   }
 }
