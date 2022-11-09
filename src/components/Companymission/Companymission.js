@@ -8,7 +8,6 @@ const Companymission = () => {
           <div className="companymission-main">
            <div className="companymission-top">
             <img className="companymission-img" src= {image1} alt="about-us"/>
-            <div className="companymission-top-text">About Us</div>
             </div>
           </div>
           <div >
