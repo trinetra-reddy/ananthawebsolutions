@@ -1,8 +1,7 @@
-.builder-about-main{
-    margin:50% 5% 5% 5%;
-}
+@import "../../styles/variables";
+
 .builder-heading{
-    color:#EC1C24;
+    color:$color-8;
     font-size:22px;
     font-weight:400;
     padding-top:20px;
@@ -13,7 +12,7 @@
 }
 #company-li::before{
     content:"\2022";
-    color:#EC1C24;
+    color:$color-8;
     display: inline-block;
     width:1em;
     margin-left:-1em;
@@ -21,8 +20,7 @@
     font-weight:bolder;
 }
 .builder-img{
-    width:100%;
-    
+    width:100%;   
  }
  #company-li{
     margin-bottom:10px;
@@ -31,21 +29,29 @@
     color:#131D3B;
     line-height:40px;
 }
-@media screen and (min-width:998px){
-.builder-about-main{
-    display:flex;
-    margin:50% 5% 5% 5%;
-    justify-content:space-between;
-    top:1538;
+@media screen and (min-width:1024px){
+    .builder-about-main{
+        display:flex; 
+        justify-content:space-between;
+        margin:5%;
+    }
+    .builder-img{
+        width:450px;
+        height:450px;
+    }
+    #company-li{
+        margin-bottom:20px;
+        font-size:15px;
+        line-height:40px;
+    }
 }
+@media screen and (min-width:1440px){
 .builder-img{
    width:602px;
    height:594px;
+  
 }
 .builder-heading{
-    font-size:22px;
-    font-weight:400;
-    color:#EC1C24;
     padding:0 25px;
     margin-top:20px;
     margin-bottom:50px;

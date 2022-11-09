@@ -1,27 +1,27 @@
+@import "../../styles/variables";
+
 .vision-content{
+   
     position:absolute;
     text-align: center;
-    top:20%;
+    top:50%;
     transform: translateY(-50%);
-
 }
 .vision-main{
+    background-image: url("./../CompanyVision/CompanyVision.svg");
+    background-size: cover;
     position:relative;
     text-align:center;
-    color:white;
+    color:$white;
+    height:20rem;
+    
 }
-.vision-img{
-    width:100%;
+#company-heading{
+    
+    color:$color-8;
 }
-.vision-content h3{
-    color:red;
-    padding-top:150px;
-}
-
-
 @media screen and (min-width:998px){
-    #company-heading{
-        color:red;
+    #company-heading{   
         padding-top:150px;
     }
     .vision-sub-content{
@@ -30,7 +30,9 @@
         font-weight:400;
         padding-left:20%;
         padding-right:20%;
-        line-height:2;
+    }
+    .vision-content{
+        top:20%;
     }
 
 }
