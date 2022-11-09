@@ -10,4 +10,5 @@ import GetTouch from "./GetTouch/GetTouch";
 import Contactus from "./Contactus/Contactus";
 import CompanyCulture from "./CompanyCulture/CompanyCulture";
 import CompanyVision from "./CompanyVision/CompanyVision";
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus};
+import Companymission from "./Companymission/Companymission";
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission};
