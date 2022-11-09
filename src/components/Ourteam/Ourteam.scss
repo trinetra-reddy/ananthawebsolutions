@@ -48,7 +48,7 @@
   max-width: 80%;
   border-radius: 50%;
   justify-content: center;
-  border: 3px dashed $primary-color;
+  border: 4px dotted $primary-color;
 }
 .ourTeam-card h3{
   padding-top: 10px;
@@ -76,9 +76,8 @@
         color: $white;
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        border-bottom-left-radius: 18px;
-        border-bottom-right-radius: 18px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
         transition: 0.3s all;
         top: -270px;
         z-index: 2;
@@ -88,6 +87,7 @@
           color: $white;
           width: 35px;
           border: none;
+          border-radius: 0%;
         }
     }
 
