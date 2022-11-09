@@ -44,8 +44,7 @@ if(hamburger && navLink) {
             <a href="#">Home</a>
             <a href="#">About us</a>
             <a href="#">Services</a>
-            <a href="#">Contact us</a>
-            <a href=""><img src={phone} className="phone_icon" alt="phone_icon"/></a>
+            <a href="#">Contact us<img src={phone} className="phone_icon" alt="phone_icon"/></a>
           </div>
         </nav>
       </header>

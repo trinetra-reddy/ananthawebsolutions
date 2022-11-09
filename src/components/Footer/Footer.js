@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-container-3">
-          <h2>recent news</h2>
+          <h2>RECENT NEWS</h2>
           <div className="content_1">Best web development service award</div>
           <div className="content_2">SEPTEMBER 30, 2022</div>
           <div className="content_3">Best service provider award</div>
