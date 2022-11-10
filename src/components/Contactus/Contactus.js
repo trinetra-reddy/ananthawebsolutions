@@ -58,19 +58,13 @@ const Contactus = () => {
             <img src={ContactMap} alt="Contact Map" />
           </div>
           <div className="Contactus-footer-wrapper">
-            <div
-              className="Contactus-address-wrapper"
-              id="Contactus-address-wrapper1"
-            >
+            <div className="Contactus-address-wrapper1">
               <h6 className="Contactus-address-headers">COMPANY ADDRESS</h6>
               <p className="Contactus-location-content">
                 ThemeForest,Envato HQ 24 Fifth st., Los Angeles, USA
               </p>
             </div>
-            <div
-              className="Contactus-address-wrapper"
-              id="Contactus-address-wrapper2"
-            >
+            <div className="Contactus-address-wrapper2">
               <h6 className="Contactus-address-headers">COMPANY PHONES</h6>
               <img
                 className="Contactus-caller-icon"
@@ -82,8 +76,7 @@ const Contactus = () => {
                 <li>1234-1234-1234</li>
               </ul>
             </div>
-            <div className="Contactus-address-wrapper"
-            id="Contactus-address-wrapper3">
+            <div className="Contactus-address-wrapper3">
               <h6 className="Contactus-address-headers">COMPANY EMAILS</h6>
               <img
                 className="Contactus-message-icon"
