@@ -44,7 +44,7 @@ const Ourteam = () => {
                 <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
+                <a href="https://www.linkedin.com/in/siri-k-898b96237/"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
                 <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
@@ -60,13 +60,13 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
+                <a href="https://www.facebook.com/girigiridharnaidu.ginuguntla"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
-                <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
+                <a href="https://www.linkedin.com/in/giridhar-naidu-gonuguntla-637029169/"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
               </li>
               <li>
-                <a href="#"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
+                <a href="https://twitter.com/GIRIDHARGONUGU1"><img src={twitter} className="twitter" alt="twitter-icon" /></a>
               </li>
             </ul>
             <img src={avatar} alt="photo-1" />
@@ -79,7 +79,7 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href='https://www.facebook.com/girigiridharnaidu.ginuguntla'><img src={facebook} className="facebook" alt="facebook-icon" /></a>
+                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
                 <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
