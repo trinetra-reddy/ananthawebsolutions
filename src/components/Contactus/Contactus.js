@@ -2,19 +2,20 @@ import React from "react";
 import "./Contactus.scss";
 import CallerIcon from "./Contactus-images/CallerIcon.svg";
 import MessageIcon from "./Contactus-images/MessageIcon.svg";
+import { Link } from "react-router-dom";
 
 const Contactus = () => {
   return (
     <>
       <div className="Contactus-container">
         <div className="Contactus-header">
-          <h2 className="Contactus-header1">Contacts</h2>
-          <a className="Contactus-header2" href="/">
+          <h2 className="Contactus-header1">Contact Us</h2>
+          <Link className="Contactus-header2" to="/">
             Home/
-          </a>
-          <a className="Contactus-header2" href="/contact-us">
-            Contacts
-          </a>
+          </Link>
+          <Link className="Contactus-header2" to="/contact-us">
+            Contact Us
+          </Link>
         </div>
         <div className="Contactus-form">
           <div className="Contactus-form1">

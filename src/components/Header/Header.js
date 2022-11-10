@@ -4,6 +4,7 @@ import logo from '../../images/anantha_logo.jpg';
 import menu from '../../images/menu-icon.png';
 import close from '../../images/close-icon.png';
 import phone from '../../images/phone-icon.png';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   useEffect(() => {
@@ -41,10 +42,10 @@ if(hamburger && navLink) {
           </div>
   
           <div className="nav__link hide">
-            <a href="/">Home</a>
-            <a href="/about-us">About us</a>
-            <a href="/services">Services</a>
-            <a href="/contact-us">Contact us<img src={phone} className="phone_icon" alt="phone_icon"/></a>
+            <Link to="/">Home</Link>
+            <Link to="/about-us">About us</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/contact-us">Contact us<img src={phone} className="phone_icon" alt="phone_icon"/></Link>
           </div>
         </nav>
       </header>

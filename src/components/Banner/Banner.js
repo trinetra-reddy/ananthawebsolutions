@@ -10,8 +10,8 @@ const Banner = () => {
           <div className="banner-content1">
             <div className="banner-left-text">There is More Than Just</div>
             <div className="banner-wrapper">
-            <div className="banner-left-text">Software</div>
-            <div className="banner-left-text-wrapper">Development</div>
+              <div className="banner-left-text">Software</div>
+              <div className="banner-left-text-wrapper">Development</div>
             </div>
           </div>
           <p className="banner-text-wrapper">
