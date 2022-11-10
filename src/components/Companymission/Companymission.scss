@@ -24,16 +24,11 @@
   font-size: 14px;
   line-height: 32px;
 }
-@media screen and (min-width: 998px) {
-  .companymission-down {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .companymission-down-img {
-    width:602px;
-    height:594px;
-  }
+@media screen and (min-width:998px) {
+    .companymission-down {
+        display: flex;
+      }
+ 
   .companymission-head {
     font-weight: 500;
     font-size: 36px;
@@ -45,17 +40,21 @@
 }
 
 @media screen and (min-width:1024px){
+    
     .companymission-down{
         padding-top:100px;
         padding-left:85px;
         padding-right:85px;
       }
       .company-down-img{
-          height:450px;
-          width:450px;
+          height:350px;
+          width:350px;
       }
       .companymission-bottom{
         margin-left:73px;
+      }
+      .companymission-text{
+        font-size:12px;
       }
 
 }
