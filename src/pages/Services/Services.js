@@ -8,9 +8,6 @@ const Services = () => {
     return (
         <div>
             <Header />
-            <div>
-                <span>Services Pagesssss!!</span> Link to <Link to={CONSTANTS.ROUTES.CONTACT_PAGE}>Contact Us</Link>
-            </div>
             <Footer />
         </div>
     );
