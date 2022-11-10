@@ -18,9 +18,9 @@ const Footer = () => {
           <div className="content">LINKS</div>
           <div className="links">
             <div className="link_1"><a href="/">HOME</a></div>
-            <div className="link_1"><a href="/about">ABOUT US</a></div>
+            <div className="link_1"><a href="/about-us">ABOUT US</a></div>
             <div className="link_1"><a href="">BLOG</a></div>
-            <div className="link_1"><a href="/contactus">CONTACT US</a></div>
+            <div className="link_1"><a href="/contact-us">CONTACT US</a></div>
             <div className="link_1"><a href="/services">SERVICES</a></div>
           </div>
         </div>

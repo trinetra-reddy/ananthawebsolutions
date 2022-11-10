@@ -41,10 +41,10 @@ if(hamburger && navLink) {
           </div>
   
           <div className="nav__link hide">
-            <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Services</a>
-            <a href="#">Contact us<img src={phone} className="phone_icon" alt="phone_icon"/></a>
+            <a href="/">Home</a>
+            <a href="/about-us">About us</a>
+            <a href="/services">Services</a>
+            <a href="/contact-us">Contact us<img src={phone} className="phone_icon" alt="phone_icon"/></a>
           </div>
         </nav>
       </header>
