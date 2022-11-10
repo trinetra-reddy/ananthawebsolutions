@@ -35,7 +35,6 @@ const Ourteam = () => {
             </div>
             <h3>Baba Fakruddin G</h3>
             <h4>Co-founder/operational Manager</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -54,7 +53,6 @@ const Ourteam = () => {
             <img src={avatar2} alt="photo-1" />
             <h3>Siri K</h3>
             <h4>Web Developer</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -74,7 +72,6 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Giridhar</h3>
             <h4>Web & Posters Developer</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -82,7 +79,7 @@ const Ourteam = () => {
             {/* Social icons */}
             <ul className="social-icons">
               <li>
-                <a href="#"><img src={facebook} className="facebook" alt="facebook-icon" /></a>
+                <a href='https://www.facebook.com/girigiridharnaidu.ginuguntla'><img src={facebook} className="facebook" alt="facebook-icon" /></a>
               </li>
               <li>
                 <a href="#"><img src={linkedin} className="linkedin" alt="linkedin-icon" /></a>
@@ -94,7 +91,6 @@ const Ourteam = () => {
             <img src={avatar2} alt="photo-1" />
             <h3>Amrutha A</h3>
             <h4>Web Developer</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -114,7 +110,6 @@ const Ourteam = () => {
             <img src={avatar2} alt="photo-1" />
             <h3>Haritha R</h3>
             <h4>Web & Java Developer</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -134,7 +129,6 @@ const Ourteam = () => {
             <img src={avatar} alt="photo-1" />
             <h3>Subba Reddy</h3>
             <h4>Marketing Specialist</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -154,7 +148,6 @@ const Ourteam = () => {
             <img src={avatar2} alt="photo-1" />
             <h3>Manisha G</h3>
             <h4>Quality Analyst</h4>
-
           </div>
         </div>
         <div className="ourTeam-column">
@@ -173,7 +166,6 @@ const Ourteam = () => {
             <img src={vinay} alt="photo-1" />
             <h3>Vinay</h3>
             <h4>Sales Manager</h4>
-
           </div>
         </div>
       </div>
