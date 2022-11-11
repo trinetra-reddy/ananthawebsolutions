@@ -15,6 +15,7 @@
   color: $white;
   font-size: 12px;
   font-weight: 400;
+  text-decoration: none;
 }
 .Contactus-form {
   padding: 4% 15%;
@@ -52,15 +53,17 @@
 .Contactus-footer-wrapper {
   padding-top: 4%;
 }
-.Contactus-address-wrapper1 {
-  box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.2);
-  border-left: 4px solid $color-11;
+.Contactus-address-wrapper {
   padding: 2px 8px;
 }
-.Contactus-address-wrapper2 {
+.Contactus-address-wrapper:hover {
+  box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.2);
+  border-left: 4px solid $color-11;
+}
+#Contactus-address-wrapper2 {
   margin-top: 12px;
 }
-.Contactus-address-wrapper3 {
+#Contactus-address-wrapper3 {
   margin-top: 12px;
 }
 .Contactus-location-content {
@@ -89,8 +92,12 @@
   list-style: none;
   font-size: 10px;
   padding-left: 50px;
+  justify-content: left;
 }
-
+.Contactus-map iframe {
+  width: 100%;
+  height: 200px;
+}
 @media only screen and (min-width: 998px) {
   .Contactus-header1 {
     font-size: 40px;
@@ -117,21 +124,23 @@
   .Contactus-footer-wrapper {
     display: flex;
   }
-  .Contactus-address-wrapper1 {
-    margin-right: 28px;
+  .Contactus-address-wrapper {
     width: 100%;
   }
-  .Contactus-address-wrapper2 {
-    margin-top: -10px;
-    margin-right: 28px;
-    width: 100%;
+  #Contactus-address-wrapper1 {
+    margin-right: 18px;
   }
-  .Contactus-address-wrapper3 {
-    margin-top: -10px;
-    width: 100%;
+  #Contactus-address-wrapper2 {
+    margin: 0 18px 0 0;
+  }
+  #Contactus-address-wrapper3 {
+    margin: 0;
   }
   .Contactus-list {
     font-size: 14px;
+  }
+  .Contactus-map iframe {
+    height: 400px;
   }
 }
 @media screen and (min-width: 1330px) {
