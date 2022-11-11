@@ -12,6 +12,9 @@ const Companymission = () => {
           <img className="companymission-vector1" src={vector1} alt="vector1"/>
           <h1>About Us</h1>
           <img className="companymission-vector2" src={vector2} alt="vector2"/>
+          <div className="companymission-button-wrapper">
+          <button className="companymission-button">Discover</button>
+          </div>
         </div>
       </div>
       <div>
