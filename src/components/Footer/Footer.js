@@ -17,19 +17,11 @@ const Footer = () => {
         <div className="footer-container-2" >
           <div className="content">LINKS</div>
           <div className="links">
-<<<<<<< HEAD
-            <div className="link_1"><a className="footer-a" href="/">HOME</a></div>
-            <div className="link_1"><a className="footer-a" href="/about-us">ABOUT US</a></div>
-            <div className="link_1"><a className="footer-a" href="">BLOG</a></div>
-            <div className="link_1"><a className="footer-a" href="/contact-us">CONTACT US</a></div>
-            <div className="link_1"><a className="footer-a" href="/services">SERVICES</a></div>
-=======
             <div className="link_1"><Link className="footer-a" to="/">HOME</Link></div>
             <div className="link_1"><Link className="footer-a" to="/about-us">ABOUT US</Link></div>
             <div className="link_1"><Link className="footer-a" to="">BLOG</Link></div>
             <div className="link_1"><Link className="footer-a" to="/contact-us">CONTACT US</Link></div>
             <div className="link_1"><Link className="footer-a" to="/services">SERVICES</Link></div>
->>>>>>> 3456d0b0f77952fabea4f431c5a498b4f32345ea
           </div>
         </div>
         <div className="footer-container-3">
