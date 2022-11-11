@@ -1,13 +1,15 @@
 @import '../../styles/variables';
-
+.footer-a{
+  color:white;
+}
 .footer-main-container {
   background-color: $primary-color;
   width: 100%;
-  padding:15px;
 }
 .footer-container-1 {
   letter-spacing:1px;
   max-width:200px;
+  padding-left:25px;
 }
 .footer-container-1 .footer_logo {
   width: 170px;
@@ -33,7 +35,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.footer-container-2 .links .link_1 {
+.footer-container-2 .links .link_1{
   font-size: 14px;
   font-weight: 500;
   display: block;
@@ -147,9 +149,11 @@ input::-webkit-input-placeholder {
   }
   .footer-container-1 p{
    font-size: 14px;
-  }
+   max-width:70%;
+    }
   .footer-container-1 h1{
     font-size: 10px;
+    max-width:50%;
   }
   .footer-container-2 {
     padding-left: 15px;
