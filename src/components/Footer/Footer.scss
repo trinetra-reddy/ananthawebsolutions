@@ -1,5 +1,7 @@
 @import '../../styles/variables';
-
+.footer-a{
+  color:white;
+}
 .footer-main-container {
   background-color: $primary-color;
   width: 100%;
@@ -33,7 +35,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.footer-container-2 .links .link_1 {
+.footer-container-2 .links .link_1{
   font-size: 14px;
   font-weight: 500;
   display: block;

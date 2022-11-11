@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 
-.builder-heading{
+.culture-heading{
     color:$color-8;
     font-size:22px;
     font-weight:400;
@@ -19,45 +19,44 @@
     font-size:1.5rem;
     font-weight:bolder;
 }
-.builder-img{
+.culture-img{
     width:100%;   
  }
  #company-li{
     margin-bottom:10px;
-    font-size:15px;
+    font-size:18px;
     font-weight:400;
     color:#131D3B;
     line-height:40px;
 }
 @media screen and (min-width:1024px){
-    .builder-about-main{
+    .culture-about-main{
         display:flex; 
         justify-content:space-between;
         margin:5%;
     }
-    .builder-img{
+    .culture-img{
         width:450px;
         height:450px;
     }
     #company-li{
-        margin-bottom:20px;
+        padding-bottom:10px;
         font-size:15px;
         line-height:40px;
     }
 }
 @media screen and (min-width:1440px){
-.builder-img{
+.culture-img{
    width:602px;
    height:594px;
   
 }
-.builder-heading{
-    padding:0 25px;
-    margin-top:20px;
-    margin-bottom:50px;
+.culture-heading{
+    padding:50px 25px 30px;
+    
 }
 #company-li{
-    margin-bottom:50px;
+    padding-bottom:20px;
     font-size:18px;
     line-height:40px;
 }
