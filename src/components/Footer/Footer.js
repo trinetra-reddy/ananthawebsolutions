@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-container-1" >
           <img src={footer_logo} className="footer_logo" alt="logo" />
           <p>adipisicing elit.Suscipit autem praesentium Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit.Suscipit autem praesentium Lorem ipsum dolor sit amet
+            adipisicing elit.
           </p>
           <h1>(c) ananthawebsolutions,2022. All Rights Reserved.</h1>
         </div>
@@ -42,7 +42,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-      </div>
+        </div>
     </>
   );
 };
