@@ -20,8 +20,7 @@ const Companymission = () => {
       <div>
         <div className="companymission-down">
           <div className="companymission-left">
-            <img
-              className="companymission-down-img"
+            <img className="companymission-down-img"
               src={companymission}
               alt="company-mission"
             />
