@@ -5,10 +5,10 @@ import "./CompanyCulture.scss";
 const CompanyCulture=() =>{
     return (
         <>
-            <div className="builder-about-main">
-                <div className="builder-about-left">
-                    <div className="builder-heading">COMPANY CULTURE</div>
-                    <div className="builder-content">
+            <div className="culture-about-main">
+                <div className="culture-about-left">
+                    <div className="culture-heading">COMPANY CULTURE</div>
+                    <div className="culture-content">
                         <ul id="culture-ulist">
                             <li id="company-li">Foster a professional and ethical work environment.</li>
                             <li id="company-li">Set safety and quality as our top priorities.</li>
@@ -18,8 +18,8 @@ const CompanyCulture=() =>{
                         </ul>
                     </div>
                 </div>
-                <div className="builder-about-right">
-                    <img className="builder-img" src={builderImg} alt="Builder-About-Image"></img>
+                <div className="culture-about-right">
+                    <img className="culture-img" src={builderImg} alt="Builder-About-Image"></img>
                 </div>
             </div>
         </>

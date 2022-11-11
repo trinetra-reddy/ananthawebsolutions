@@ -16,7 +16,7 @@ const Companymission = () => {
                 <img className="companymission-down-img" src={companymission} alt="company-mission" />
             </div>
             <div className="companymission-bottom">
-                <h1 className="companymission-heading">Company mission</h1>
+                <h1 className="companymission-heading">Company Mission</h1>
                 <h3 className="companymission-head">“Success is based on pro-active and dedicated
                      teamwork in a professional and ethical environment..."</h3>
                      <p className="companymission-text">We strongly believe that success is based on pro-active and dedicated 
