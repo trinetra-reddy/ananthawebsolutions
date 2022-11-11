@@ -1,44 +1,21 @@
-.companymission-main {
-  margin: 0 auto;
+@import "./../../styles/variables";
+.companymission-top{
+  background-image:url(./image1.svg);
+  background-size: cover;
 }
-.companymission-img {
-  width: 100%;
+.companymission-top-wrapper h1{
+  color:$white;
+  font-size:46px;
+  font-weight: 600;
+  text-align:center;
 }
-.companymission-down-img {
-  width:100%;
+.companymission-vector1{
+  padding-left:27%;
+  padding-top:12%;
 }
-.companymission-heading {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  color: red;
-}
-.companymission-head {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 40px;
-}
-.companymission-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 32px;
-}
-.companymission-top-wrapper{
-   position:relative;
-
-}
-.cm-vector{
-      top:207px;
-      left:602px;
-}
-.cm-text{
-  position:absolute;
-   top:50%;
-   left:50%;
-   transform:translateY(-50%);
-}
-.cm-vector2{
-
+.companymission-vector2{
+  padding-left:68%;
+  padding-bottom:12%;
 }
 @media screen and (min-width:998px) {
     .companymission-down {
