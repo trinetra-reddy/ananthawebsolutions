@@ -2,10 +2,11 @@
 .companymission-top{
   background-image:url(./image1.svg);
   background-size: cover;
+  margin-bottom:10px;
 }
 .companymission-top-wrapper h1{
   color:$white;
-  font-size:46px;
+  font-size:25px;
   font-weight: 600;
   text-align:center;
 }
@@ -15,7 +16,28 @@
 }
 .companymission-vector2{
   padding-left:68%;
-  padding-bottom:12%;
+  padding-bottom:40px;
+}
+.companymission-button{
+  padding:12px 30px;
+  background-color: $color-11;
+  color:$white;
+  border:none;
+  border-radius:4px;
+  font-weight:400;
+  font-size:14px;
+}
+.companymission-button:hover{
+  cursor:pointer;
+}
+.companymission-button-wrapper{
+  padding-bottom:8%;
+  text-align:center;
+}
+@media screen and (min-width: 998px){
+.companymission-top-wrapper h1{
+  font-size:46px;
+}
 }
 @media screen and (min-width:998px) {
     .companymission-down {
