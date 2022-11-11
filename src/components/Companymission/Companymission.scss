@@ -2,11 +2,11 @@
   margin: 0 auto;
 }
 .companymission-img {
-  width: 100%;
+  width:100%;
+
 }
 .companymission-down-img {
   width:100%;
-
 }
 .companymission-heading {
   font-weight: 500;
@@ -23,6 +23,23 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
+}
+.companymission-top-wrapper{
+   position:relative;
+
+}
+.cm-vector{
+      top:207px;
+      left:602px;
+}
+.cm-text{
+  position:absolute;
+   top:50%;
+   left:50%;
+   transform:translateY(-50%);
+}
+.cm-vector2{
+
 }
 @media screen and (min-width:998px) {
     .companymission-down {
