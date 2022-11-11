@@ -5,18 +5,24 @@ import companymission from './companymission.svg';
 import vector1 from './vector1.svg';
 import vector2 from './Vector 2.svg';
 const Companymission = () => {
-    return (
-        <>
-          <div className="companymission-main">
-           <div className="companymission-top">
-            <img className="companymission-img" src= {image1} alt="about-us"/>
-            <div className="companymission-top-wrapper">
-              <img className="cm-vector1" src={vector1} alt="vector1" />
-              <div className="cm-text">About Us</div>
-              <img className="cm-vector2" src={vector2} alt="vector2" />
-            </div>
-            
-            </div>
+  return (
+    <>
+      <div className="companymission-top">
+        <div className="companymission-top-wrapper">
+          <img className="companymission-vector1" src={vector1} alt="vector1"/>
+          <h1>About Us</h1>
+          <img className="companymission-vector2" src={vector2} alt="vector2"/>
+          <div className="companymission-button-wrapper">
+          <button className="companymission-button">Discover</button>
+          </div>
+        </div>
+      </div>
+        <div className="companymission-down">
+          <div className="companymission-left">
+            <img className="companymission-down-img"
+              src={companymission}
+              alt="company-mission"
+            />
           </div>
           <div >
             <div className="companymission-down">
