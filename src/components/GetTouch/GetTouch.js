@@ -26,7 +26,7 @@ const GetTouch = () => {
           </div>
         </div>
         <div className="GetTouch-image">
-          <img src={GetTouchImage} alt="GetTouchImage"></img>
+          <img src={GetTouchImage} alt="GetTouchImage" height="350" width="300"></img>
         </div>
       </div>
     </>
