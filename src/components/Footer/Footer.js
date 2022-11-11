@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="content">LINKS</div>
           <div className="links">
             <div className="link_1"><a href="/">HOME</a></div>
-            <div className="link_1"><a href="/about-us">ABOUT US</a></div>
+            <div className="link_1"><Link to="about-us">Home</Link>ABOUT US</div>
             <div className="link_1"><a href="">BLOG</a></div>
             <div className="link_1"><a href="/contact-us">CONTACT US</a></div>
             <div className="link_1"><a href="/services">SERVICES</a></div>
