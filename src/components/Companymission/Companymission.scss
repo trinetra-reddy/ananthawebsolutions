@@ -11,11 +11,11 @@
   text-align:center;
 }
 .companymission-vector1{
-  padding-left:27%;
+  padding-left:10%;
   padding-top:12%;
 }
 .companymission-vector2{
-  padding-left:68%;
+  padding-left:79%;
   padding-bottom:40px;
 }
 .companymission-button{
@@ -33,6 +33,26 @@
 .companymission-button-wrapper{
   padding-bottom:8%;
   text-align:center;
+}
+.companymission-down{
+  margin:15px;
+}
+.companymission-down-img{
+  width:100%;
+}
+.companymission-heading{
+  color:red;
+  font-size:14px;
+}
+@media screen and (min-width:768px){
+  .companymission-vector1{
+    padding-left:27%;
+    padding-top:12%;
+  }
+  .companymission-vector2{
+    padding-left:68%;
+    padding-bottom:40px;
+  }
 }
 @media screen and (min-width: 998px){
 .companymission-top-wrapper h1{
@@ -71,5 +91,16 @@
       .companymission-text{
         font-size:12px;
       }
+      .companymission-head{
+        font-size:18px;
+      }
 
+}
+@media screen and (min-width:1400px){
+  .companymission-text{
+    font-size:18px;
+  }
+  .companymission-head{
+    font-size:22px;
+  }
 }
