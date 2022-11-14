@@ -71,7 +71,6 @@ const Ourteam = () => {
             </ul>
             <img src={avatar} alt="photo-1" />
             <h3>Giridhar</h3>
-            <hr class="center-ball"></hr>
             <h4>Web & Posters Developer</h4>
           </div>
         </div>
