@@ -7,7 +7,7 @@ import './About.scss';
 
 const About = () => {
     return (
-        <div>
+        <div className="about-us-main">
             <Header />
             <Companymission />
             <CompanyCulture />

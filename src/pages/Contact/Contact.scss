@@ -1,0 +1,12 @@
+.contact-us-main {
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width:998px) {
+    .contact-us-main {
+      background-color: #fbfdfc;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 90px;
+    }
+  }
