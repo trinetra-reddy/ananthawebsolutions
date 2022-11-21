@@ -1,0 +1,97 @@
+.happy-main{
+    margin:20px;
+}
+.happy-heading{
+    font-size:32px;
+    font-weight:700;
+    color:#000; 
+}
+.happy-vector{
+    position: absolute;
+    width: 85px;
+    height: 4px;
+}
+.happy-clients{
+    padding-top:35px;
+}
+
+.client-details{
+    padding-left:10px;
+}
+.client-content{
+    font-size:14px;
+    font-weight:400;
+    max-width:100%;
+}
+.client-Name{
+    font-size:18px;
+    font-weight:600;
+    color: #000;
+}
+.client-video{
+    width:100%;
+    height:350px;
+}
+.happy2{
+    padding-top:50px;
+}
+@media screen and (min-width: 425px){
+    .client1{
+        display:flex;
+    }
+    .client2{
+        display:flex;
+    }
+}
+@media screen and (min-width:576px){
+    
+    .client-video{
+        width:100%;
+        height:300px;
+        
+    }
+}
+@media screen and (min-width:768px){
+    .happy2{
+        display:flex;
+        justify-content: space-between;
+    }
+    .client-video{
+        width:220px;
+        height:250px;
+        
+    }
+}
+@media screen and (min-width: 992px){
+    .happy-main{
+        margin:50px;
+    }
+    .happy-clients{
+        padding-top:40px;
+        display:flex;
+    }
+    .client-video{
+        width:250px;
+        height:300px;
+    }
+    .happy2{
+        display:flex;
+        justify-content:space-between;
+    }
+   
+}
+@media screen and (min-width:1200px){
+    .client2{
+        padding-left:50px;
+    }
+    .client-video{
+        width:100%;
+        height:300px;
+    }
+}
+@media screen and (min-width:1400px){
+    .client-video{
+        width:400px;
+        height:300px;
+    }
+}
