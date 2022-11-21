@@ -6,7 +6,7 @@ import './Contact.scss';
 
 const Contact = () => {
     return (
-        <div>
+        <div className="contact-us-main">
             <Header />
      
             <Contactus/>

@@ -252,7 +252,7 @@ input::-webkit-input-placeholder {
     max-width: 320px;
     margin: 0px;
     padding-top:0px;
-    padding-left: 100px;
+    padding-left: 60px;
   }
   .footer-container-1 .footer_logo {
     width: 150px;
@@ -268,7 +268,7 @@ input::-webkit-input-placeholder {
   .footer-container-2 {
     padding-left: 15px;
     padding-right:15px;
-    margin: 0px;
+    margin:0;
   }
   .footer-container-2 .content {
     padding: 0px;
@@ -276,7 +276,7 @@ input::-webkit-input-placeholder {
     font-size: 24px;
   }
   .footer-container-2 .links .link_1 {
-    font-weight: 500;
+    font-weight: 400;
     display: block;
     width: 100px;
     list-style: none;
@@ -295,6 +295,7 @@ input::-webkit-input-placeholder {
   }
   .footer-container-4 {
     padding-left: 15px;
+    padding-right:60px;
     flex-grow: 3;
     margin: 0px;
     
