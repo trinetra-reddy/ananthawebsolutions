@@ -12,5 +12,6 @@ import CompanyCulture from "./CompanyCulture/CompanyCulture";
 import CompanyVision from "./CompanyVision/CompanyVision";
 import Companymission from "./Companymission/Companymission";
 import HappyClients from "./HappyClients/HappyClients";
+import Properties from "./Properties/Properties";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,HappyClients};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,HappyClients,Properties};
