@@ -4,6 +4,9 @@
   background-color: $color-13;
   padding: 30px;
 }
+.Propertiesfooter-headercontent{
+    margin-bottom:50px;
+}
 .Propertiesfooter-body-header {
   color: $white;
   font-weight: 600;
@@ -59,7 +62,9 @@
     max-width: 55%;
     justify-content: left;
   }
-
+.Propertiesfooter-headercontent{
+    margin:0;
+}
   .Propertiesfooter-footer {
     display: flex;
   }
