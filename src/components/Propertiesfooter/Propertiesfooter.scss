@@ -1,0 +1,74 @@
+@import "./../../styles/variables";
+
+.Propertiesfooter-main {
+  background-color: $color-13;
+  padding: 30px;
+}
+.Propertiesfooter-body-header {
+  color: $white;
+  font-weight: 600;
+  text-align: left;
+  justify-content: left;
+  letter-spacing: 0.2px;
+  line-height: 43.2px;
+}
+
+.Propertiesfooter-contact-header {
+  color: $white;
+  font-weight: 500;
+}
+.Propertiesfooter-contact-details {
+  color: $white;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: left;
+  justify-content: left;
+}
+.Propertiesfooter-borderline {
+  margin: 30px 0;
+  border-bottom: 1px solid $color-14;
+}
+.Propertiesfooter-redirect {
+  text-decoration: none;
+  color: $white;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.Propertiesfooter-redirect-wrapper1 {
+  margin-bottom: 20px;
+}
+.Propertiesfooter-redirect-wrapper2 {
+  margin-bottom: 20px;
+}
+#Propertiesfooter-redirect3 {
+  padding-right: 10px;
+}
+.Propertiesfooter-button-wrapper {
+  background-color: $color-15;
+  border-radius: 5px;
+  padding: 7px 16px;
+  border: none;
+}
+
+@media screen and (min-width: 996px) {
+  .Propertiesfooter-body {
+    display: flex;
+  }
+  .Propertiesfooter-contact {
+    padding-left: 2%;
+  }
+  .Propertiesfooter-contact-details {
+    max-width: 55%;
+    justify-content: left;
+  }
+  .Propertiesfooter-footer {
+    display: flex;
+  }
+  .Propertiesfooter-redirect-wrapper1 {
+    margin: 0 50px 0 0;
+  }
+  .Propertiesfooter-redirect-wrapper2 {
+    margin: 0 30px 0 0;
+  }
+}
