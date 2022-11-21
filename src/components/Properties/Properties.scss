@@ -1,3 +1,122 @@
-.properties-main{
-    background-color:green;
+.properties-main {
+  background-color: #026b33;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  height: 669px;
+}
+.properties {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+}
+.prop1 {
+  border-bottom: 4px solid white;
+}
+.prop-text1 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 135%;
+}
+.prop-text2 {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.prop-project {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+.prop-button1 {
+  background-color: #4caf50; /* Green */
+  border: 1px solid white;
+  color: white;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2rem;
+  margin-right: 2%;
+}
+.prop-button2 {
+  border-radius: 2rem;
+  border: none;
+  color: black;
+}
+.prop-img1 {
+  margin-top: 15px;
+  max-width: 100%;
+}
+.prop-img2 {
+  margin-top: 15px;
+  max-width: 100%;
+}
+@media screen and (min-width: 998px) {
+  .properties-main {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .properties {
+    margin-top: 60px;
+  }
+  .prop-text1 {
+    margin-top: 59px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 135%;
+    max-width: 490px;
+  }
+  .prop-text2 {
+    margin-top: 54px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .prop-text1 {
+    font-size: 32px;
+    margin-right: 55px;
+  }
+  .prop-project {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 47px;
+  }
+  .prop-button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 80px;
+    height: 45px;
+    margin-top:40px;
+  }
+  .prop-button2 {
+    position: absolute;
+    width: 98px;
+    height: 44px;
+    margin-top: 40px;
+    left: 1160px;
+  }
+  .prop-proj-img{
+    position:relative;
+    margin-top:47px;
+width: 749px;
+margin-left:24px;
+  }
+  .prop-img1{
+    margin-top:40px;
+  }
+  .prop-img2{
+    margin-top:40px;
+  }
 }
