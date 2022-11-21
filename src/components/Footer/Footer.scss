@@ -142,6 +142,113 @@ input::-webkit-input-placeholder {
   }
   .footer-container-1 {
     flex-grow: 3;
+    max-width: 250px;
+    margin: 0px;
+    padding-top:0px;
+    padding-left: 50px;
+  }
+  .footer-container-1 .footer_logo {
+    width: 120px;
+  }
+  .footer-container-1 p{
+   font-size: 12px;
+   max-width:100%;
+    }
+  .footer-container-1 h1{
+    font-size: 10px;
+    max-width:100%;
+  }
+  .footer-container-2 {
+    padding-left: 15px;
+    padding-right:15px;
+    margin: 0px;
+  }
+  .footer-container-2 .content {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .footer-container-2 .links .link_1 {
+    font-weight: 500;
+    display: block;
+    width: 100px;
+    list-style: none;
+    margin-top: 5px;
+  }
+  .footer-container-3 {
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 250px;
+    padding-top: 0px;
+  }
+  .footer-container-3 h2{
+    font-size: 18px;
+    margin: 0px;
+  }
+  .footer-container-4 {
+    padding-left: 15px;
+    flex-grow: 3;
+    margin: 0px;
+    
+  }
+  .footer-container-4 h4{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+
+  }
+  .footer-container-4 p{
+    font-size: 12px;
+    max-width: 350px;
+  }
+  .footer-container-4 .footer-email {
+  margin:0px;
+  }
+  .footer-container-4 .footer-email input[type="email"]{
+    display: inline-block;
+    width: 70%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 35px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: 1px solid $primary-color;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06); 
+  }
+  .footer-container-4 .footer-email input,
+  input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 3;
+    color: $primary-color;
+    font-style: italic;
+  }
+  .footer-container-4 .footer-email .button {
+    margin-left: -75px;
+    font-size: 10px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:$primary-color;
+    color: $white;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-main-container {
+    width: 100%;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-container-1 {
+    flex-grow: 3;
     max-width: 320px;
     margin: 0px;
     padding-top:0px;
@@ -166,6 +273,7 @@ input::-webkit-input-placeholder {
   .footer-container-2 .content {
     padding: 0px;
     margin: 0px;
+    font-size: 24px;
   }
   .footer-container-2 .links .link_1 {
     font-weight: 400;
