@@ -1,11 +1,12 @@
 import React from 'react';
 import Propimages1 from './Propimages1.svg';
 import Propimage2 from './Propimage2.svg';
+import './Properties.scss';
 const Properties = () => {
     return (
         <>
         <div className="properties-main">
-            <div>
+            <div className="main">
             <span className="prop1">Prope</span>
             <span className="prop2">rties</span>
             </div>
