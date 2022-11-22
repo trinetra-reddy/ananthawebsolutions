@@ -23,7 +23,7 @@ const Properties = () => {
                  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                  Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                  <div className="row">
-                 <span className="prop-project col-6 col-lg-2">Our Projects</span>
+                 <span className="prop-project col-6 ">Our Projects</span>
                  <img className="prop-proj-img" src={vector2} alt="vector2"/>
                  <button className="prop-button1 col-2"><img className="prop-button-img" src={vector} alt="vector" /></button>
                  <button className="prop-button2 col-3">next<img className="prop-button-img1" src={vector1} alt="vector" /> </button>
