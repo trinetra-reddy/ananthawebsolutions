@@ -8,6 +8,7 @@ import './Properties.scss';
 const Properties = () => {
     return (
         <>
+        <div className="prop-main">
         <div className="properties-main">
             <div className="row">
                 <div className="properties">
@@ -34,6 +35,7 @@ const Properties = () => {
                  </div>
                  </div>
                  </div>
+        </div>
         </div>
         </>
     );
