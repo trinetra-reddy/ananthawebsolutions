@@ -25,8 +25,14 @@ const GetTouch = () => {
             <button className="GetTouch-button">SUBSCRIBE</button>
           </div>
         </div>
-        <div className="GetTouch-image">
-          <img src={GetTouchImage} alt="GetTouchImage" height="350" width="300"></img>
+        <div>
+          <img
+            className="GetTouch-image"
+            src={GetTouchImage}
+            alt="GetTouchImage"
+            height="350"
+            width="300"
+          ></img>
         </div>
       </div>
     </>
