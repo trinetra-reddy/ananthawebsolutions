@@ -8,11 +8,9 @@ import './Godavari_Builders.scss';
 const Godavari_Builders = () => {
     return (
         <div> 
-            <Header />
             <Properties />
             <HappyClients />
             <Propertiesfooter />
-            <Footer />
         </div>
     );
 };
