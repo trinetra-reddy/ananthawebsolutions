@@ -1,0 +1,48 @@
+.floorplan-main {
+    background-color: #026b33;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    }
+    .floorplan-img1{
+        width:100%;
+    }
+    .floorplan-img2{
+        width:100%;
+    }
+    .floor1{
+        padding-right:5px;
+        border-bottom: 4px solid white;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 39px;
+        
+    }
+    .floor2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 39px;
+    }
+    
+    @media screen and (min-width:998px){
+        .properties-main{
+            height:505px;
+        }
+        .floorplan-text{
+           margin-top:68px;
+           font-weight: 700;
+font-size: 32px;
+line-height: 135%;
+        }
+        .floorplan-img{
+            display:flex;
+        }
+        .floorplan-img1{
+            
+        }
+        .floorplan-img2{
+            
+        }
+
+
+    }

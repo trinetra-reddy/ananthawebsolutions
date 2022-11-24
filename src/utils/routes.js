@@ -1,4 +1,4 @@
-import { Home, Contact, About, Services, Styleguide, Godavaribuilders } from "../pages";
+import { Home, Contact, About, Services, Styleguide, Godavaribuilders,Properties } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
@@ -24,6 +24,10 @@ export const routes = [{
 }, {
     component: <Godavaribuilders />,
     path: CONSTANTS.ROUTES.GODAVARI_PAGE,
+    isExact: true
+}, {
+    component: <Properties />,
+    path: CONSTANTS.ROUTES.PROPERTIES_PAGE,
     isExact: true
 }
 ];
