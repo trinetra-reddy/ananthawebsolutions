@@ -3,7 +3,7 @@
 .GetTouch-container {
   background-color: $primary-color;
   border-radius: 4px;
-  padding: 15% 5%;
+  padding: 5%;
   margin-top: 30px;
 }
 .GetTouch-header-1 {
@@ -11,9 +11,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
-  margin-bottom: -10px;
   font-weight: bold;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 .GetTouch-header-2 {
   color: $white;
@@ -42,13 +42,13 @@
   font-size: 16px;
   outline: green;
   line-height: 1.5;
-  width: 80%;
+  width: 100%;
   letter-spacing: 1px;
   padding: 10px 10px 10px 40px;
   margin-bottom: 10px;
 }
 .GetTouch-input:focus {
-  border: 1px solid green;
+  border: 1px solid $color-15;
 }
 
 .GetTouch-button {
@@ -82,7 +82,7 @@
   }
   .GetTouch-container {
     margin: auto;
-    padding: 3% 5% 2%; 
+    padding-bottom: 2%;
     margin-top: 60px;
     display: flex;
   }
@@ -91,7 +91,7 @@
   }
   .GetTouch-form {
     display: flex;
-    height: 46px;
+    height: 74px;
     max-width: 80%;
   }
   .GetTouch-input {
