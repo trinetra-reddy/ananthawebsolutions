@@ -3,7 +3,7 @@
   color: white;
   width: 100%;
   padding: 15px;
-  height: 669px;
+  
 }
 .properties {
   font-weight: 700;
@@ -50,15 +50,18 @@
 .prop-img1 {
   margin-top: 15px;
   max-width: 100%;
+  margin-left:10px;
 }
 .prop-img2 {
   margin-top: 15px;
   max-width: 100%;
+  margin-left:10px;
 }
 @media screen and (min-width: 998px) {
   .properties-main {
     padding-left: 108px;
     padding-right: 108px;
+    height: 669px;
   }
   .properties {
     margin-top: 60px;
@@ -76,12 +79,6 @@
     font-size: 14px;
     line-height: 24px;
   }
-}
-@media screen and (min-width: 1440px) {
-  .prop-text1 {
-    font-size: 32px;
-    margin-right: 55px;
-  }
   .prop-project {
     font-weight: 600;
     font-size: 24px;
@@ -89,7 +86,7 @@
     margin-top: 47px;
   }
   .prop-button1 {
-    background-color: #4CAF50; /* Green */
+    background-color: #4caf50; /* Green */
     border: none;
     color: white;
     text-align: center;
@@ -98,25 +95,82 @@
     font-size: 16px;
     width: 80px;
     height: 45px;
-    margin-top:40px;
+    margin-top: 40px;
+    position: absolute;
+    left: 810px;
   }
   .prop-button2 {
     position: absolute;
     width: 98px;
     height: 44px;
     margin-top: 40px;
-    left: 1160px;
+    left: 900px;
   }
-  .prop-proj-img{
-    position:relative;
-    margin-top:47px;
-width: 749px;
-margin-left:24px;
+  .prop-proj-img {
+    position: absolute;
+    margin-top: 62px;
+    width: 560px;
+    left: 250px;
   }
-  .prop-img1{
-    margin-top:40px;
+  .prop-img1 {
+    margin-top: 20px;
+    margin-left:0px;
   }
-  .prop-img2{
-    margin-top:40px;
+  .prop-img2 {
+    margin-top: 20px;
+    margin-left:0px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .prop-main{
+    margin-bottom:100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .prop-text1 {
+    font-size: 32px;
+    margin-right: 55px;
+  }
+
+  .prop-img1 {
+    margin-top: 40px;
+  }
+  .prop-img2 {
+    margin-top: 40px;
+  }
+  .prop-project {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 47px;
+  }
+  .prop-button1 {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 90px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 220px;
+  }
+  .prop-button2 {
+    position: absolute;
+    width: 98px;
+    height: 44px;
+    margin-top: 40px;
+    left: 1150px;
+  }
+  .prop-proj-img {
+    position: absolute;
+    margin-top: 62px;
+    width: 749px;
+    margin-left: 24px;
+  }
+  .prop-main {
+    margin-bottom: 250px;
   }
 }

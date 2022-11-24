@@ -1,22 +1,22 @@
 import React from "react";
 import "./Propertiesfooter.scss";
 import { Link } from "react-router-dom";
-import VectorImage from "./Vector.svg";
+import VectorImage from "./PropertiesfooterVector.svg";
 const Propertiesfooter = () => {
   return (
     <>
-      <div className="Propertiesfooter-main">
+      <div className="Propertiesfooter-container">
         <div className="Propertiesfooter-body">
           <div className="Propertiesfooter-headercontent">
-            <h2 className="Propertiesfooter-body-header">
-              HPR Godavari buldersand developers
-            </h2>
-            <h1 className="Propertiesfooter-body-header">
+            <h3 className="Propertiesfooter-body-header1">
+              HPR Godavari bulders and developers
+            </h3>
+            <h1 className="Propertiesfooter-body-header2">
               Improving people’s futures through building infrastructure
             </h1>
           </div>
           <div className="Propertiesfooter-contact">
-            <h3 className="Propertiesfooter-contact-header">Contact Us</h3>
+            <h6 className="Propertiesfooter-contact-header">Contact Us</h6>
             <p className="Propertiesfooter-contact-details">
               Pratap reddy : +91 87122 44534
             </p>
@@ -42,18 +42,20 @@ const Propertiesfooter = () => {
               Properties
             </Link>
           </div>
-          <div>
-            <button className="Propertiesfooter-button-wrapper">
-              <Link
-                className="Propertiesfooter-redirect"
-                id="Propertiesfooter-redirect3"
-                to="/contact-us"
-              >
-                Contactus
-              </Link>
-              <img src={VectorImage} alt="VectorImage" />
-            </button>
-          </div>
+          <button className="Propertiesfooter-button-wrapper">
+            <Link
+              className="Propertiesfooter-redirect"
+              id="Propertiesfooter-redirect3"
+              to="/contact-us"
+            >
+              Contactus
+            </Link>
+            <img
+              className="Propertiesfooter-vectorimage"
+              src={VectorImage}
+              alt="VectorImage"
+            />
+          </button>
         </div>
       </div>
     </>

@@ -1,31 +1,33 @@
 @import "./../../styles/variables";
 
-.Propertiesfooter-main {
+.Propertiesfooter-container {
   background-color: $color-13;
-  padding: 30px;
+  padding: 40px 20px;
 }
-.Propertiesfooter-headercontent {
-  margin-bottom: 50px;
-}
-.Propertiesfooter-body-header {
+.Propertiesfooter-body-header1 {
   color: $white;
-  font-weight: 600;
   text-align: left;
-  justify-content: left;
-  letter-spacing: 0.2px;
-  line-height: 43.2px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
-
+.Propertiesfooter-body-header2 {
+  color: $white;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 35px;
+}
 .Propertiesfooter-contact-header {
   color: $white;
   font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .Propertiesfooter-contact-details {
   color: $white;
   font-weight: 300;
   font-size: 12px;
   text-align: left;
-  justify-content: left;
 }
 .Propertiesfooter-borderline {
   margin: 30px 0;
@@ -45,25 +47,28 @@
   margin-bottom: 20px;
 }
 #Propertiesfooter-redirect3 {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 .Propertiesfooter-button-wrapper {
   background-color: $color-15;
   border-radius: 5px;
-  padding: 7px 16px;
+  padding: 5px 10px;
   border: none;
 }
 
 @media screen and (min-width: 996px) {
+  .Propertiesfooter-container {
+    padding-left: 60px;
+  }
   .Propertiesfooter-body {
     display: flex;
   }
-  .Propertiesfooter-contact-details {
-    max-width: 55%;
-    justify-content: left;
-  }
   .Propertiesfooter-headercontent {
-    margin: 0;
+    flex-basis: 165vw;
+  }
+  .Propertiesfooter-body-header2 {
+    letter-spacing: 0.8px;
+    line-height: 46.2px;
   }
   .Propertiesfooter-footer {
     display: flex;

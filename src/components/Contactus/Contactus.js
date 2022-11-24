@@ -2,6 +2,7 @@ import React from "react";
 import "./Contactus.scss";
 import CallerIcon from "./Contactus-images/CallerIcon.svg";
 import MessageIcon from "./Contactus-images/MessageIcon.svg";
+import ContactusVector from "./Contactus-images/ContactusVector.svg";
 import { Link } from "react-router-dom";
 
 const Contactus = () => {
@@ -56,6 +57,11 @@ const Contactus = () => {
           </div>
           <button className="Contactus-button" type="submit" click="OnClick">
             Submit Message
+            <img
+              className="Contactus-vectorImage"
+              src={ContactusVector}
+              alt="VectorImage"
+            />
           </button>
         </div>
         <div className="Contactus-company-info">
@@ -65,7 +71,6 @@ const Contactus = () => {
           <div className="Contactus-footer-wrapper">
             <div
               className="Contactus-address-wrapper"
-              id="Contactus-address-wrapper1"
             >
               <h6 className="Contactus-address-headers">COMPANY ADDRESS</h6>
               <p className="Contactus-location-content">
@@ -74,11 +79,11 @@ const Contactus = () => {
             </div>
             <div
               className="Contactus-address-wrapper"
-              id="Contactus-address-wrapper2"
             >
               <h6 className="Contactus-address-headers">COMPANY PHONES</h6>
               <img
-                className="Contactus-caller-icon"
+                className="Contactus-icons"
+                id="Contactus-caller-icon"
                 src={CallerIcon}
                 alt="Caller Icon"
               />
@@ -89,11 +94,11 @@ const Contactus = () => {
             </div>
             <div
               className="Contactus-address-wrapper"
-              id="Contactus-address-wrapper3"
             >
               <h6 className="Contactus-address-headers">COMPANY EMAILS</h6>
               <img
-                className="Contactus-message-icon"
+                className="Contactus-icons"
+                id="Contactus-message-icon"
                 src={MessageIcon}
                 alt="Message Icon"
               />
