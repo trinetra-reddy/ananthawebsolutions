@@ -14,6 +14,6 @@ import Companymission from "./Companymission/Companymission";
 import Properties from "./Properties/Properties";
 import Propertiesfooter from "./Propertiesfooter/Propertiesfooter";
 import HappyClients from "./HappyClients/HappyClients";
+import Specifications from "./Specifications/Specifications";
 
-
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Specifications};
