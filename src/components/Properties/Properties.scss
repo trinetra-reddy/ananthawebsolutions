@@ -127,6 +127,9 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .properties-main{
+    height: 700px;
+  }
   .prop-text1 {
     font-size: 32px;
     margin-right: 55px;
@@ -169,8 +172,5 @@
     margin-top: 62px;
     width: 749px;
     margin-left: 24px;
-  }
-  .prop-main {
-    margin-bottom: 250px;
   }
 }
