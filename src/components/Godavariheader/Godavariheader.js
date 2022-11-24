@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import './Godavariheader.scss';
 import menu from '../../images/menu-icon.png';
 import close from '../../images/close-icon.png';
-import VectorImage from "../../components/Propertiesfooter/Vector.svg";
+import Headercontactus from "./Headercontactus.svg";
 
 const Godavariheader = () => {
   useEffect(() => {
@@ -45,7 +45,7 @@ const Godavariheader = () => {
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Properties</a>
-          <button className="header-contactus-button">Contactus<img src={VectorImage} alt="VectorImage" /></button>
+          <button className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></button>
         </div>
       </nav>
     </header>
