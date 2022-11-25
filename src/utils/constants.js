@@ -6,6 +6,7 @@ export const CONSTANTS = {
         ABOUT_PAGE: '/about-us',
         SERVICES_PAGE: '/services',
         STYLEGUIDE: '/styleguide',
-        GODAVARI_PAGE: '/godavari-builders'
+        GODAVARI_PAGE: '/godavari-builders',
+        PROPERTIES_PAGE: '/properties'
     },
 };
