@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .happyclients-main{
-    margin:500px 0px 20px 20px;
+    margin:20px 10px 20px 20px;
 }
 .happyclients-heading{
     font-size:32px;
@@ -33,12 +33,16 @@
 .happyclients-video{
     width:100%;
     height:350px;
+    padding-bottom:10px;
 }
 .happy2{
     padding-top:50px;
 }
 .happy-client-img{
     border-radius:5px;
+}
+.client2{
+    padding-top:10px;
 }
 @media screen and (min-width: 425px){
     .client1{
@@ -69,7 +73,7 @@
 }
 @media screen and (min-width: 992px){
     .happyclients-main{
-        margin:300px 50px 50px;
+        margin:100px 50px 50px;
     }
     .happy-clients{
         padding-top:40px;
@@ -95,6 +99,9 @@
     }
 }
 @media screen and (min-width:1400px){
+    .happyclients-main{
+        margin:300px 50px 50px;
+    }
     .happyclients-video{
         width:400px;
         height:300px;
