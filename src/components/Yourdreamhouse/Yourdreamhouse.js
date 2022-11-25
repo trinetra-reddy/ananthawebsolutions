@@ -27,7 +27,7 @@ const Yourdreamhouse = () => {
                      </div>
                 </div>
                 <div className="yourdream-house-right">
-                    <img src={Yourdreamhouseimage} className="yourdream-house-right-img" alt="building-2 images" />
+                    <img src={Yourdreamhouseimage} className="yourdream-house-right-image" alt="building-2 images" />
                 </div>
             </div>
 

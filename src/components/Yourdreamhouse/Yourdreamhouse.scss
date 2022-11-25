@@ -33,6 +33,7 @@
     padding: 8px 16px;
     font-size: 14px;
   }
+
   .yourdream-house-left-button {
     background-color: white;
     border-radius: 20px;
@@ -53,10 +54,10 @@
     margin-top: 49px;
     margin-left: 267px;
   }
-  .yourdream-house-right img {
+  .yourdream-house-right image {
     width: 21px;
   }
-  .yourdream-house-right img {
+  .yourdream-house-right-image {
     position: relative;
     width: 100%;
     height: 250px;
@@ -76,9 +77,10 @@
       margin-left: 108px;
       margin-right: 30px;
       flex: 50%;
+      margin-top: 6rem;
     }
   
-    .yourdream-house-left-heading{
+    .yourdream-house-left-heading {
       font-size: 48px;
       font-weight: 700;
       margin-top: 6rem;
@@ -96,12 +98,11 @@
       flex: 50%;
     }
   
-    .yourdream-house-right-img {
+    .yourdream-house-right-image {
       position: relative;
       width: 100%;
       height: auto;
       padding: 0px;
       margin-top: 7rem;
-
     }
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Propertiesfooter } from "../../components";
+import { Godavariheader, Propertiesfooter } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Godavaricontactus.scss';
 
@@ -8,6 +8,7 @@ import './Godavaricontactus.scss';
 const Godavaricontactus = () => {
     return (
         <div> 
+            <Godavariheader />
             <Propertiesfooter />
         </div>
     );

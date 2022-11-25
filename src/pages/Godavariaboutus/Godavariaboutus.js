@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HappyClients, Propertiesfooter } from "../../components";
+import { Godavariheader, HappyClients, Propertiesfooter } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Godavariaboutus.scss';
 
@@ -8,6 +8,7 @@ import './Godavariaboutus.scss';
 const Godavariaboutus = () => {
     return (
         <div> 
+            <Godavariheader />
             <HappyClients />
             <Propertiesfooter />
         </div>
