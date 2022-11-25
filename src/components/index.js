@@ -15,5 +15,9 @@ import Properties from "./Properties/Properties";
 import Propertiesfooter from "./Propertiesfooter/Propertiesfooter";
 import HappyClients from "./HappyClients/HappyClients";
 import Floorplan from "./Floorplan/Floorplan";
+import Godavariheader from "./Godavariheader/Godavariheader";
+import Improvingpeople from "./Improvingpeople/Improvingpeople";
+import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
+import Ourculture from "./Ourculture/Ourculture";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Ourculture};

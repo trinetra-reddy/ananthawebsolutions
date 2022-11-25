@@ -10,7 +10,7 @@ const Godavari_Builders = () => {
         <div> 
             <Godavariheader />
             <Improvingpeople />
-            <Godavariaboutus/>
+            <Godavariaboutus />
             <Properties />
             <HappyClients />
             <Propertiesfooter />

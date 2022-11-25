@@ -1,0 +1,13 @@
+.culture-head1{
+    border-bottom :4px solid #026b33;
+}
+.culture-main{
+    font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+}
+@media screen and (min-width:998px){
+    .culture-container{
+        display:flex;
+    }
+}
