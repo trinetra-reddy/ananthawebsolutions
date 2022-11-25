@@ -1,20 +1,15 @@
-.godavari-aboutus-heading-1 {
+.godavari-aboutus-heading {
     font-size: 28px;
     font-weight: 700;
     padding-left: 10px;
-    border-bottom: 2px solid #000;
 }
-.godavari-aboutus-heading-2 {
-    font-size: 28px;
-    font-weight: 700;
-    padding-left: 10px;
-    border-bottom: 2px solid #000;
-}
+
 .godavari-aboutus-1-left p {
     font-size: 24px;
     font-weight: 700;
     width: 100%;
     line-height: 24px;
+    padding: 25px 10px 10px 10px;
 }
 
 .godavari-aboutus-1-right p {
@@ -22,6 +17,7 @@
     font-weight: 400;
     width: 100%;
     line-height: 14px;
+    padding: 25px 10px 10px 10px;
 }
 
 .godavari-aboutus-2 p {
@@ -29,10 +25,11 @@
     font-weight: 400;
     width: 100%;
     line-height: 14px;
+    padding: 25px 10px 10px 10px;
 }
 
 .godavari-aboutus-3 {
-    padding: 25px 10px 10px
+    padding: 25px 10px 10px 10px;
 }
 
 .godavari-aboutus-3-col h3 {
@@ -53,12 +50,16 @@
     margin: 10px 0px 15px 0px;
 }
 
-@media screen and (min-width: 768px) {
-    .godavari-aboutus-heading-1{
-        padding: 60px 0px 40px 108px;
-        
-    }
+.godavari-aboutus-hr {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
+@media screen and (min-width: 768px) {
+    .godavari-aboutus-heading{
+        padding: 60px 0px 40px 108px;
+    }
+    
     .godavari-aboutus-1 {
         display: flex;
         flex-direction: row;
@@ -129,7 +130,6 @@
     .godavari-aboutus-hr {
         padding-right: 108px;
         padding-left: 108px;
-        font-weight: 700;
     }
 
 }

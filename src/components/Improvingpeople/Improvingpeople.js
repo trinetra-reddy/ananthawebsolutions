@@ -10,10 +10,10 @@ const Improvingpeople = () => {
         <>
         <div className="improving-people">
         <div className="improving-people-left">
-            <div className="improving-people-heading">
+            <div className="improving-people-left-heading">
                 <h1>Improving people futures through bulding</h1>
             </div>
-            <div className="improving-people-content">
+            <div className="improving-people-left-content">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatestempore
                     voluptatum assumenda rerum commodi, fuga accusantium optio.
                     autem repudiandae animi repellat omnis ad magni modi, eius rem earum?</p>

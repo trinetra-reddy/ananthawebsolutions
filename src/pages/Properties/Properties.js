@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Floorplan,Propertiesfooter } from "../../components";
+import { Floorplan,Godavariheader,Propertiesfooter, Yourdreamhouse } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Properties.scss';
 
@@ -8,6 +8,8 @@ import './Properties.scss';
 const Properties = () => {
     return (
         <div> 
+            <Godavariheader />
+            <Yourdreamhouse />
             <Floorplan />
             <Propertiesfooter />
         </div>
