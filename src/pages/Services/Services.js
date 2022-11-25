@@ -8,7 +8,6 @@ const Services = () => {
     return (
         <div>
             <Header />
-            
             <Footer />
         </div>
     );
