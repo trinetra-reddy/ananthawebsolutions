@@ -23,8 +23,6 @@ if(hamburger && navLink) {
       } else {
           hamburger.classList.add('expanded');
       }
-     
-  
 }
 }
     return (

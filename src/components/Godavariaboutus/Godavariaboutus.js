@@ -28,6 +28,9 @@ const Godavariaboutus = () => {
                 quidem?
                 Mollitia quis ipsam eius vero consequatur hic nobis quod, repellat deleniti porro doloremqu</p>
         </div>
+        <div className='godavari-aboutus-hr'>
+             <hr/>
+        </div>
         <div className="godavari-aboutus-3">
             <div className="godavari-aboutus-3-col">
                 <h3>Total Workers</h3>

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import './Godavariheader.scss';
-import menu from '../../images/menu-icon.png';
-import close from '../../images/close-icon.png';
+import godavarimenu from '../../images/menu-icon.png';
+import godavariclose from '../../images/close-icon.png';
 import Headercontactus from "./Headercontactus.svg";
 
 const Godavariheader = () => {
@@ -12,15 +12,15 @@ const Godavariheader = () => {
   }, []);
 
   const onToggleclick = () => {
-    const hamburger = document.querySelector('.hamburger');
-    const navLink = document.querySelector('.nav__link');
-    if (hamburger && navLink) {
+    const hamburgermenu = document.querySelector('.hamburgermenu');
+    const navbarLink = document.querySelector('.navbar__link');
+    if (hamburgermenu && navbarLink) {
 
-      navLink.classList.toggle('hide');
-      if (hamburger.classList.contains('expanded')) {
-        hamburger.classList.remove('expanded');
+      navbarLink.classList.toggle('hide');
+      if (hamburgermenu.classList.contains('expanded')) {
+        hamburgermenu.classList.remove('expanded');
       } else {
-        hamburger.classList.add('expanded');
+        hamburgermenu.classList.add('expanded');
       }
 
 
@@ -28,20 +28,20 @@ const Godavariheader = () => {
   }
   return (
     <header>
-      <nav className="nav">
+      <nav className="nav-bar">
 
-        <a href="header.html"><img  className="godavari_logo" alt="logo"/></a>
+        <a href="#"className="godavari_logo" alt="logo">LOGO</a>
 
-        <div className="hamburger" onClick={onToggleclick}>
+        <div className="hamburgermenu" onClick={onToggleclick}>
           <div className="menu">
-            <img src={menu} className="menu" alt="hamburger" />
+            <img src={godavarimenu} className="godavarimenu" alt="hamburger" />
           </div>
           <div className="close">
-            <img src={close} className="close" alt="close" />
+            <img src={godavariclose} className="godavariclose" alt="close" />
           </div>
         </div>
 
-        <div className="nav__link hide">
+        <div className="navbar__link hide">
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Properties</a>

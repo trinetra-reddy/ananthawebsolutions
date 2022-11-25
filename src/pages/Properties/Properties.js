@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Ourculture,Floorplan,Propertiesfooter } from "../../components";
+import { Floorplan,Godavariheader,Propertiesfooter, Yourdreamhouse,Specifications } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Properties.scss';
 import image from './image.svg';

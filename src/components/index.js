@@ -18,6 +18,13 @@ import Floorplan from "./Floorplan/Floorplan";
 import Godavariheader from "./Godavariheader/Godavariheader";
 import Improvingpeople from "./Improvingpeople/Improvingpeople";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
+<<<<<<< HEAD
 import Ourculture from "./Ourculture/Ourculture";
 
 export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Ourculture};
+=======
+import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
+import Specifications from "./Specifications/Specifications";
+
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,Specifications};
+>>>>>>> fba36deeede150788b89d906dd4dc707f5b55156
