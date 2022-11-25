@@ -18,26 +18,26 @@
   background-image: $gradientcolor-1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
+  letter-spacing: 0.5px;
 }
 .Choose-header-2 {
-  margin-top: -8px;
   text-align: center;
-  font-weight: 450;
+  font-weight: 500;
   font-size: 25px;
 }
 .Choose-paragraph {
-  margin-top: -8px;
   color: $color-9;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.5px;
   text-align: center;
-  justify-content: center;
+  margin-top: 15px;
+  font-weight: 400;
 }
 .Choose-blocks {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .Choose-row {
   background-color: $white;
@@ -54,6 +54,7 @@
   max-width: 100%;
   height: 75px;
   width: 75px;
+  margin-bottom: 30px;
 }
 .Choose-block-head {
   color: $color-10;
@@ -83,9 +84,6 @@
   .Choose-header-2 {
     font-size: 30px;
   }
-  .Choose-icon {
-    margin-bottom: -20px;
-  }
   #Choose-live-block {
     margin-right: 25px;
   }
@@ -93,7 +91,6 @@
     margin-right: 25px;
   }
   .Choose-paragraph {
-    max-width: 50%;
-    padding-left: 25%;
+    padding: 0 17%;
   }
 }
