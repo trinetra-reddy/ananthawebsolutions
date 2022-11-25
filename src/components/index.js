@@ -16,4 +16,5 @@ import Propertiesfooter from "./Propertiesfooter/Propertiesfooter";
 import HappyClients from "./HappyClients/HappyClients";
 
 
+
 export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients};
