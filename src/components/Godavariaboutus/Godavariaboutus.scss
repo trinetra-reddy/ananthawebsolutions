@@ -1,9 +1,15 @@
-.godavari-aboutus-heading h2 {
+.godavari-aboutus-heading-1 {
     font-size: 28px;
     font-weight: 700;
     padding-left: 10px;
+    border-bottom: 2px solid #000;
 }
-
+.godavari-aboutus-heading-2 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-bottom: 2px solid #000;
+}
 .godavari-aboutus-1-left p {
     font-size: 24px;
     font-weight: 700;
@@ -48,8 +54,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .godavari-aboutus-heading h2 {
+    .godavari-aboutus-heading-1{
         padding: 60px 0px 40px 108px;
+        
     }
 
     .godavari-aboutus-1 {

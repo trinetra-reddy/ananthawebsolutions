@@ -6,7 +6,7 @@ const Godavariaboutus = () => {
         <>
         <div className="godavari-aboutus">
         <div className="godavari-aboutus-heading">
-            <h2>About Us</h2>
+            <span className='godavari-aboutus-heading-1'>Abou</span><span className='godavari-aboutus-heading-2'>t Us</span>
         </div>
         <div className="godavari-aboutus-1">
             <div className="godavari-aboutus-1-left">
