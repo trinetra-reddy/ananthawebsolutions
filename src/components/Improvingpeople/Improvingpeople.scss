@@ -8,8 +8,8 @@
     width: 100%;
   }
   
-  .improving-people-heading {
-    font-size: 20px;
+  .improving-people-heading h1{
+    font-size: 36px;
     font-weight: 700;
     margin-top: 0.5rem;
   }
@@ -26,24 +26,36 @@
   
   .improving-contactus-button{
     background-color: #026B33;
-    border-radius: 5px;
-    padding: 7px 16px;
     border: none;
     color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    gap: 10px;
   }
   .improving-button-left {
-    background-color: #026B33;
-    border-radius: 5px;
-    padding: 7px 16px;
-    border: 1px solid #000
+    background-color: white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 50px;
+    border: 1px solid rgb(180, 176, 176);
+    margin-top: 49px;
+  }
+  .improving-button-left img {
+    width: 21px;
   }
   .improving-button-right {
-    background-color: #026B33;
-    border-radius: 5px;
-    padding: 7px 16px;
-    border: 1px solid #000
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 50px;
+    border: 1px solid rgb(180, 176, 176);
+    margin-top: 49px;
+    margin-left: 267px;
   }
-  
+  .improving-button-right img {
+    width: 21px;
+  }
   .improving-people-right img {
     position: relative;
     width: 100%;
@@ -53,7 +65,7 @@
     border-radius: 8px;
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 988px) {
     .improving-people {
       display: flex;
       flex-direction: row;
@@ -61,12 +73,13 @@
   
     .improving-people-left {
       padding: 0px;
-      margin-left: 80px;
+      margin-left: 108px;
       margin-right: 30px;
+      flex: 50%;
     }
   
-    .improving-people-heading {
-      font-size: 18px;
+    .improving-people-heading h1{
+      font-size: 48px;
       font-weight: 700;
       margin-top: 6rem;
     }
@@ -78,7 +91,9 @@
     }
   
     .improving-people-right {
-      margin-right: 80px;
+      margin-right: 108px;
+      margin-left: 30px;
+      flex: 50%;
     }
   
     .improving-people-right img {
@@ -90,27 +105,4 @@
     }
   }
   
-  @media screen and (min-width: 998px) {
-    .improving-people {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    .improving-people-left {
-      margin-left: 108px;
-      margin-right: 60px;
-      width: 50%;
-    }
-  
-    .improving-people-heading {
-      font-size: 30px;
-      font-weight: 700;
-      margin-top: 6rem;
-    }
-  
-    .improving-people-right {
-      margin-right: 108px;
-      width: 50%;
-    }
-  }
   

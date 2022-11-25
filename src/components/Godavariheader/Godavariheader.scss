@@ -6,48 +6,41 @@
     background-color: $white;
     z-index: 100;
   }
-  .nav {
+  .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
     z-index: 10;
   }
   .godavari_logo {
-    width: 140px;
-    margin-left: 0px;
-    padding-top: 4px;
+    font-size: 24px;
+    margin: 18px 0px 19px 53px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
   }
-  .hamburger {
+  .hamburgermenu {
     padding-right: 25px;
-    padding-top: 5px;
+    padding-top: 0px;
     cursor: pointer;
   }
-  .menu {
+  .godavarimenu {
     width: 45px;
   }
-  .close {
+  .godavariclose {
     width: 45px;
   }
-  .hamburger .close {
+  .hamburgermenu .godavariclose {
     display: none;
   }
-  .hamburger.expanded .close {
+  .hamburgermenu.expanded .godavariclose {
     display: block;
   }
-  .hamburger.expanded .menu {
+  .hamburgermenu.expanded .godavarimenu {
     display: none;
   }
-  .nav__link a {
-    text-decoration: none;
-    color: $black;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    display: inherit;
-  }
-  
-  .nav__link {
+  .navbar__link {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -57,18 +50,13 @@
     text-align: center;
     padding-top: 40px;
   }
-  
-  .nav__link a::after{
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: $primary-color;
-    display: block;
-    margin: auto;
-    transition: 0.5s ease;
-  }
-  .nav__link a:hover::after{
-    width: 25%;
+  .navbar__link a {
+    text-decoration: none;
+    color: $black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inherit;
   }
   .hide {
     display: none;
@@ -77,55 +65,61 @@
     background-color: #026B33;
     border: none;
     color: #fff;
-    border-radius: 5px;
-    padding: 7px 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    gap: 10px;
   }
   
-  @media screen and (min-width: 992px) {
-    .godavari_logo {
-      width: 140px;
-      margin-left: 0px;
-    }
-    .nav {
+  @media screen and (min-width: 768px) {
+    
+    .nav-bar {
      display: flex;
      justify-content: space-between;
-     align-items: center;
+     text-align: center;
+     padding: 0px;
+     box-shadow: 0px 4px 15px rgba(198, 198, 198, 0.25);
     }
-    .nav__link {
+    .navbar__link {
       display: block;
       position: static;
       width: 100%;
       height: auto;
-      margin-right: 0px;
-      padding-top: 0px;
+      margin: 0px;
+      padding: 0px;
       background: none;
       text-align: right;
     }
-  
-    .nav__link a {
+    .navbar__link a {
       display: inline-block;
       padding: 6px 12px;
+      margin: 0px 48px 0px 0px ;
     }
-    .nav__link a {
+    .navbar__link a {
       text-decoration: none;
       color: $black;
-      font-size: 18px;
-      font-weight: 500;
+      font-size: 14px;
+      font-weight: 400;
     }
-    .nav__link a::after {
+    .navbar__link a::after {
       content: '';
       width: 0%;
       height: 3px;
-      background:$primary-color;
+      background:#026B33;
       display: block;
       margin: auto;
       transition: 0.5s ease;
+      font-weight: 600;
     }
-    .nav__link a:hover::after{
+    .navbar__link a:hover::after{
       width: 100%;
+      font-weight: 600;
     }
-    .hamburger {
+    .hamburgermenu {
       display: none;
+    }
+    .header-contactus-button {
+      margin-right: 24px;
     }
   }
   
