@@ -22,7 +22,7 @@
   
   .yourdream-house-button {
     margin-top: 2rem;
-    padding-left: px;
+    padding-left: 0px;
   }
   
   .yourdream-house-button{
@@ -70,6 +70,7 @@
     .yourdream-house {
       display: flex;
       flex-direction: row;
+      margin-bottom: 120px;
     }
   
     .yourdream-house-left {
@@ -83,7 +84,6 @@
     .yourdream-house-left-heading {
       font-size: 48px;
       font-weight: 700;
-      margin-top: 6rem;
     }
   
     .yourdream-house-left-content {
@@ -91,11 +91,13 @@
       font-size: 400;
       margin-top: 2.4rem;
     }
+    .improving-contactus-button {
+        margin-top: 4rem;
+    }
   
     .yourdream-house-right {
-      margin-right: 108px;
-      margin-left: 30px;
       flex: 50%;
+      margin: 0px 108px 0px 30px;
     }
   
     .yourdream-house-right-image {
