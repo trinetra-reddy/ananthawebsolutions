@@ -38,7 +38,7 @@ const Propertiesfooter = () => {
             </Link>
           </div>
           <div className="Propertiesfooter-redirect-wrapper2">
-            <Link className="Propertiesfooter-redirect" to="/g-properties1">
+            <Link className="Propertiesfooter-redirect" to="/g-properties">
               Properties
             </Link>
           </div>
