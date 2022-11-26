@@ -19,5 +19,7 @@ import Godavariheader from "./Godavariheader/Godavariheader";
 import Improvingpeople from "./Improvingpeople/Improvingpeople";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
 import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
+import WhyUs from "./WhyUs/WhyUs";
+import RoadMap from "./RoadMap/RoadMap";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap};
