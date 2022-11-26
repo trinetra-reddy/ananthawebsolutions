@@ -3,14 +3,14 @@ import "./Ourculture.scss";
 const Ourculture = (props) => {
   return (
     <>
-      <div>
+      <div className="our-culture-main">
         <div className="culture-main">
           <span className="culture-head1">{props.name}</span>
           <span className="culture-head2">{props.name2}</span>
         </div>
         <div className="culture-container">
-          <img src={props.imgPath} />
-          <div className="culture-decription">
+          <img  className="culture-img-wrapper" src={props.imgPath} />
+          <div className="culture-description">
             <p>{props.description}</p>
             <p>{props.linkeddescription}</p>
           </div>
