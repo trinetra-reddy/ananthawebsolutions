@@ -6,9 +6,10 @@ const Floorplan = () => {
      return (
        <>
           <div className="floorplan-main">
+            <div className="floor-plan">
             <span className="floor1">Floor</span>
-            <span className="floor2">Plan</span>
-       
+            <span className="floor2">  Plan</span>
+            </div>
           <div className="floorplan-text">
           Build by best engineers and created best floor plan
           </div>

@@ -18,8 +18,14 @@ import Floorplan from "./Floorplan/Floorplan";
 import Godavariheader from "./Godavariheader/Godavariheader";
 import Improvingpeople from "./Improvingpeople/Improvingpeople";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
+<<<<<<< HEAD
 import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
 import WhyUs from "./WhyUs/WhyUs";
 import RoadMap from "./RoadMap/RoadMap";
 
 export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap};
+=======
+import Ourculture from "./Ourculture/Ourculture";
+
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Ourculture};
+>>>>>>> 303e487f29330e3c13a2465ac222034ed753a654

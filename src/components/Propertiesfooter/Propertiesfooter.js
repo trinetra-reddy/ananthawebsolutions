@@ -5,7 +5,7 @@ import VectorImage from "./PropertiesfooterVector.svg";
 const Propertiesfooter = () => {
   return (
     <>
-      <div className="Propertiesfooter-container">
+      <div className="Propertiesfooter-main-container">
         <div className="Propertiesfooter-body">
           <div className="Propertiesfooter-headercontent">
             <h3 className="Propertiesfooter-body-header1">
