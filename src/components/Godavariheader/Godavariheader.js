@@ -44,7 +44,13 @@ const Godavariheader = () => {
         <div className="navbar__link hide">
           <a href="#">Home</a>
           <a href="#">About Us</a>
-          <a href="#">Properties</a>
+          <div className="drop-down">
+            <a href="#" className="drop-down-item">Properties</a>
+            <ul class="dropdown">
+                  <li><a href="#">Properties</a></li>
+                  <li><a href="#">Properties2</a></li>
+              </ul>
+          </div>
           <button className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></button>
         </div>
       </nav>
