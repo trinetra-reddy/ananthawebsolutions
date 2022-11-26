@@ -26,12 +26,16 @@
 @media screen and (min-width: 998px) {
   .floor-plan{
     margin-top:60px;
+    font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
   }
   .floorplan-main {
     height: 505px;
     position:relative;
     margin-bottom:150px;
-    padding-left:70px;
+    padding-left:40px;
   
   }
   .floorplan-text {
@@ -43,14 +47,29 @@
   .floorplan-img {
     display: flex;
     top:250px;
-    position:absolute;
+    margin-top:40px;
     
     
+  }
+  .floorplan-img1 {
+    width: 500px;
+    height: 350px;
+
+  }
+  .floorplan-img2 {
+    width: 490px;
+    height: 345px;
+  }
+}
+@media screen and (min-width:1200px){
+  .floorplan-main{
+    padding-left:70px;
   }
   .floorplan-img1 {
     width: 560px;
     height: 395px;
     margin-right:32px;
+
   }
   .floorplan-img2 {
     width: 558px;
@@ -61,4 +80,5 @@
   .floorplan-main{
     padding-left:108px;
   }
+ 
 }
