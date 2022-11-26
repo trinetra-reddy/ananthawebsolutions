@@ -12,8 +12,8 @@ const Properties2 = () => {
     return (
         <div>
             <Godavariheader /> 
-            <Ourculture name="our W" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image}/>
-            <Ourculture name="Our V" description={ourVisionDes} linkeddescription={ourCultureDes} imgPath={image}/>
+            <Ourculture name="our W" name2="ork Culture" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image}/>
+            <Ourculture name="Our V" name2="ission" description={ourVisionDes} linkeddescription={ourCultureDes} imgPath={image}/>
             
             <Propertiesfooter />
         </div>
