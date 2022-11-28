@@ -1,0 +1,28 @@
+.happyclientsvideo-main{
+    margin:20px;
+}
+.happyclients-video{
+    width:100%;
+    height:291px;
+}
+
+@media screen and (min-width:1366px){
+    .happyclientsvideo-main{
+        margin:0 0 40px 0;
+        display:inline-block;
+        padding-right:32px;
+    }
+    .happyclients-video{
+        width:360px;
+        height:291px;
+    }  
+}
+@media screen and (min-width:1440px){
+    .happyclientsvideo-main{
+        padding-right:30px;
+    }
+    .happyclients-video{
+        width:420px;
+        height:291px;
+    }
+}

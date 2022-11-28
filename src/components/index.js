@@ -13,19 +13,18 @@ import CompanyVision from "./CompanyVision/CompanyVision";
 import Companymission from "./Companymission/Companymission";
 import Properties from "./Properties/Properties";
 import Propertiesfooter from "./Propertiesfooter/Propertiesfooter";
-import HappyClients from "./HappyClients/HappyClients";
+
 import Floorplan from "./Floorplan/Floorplan";
 import Godavariheader from "./Godavariheader/Godavariheader";
 import Improvingpeople from "./Improvingpeople/Improvingpeople";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
-<<<<<<< HEAD
 import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
 import WhyUs from "./WhyUs/WhyUs";
 import RoadMap from "./RoadMap/RoadMap";
-
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap};
-=======
 import Ourculture from "./Ourculture/Ourculture";
+import HappyClientsVideos from "./HappyClientsVideo/HappyClientsVideos";
+import HappyClientsDetails from "./HappyClientsDetails/HappyClientsDetails";
+import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
+import ProjectButtons from "./ProjectButtons/ProjectButtons";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Ourculture};
->>>>>>> 303e487f29330e3c13a2465ac222034ed753a654
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons};
