@@ -3,6 +3,7 @@ import './Godavariheader.scss';
 import godavarimenu from '../../images/menu-icon.png';
 import godavariclose from '../../images/close-icon.png';
 import Headercontactus from "./Headercontactus.svg";
+import { Link } from "react-router-dom";
 
 const Godavariheader = () => {
   useEffect(() => {
@@ -42,13 +43,13 @@ const Godavariheader = () => {
         </div>
 
         <div className="navbar__link hide">
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
+          <Link to="/godavari-builders">Home</Link>
+          <Link to="/g-about-us">About Us</Link>
           <div className="drop-down">
-            <a href="#" className="drop-down-item">Properties</a>
+            <Link href="#" className="drop-down-item">Properties</Link>
             <ul class="dropdown">
-                  <li><a href="#">Properties</a></li>
-                  <li><a href="#">Properties2</a></li>
+                  <li><Link to="/g-properties">Properties</Link></li>
+                  <li><Link to="/g-properties2">Properties2</Link></li>
               </ul>
           </div>
           <button className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></button>

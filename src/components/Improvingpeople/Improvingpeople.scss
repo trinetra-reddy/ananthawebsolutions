@@ -9,20 +9,19 @@
   }
   
   .improving-people-left-heading h1{
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 700;
-    margin-top: 0.5rem;
+    margin-top: 10px;
   }
   
   .improving-people-left-content {
     font-size: 14px;
     font-size: 400;
-    margin-top: 1.2rem;
+    margin-top: 10px;
   }
   
   .improving-people-button {
-    margin-top: 2rem;
-    padding-left: px;
+    margin-top: 20px;
   }
   
   .improving-contactus-button{
@@ -56,7 +55,7 @@
   .improving-button-right img {
     width: 21px;
   }
-  .improving-people-right img {
+  .improving-people-right-image {
     position: relative;
     width: 100%;
     height: 250px;
@@ -74,35 +73,33 @@
     .improving-people-left {
       padding: 0px;
       margin-left: 108px;
-      margin-right: 30px;
       flex: 50%;
+      margin-top: 60px;
     }
   
     .improving-people-left-heading h1{
-      font-size: 48px;
-      font-weight: 700;
-      margin-top: 6rem;
+      max-width: 485px;
     }
   
     .improving-people-left-content {
-      font-size: 14px;
-      font-size: 400;
-      margin-top: 2.4rem;
+      margin-top: 24px;
+      max-width: 480px;
     }
-  
+    .improving-people-button {
+      margin-top: 40px;
+    }
+    
     .improving-people-right {
       margin-right: 108px;
-      margin-left: 30px;
       flex: 50%;
     }
   
-    .improving-people-right img {
+    .improving-people-right-image {
       position: relative;
       width: 100%;
-      height: auto;
+      height: 82vh;
       padding: 0px;
-      margin-top: 7rem;
-
+      margin-top: 60px;
     }
   }
   
