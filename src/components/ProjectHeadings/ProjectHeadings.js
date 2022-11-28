@@ -4,7 +4,7 @@ import "./ProjectHeadings.scss";
 const ProjectHeadings=(props)=>{
     return (
         <>
-            <div className="projectheadings-main" style={{margin:props.happymargin}}>
+            <div className="projectheadings-main" style={{marginTop:props.happymargin}}>
                 <div className="projectheadings-heading">{props.name}</div>
                     <img
                         className="projectheadings-vector"
