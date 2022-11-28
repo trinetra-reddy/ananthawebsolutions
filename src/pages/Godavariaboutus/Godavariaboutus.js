@@ -14,6 +14,7 @@ const Godavariaboutus = () => {
             <div>
             <Godavariheader /> 
             <Ourculture name="our W" name2="ork Culture" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image}/>
+            <Ourculture namw="why" name2=" Us" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={''} imgPosition={right} />
             <Ourculture name="Our V" name2="ission" description={ourVisionDes} linkeddescription={ourCultureDes} imgPath={Ourvision}/>
             <HappyClients />
             <Propertiesfooter />
