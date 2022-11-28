@@ -33,12 +33,12 @@ const Propertiesfooter = () => {
         <div className="Propertiesfooter-borderline"></div>
         <div className="Propertiesfooter-footer">
           <div className="Propertiesfooter-redirect-wrapper1">
-            <Link className="Propertiesfooter-redirect" to="/about-us">
+            <Link className="Propertiesfooter-redirect" to="/g-about-us">
               About us
             </Link>
           </div>
           <div className="Propertiesfooter-redirect-wrapper2">
-            <Link className="Propertiesfooter-redirect" to="/godavari-builders">
+            <Link className="Propertiesfooter-redirect" to="/g-properties">
               Properties
             </Link>
           </div>
@@ -46,7 +46,7 @@ const Propertiesfooter = () => {
             <Link
               className="Propertiesfooter-redirect"
               id="Propertiesfooter-redirect3"
-              to="/contact-us"
+              to="/g-contact-us"
             >
               Contactus
             </Link>

@@ -4,10 +4,10 @@ import happyclient1 from "./happyboy.png";
 import happyclient2 from "./happygirl.png";
 import "./HappyClients.scss";
 
-const HappyClients = () => {
+const HappyClients = (props) => {
   return (
     <>
-      <div className="happyclients-main">
+      <div className={`happyclients-main ${props.parentClass}`}>
         <div className="happyclients-heading">Happy Clients</div>
         <img
           className="happyclients-vector"

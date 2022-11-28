@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .happyclients-main{
-    margin:20px 10px 20px 20px;
+    margin:20px;
 }
 .happyclients-heading{
     font-size:32px;
@@ -16,13 +16,10 @@
 .happy-clients{
     padding-top:35px;
 }
-
-.happyclients-details{
-    padding-left:10px;
-}
 .happyclients-content{
     font-size:14px;
     font-weight:400;
+    line-height: 24px;
     max-width:100%;
 }
 .happyclients-Name{
@@ -41,9 +38,7 @@
 .happy-client-img{
     border-radius:5px;
 }
-.client2{
-    padding-top:10px;
-}
+
 @media screen and (min-width: 425px){
     .client1{
         display:flex;
@@ -53,7 +48,6 @@
     }
 }
 @media screen and (min-width:576px){
-    
     .happyclients-video{
         width:100%;
         height:300px;
@@ -67,11 +61,16 @@
     }
     .happyclients-video{
         width:220px;
-        height:250px;
-        
+        height:250px;   
+    }
+    .happyclients-details{
+        padding-left:24px;
+    }
+    .client2{
+        padding-top:10px;
     }
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 952px){
     .happyclients-main{
         margin:100px 50px 50px;
     }
@@ -87,23 +86,27 @@
         display:flex;
         justify-content:space-between;
     }
+    
    
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1000px){
     .client2{
         padding-left:50px;
     }
     .happyclients-video{
-        width:100%;
+        width:290px;
         height:300px;
+    }
+    .happyclients-main{
+        margin:300px 50px 50px;
     }
 }
 @media screen and (min-width:1400px){
     .happyclients-main{
-        margin:300px 50px 50px;
+        margin:500px 50px 50px;
     }
     .happyclients-video{
-        width:400px;
+        width:360px;
         height:300px;
     }
 }
