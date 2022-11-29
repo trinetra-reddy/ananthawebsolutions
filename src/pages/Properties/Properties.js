@@ -4,7 +4,8 @@ import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications
 import { CONSTANTS } from "../../utils/constants";
 import yourdreamhousebuildingimage from "./building-2.jpeg";
 import './Properties.scss';
-
+import img1 from "./img1.svg";
+import img2 from "./img2.svg";
 
 
 const Properties = () => {
@@ -15,7 +16,7 @@ const Properties = () => {
             <Godavariheader />
             <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} imgPath={yourdreamhousebuildingimage}/>
             <Specifications/>
-            <Floorplan />
+            <Floorplan img1={img1} img2={img2}/>
             <RoadMap />
             <Propertiesfooter />
         </div>

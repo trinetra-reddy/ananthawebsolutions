@@ -1,13 +1,11 @@
 import React from 'react';
 import './Godavariaboutus.scss';
-
+import Title from '../Title/Title';
 const Godavariaboutus = () => {
     return (
         <>
         <div className="godavari-aboutus">
-        <div className="godavari-aboutus-heading">
-            <h2>About Us</h2>
-        </div>
+          <Title name="About" name2=" US"/>
         <div className="godavari-aboutus-1">
             <div className="godavari-aboutus-1-left">
                 <p>We were originally established as a constractor to major indias housebuilders</p>
