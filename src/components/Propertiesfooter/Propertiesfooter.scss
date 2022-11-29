@@ -45,6 +45,11 @@
 }
 .Propertiesfooter-redirect-wrapper2 {
   margin-bottom: 20px;
+  &:hover {
+    ul {
+      display: block;
+    }
+  }
 }
 #Propertiesfooter-redirect3 {
   padding-right: 5px;
@@ -54,7 +59,13 @@
   border-radius: 5px;
   padding: 5px 10px;
   border: none;
+  height: 36px;
 }
+.Propertiesfooter-dropdown {
+  display: none;
+  margin-left: -32px;
+}
+
 @media screen and (min-width: 425px) {
   .Propertiesfooter-contact-details {
     max-width: 50%;
