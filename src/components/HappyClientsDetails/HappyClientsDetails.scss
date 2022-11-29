@@ -1,0 +1,25 @@
+.happyclientsdetails-content{
+    font-size:14px;
+    font-weight:400;
+    line-height: 24px;
+    padding-top:8px;
+}
+.happyclientsdetails-Name{
+    font-size:18px;
+    font-weight:600;
+    color:black;
+}
+.happyclientsdetails-main{
+    margin:20px;
+    display:flex;
+}
+.happyclientsdetails{
+    padding-left:24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .happyclientsdetails-main{
+        margin:0 0px 30px 0px;
+        display:flex;
+    }
+}

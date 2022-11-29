@@ -23,7 +23,6 @@
 }
 #location-heading{
     text-align:center;
-    padding-top:10px;
     font-weight: 600;
     font-size: 32px;
     line-height: 135%;
@@ -32,7 +31,7 @@
     .roadmap-main{
         display:flex;
         justify-content: space-between;
-        margin:50px;
+        margin:200px 100px 100px;
     }
     .roadmap-Img{
         width:550px;
@@ -61,19 +60,23 @@
    }
 }
 @media screen and (min-width: 1024px){
+    .roadmap-main{
+        display:flex; 
+        margin:200px 50px 100px;
+    }
     .roadmap-Img{
         width:400px;
-        height: 350px; 
+        height: 400px; 
     }
     .roadmap-right iframe{
-        width: 482px;
-        height: 419px;
+        width: 400px;
+        height: 350px;
     }
 }
 @media screen and (min-width: 1440px){
     .roadmap-Img{
         width: 583px;
-        height: 425px;  
+        height: 555px;  
     }
     .roadmap-right iframe{
         width: 482px;
