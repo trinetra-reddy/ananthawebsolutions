@@ -25,6 +25,7 @@ import WhyUs from "./WhyUs/WhyUs";
 import RoadMap from "./RoadMap/RoadMap";
 import Yourjourney from "./Yourjourney/Yourjourney";
 import Godavariaboutus2 from "./Godavariaboutus2/Godavariaboutus2";
-
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,WhyUs,Yourdreamhouse,Specifications,Ourculture,RoadMap,Yourjourney,Godavariaboutus2};
+import DataValues from "./DataValues/DataValues";
+import SpecificationValues from "./SpecificationValues/SpecificationValues";
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,HappyClients,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,WhyUs,Yourdreamhouse,Specifications,Ourculture,RoadMap,Yourjourney,Godavariaboutus2,SpecificationValues,DataValues};
 
