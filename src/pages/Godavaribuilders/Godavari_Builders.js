@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import improvingpeoplebuildingimage from "../../images/building-1.jpg";
+import improvingcontactus from "./Improvingcontactusarrow.svg";
+import leftarrowimproving from "./leftarrowimproving.png";
+import rightarrowimproving from "./rightarrowimproving.png";
 import './Godavari_Builders.scss';
 import happyimg1 from "../../components/HappyClients/underline.png";
 import happyimg2 from "../../components/HappyClients/happyboy.png";
@@ -17,7 +20,7 @@ const Godavari_Builders = () => {
     return (
         <div> 
             <Godavariheader />
-            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} imgPath={improvingpeoplebuildingimage}/>
+            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="contactus" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
             <Godavariaboutus />
             <Properties />
 
