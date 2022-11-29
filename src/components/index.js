@@ -30,5 +30,5 @@ import Specifications from "./Specifications/Specifications";
 import Yourjourney from "./Yourjourney/Yourjourney";
 import DataValues from "./DataValues/DataValues";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
-
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,SpecificationValues,DataValues};
+import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,SpecificationValues,Whychooseblocks,DataValues};
