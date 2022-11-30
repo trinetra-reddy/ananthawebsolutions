@@ -7,7 +7,8 @@ import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
 import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
 import './Properties.scss';
-
+import img1 from "./img1.svg";
+import img2 from "./img2.svg";
 
 
 const Properties = () => {
@@ -18,7 +19,7 @@ const Properties = () => {
             <Godavariheader />
             <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="contactus" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={yourdreamhousebuildingimage}/>
             <Specifications/>
-            <Floorplan />
+            <Floorplan img1={img1} img2={img2}/>
             <RoadMap />
             <Propertiesfooter />
         </div>

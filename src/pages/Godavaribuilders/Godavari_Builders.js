@@ -22,7 +22,7 @@ const Godavari_Builders = () => {
             <Godavariheader />
             <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="contactus" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
             <Godavariaboutus />
-            <Properties />
+            <Properties name="Prope" name2="reties" />
 
             <ProjectHeadings name="Happy clients" image1={happyimg1} happymargin="250px" />
             <ProjectButtons image4={happyimg} image5={happyimg5}/>
