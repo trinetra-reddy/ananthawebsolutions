@@ -10,6 +10,6 @@ export const CONSTANTS = {
         PROPERTIES_PAGE: '/g-properties',
         PROPERTIES2_PAGE: '/g-properties2',
         GODAVARIABOUTUS_PAGE: '/g-about-us',
-        GODAVARICONTACTUS_PAGE: '/g-contact-us'
+        GODAVARICONTACT_PAGE: '/g-contact-us'
     },
 };

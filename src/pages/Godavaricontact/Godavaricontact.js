@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Godavariheader, Propertiesfooter } from "../../components";
+import { Godavariheader,Godavaricontactus, Propertiesfooter } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
-import './Godavaricontactus.scss';
+import './Godavaricontact.scss';
 
 
-const Godavaricontactus = () => {
+const Godavaricontact = () => {
     return (
         <div> 
             <Godavariheader />
+            <Godavaricontactus/>
             <Propertiesfooter />
         </div>
     );
 };
 
-export default Godavaricontactus;
+export default Godavaricontact;

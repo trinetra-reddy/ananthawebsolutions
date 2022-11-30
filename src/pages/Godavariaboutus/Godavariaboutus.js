@@ -43,6 +43,7 @@ const Godavariaboutus = () => {
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
             </div>
+            
             <Propertiesfooter />
             
         </div>

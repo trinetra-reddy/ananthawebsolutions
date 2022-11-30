@@ -7,6 +7,6 @@ import Godavaribuilders from "./Godavaribuilders/Godavari_Builders";
 import Properties from "./Properties/Properties";
 import Properties2 from "./Properties2/Properties2";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
-import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
+import Godavaricontact from "./Godavaricontact/Godavaricontact";
 
-export { Home, Contact, About, Services, Styleguide ,Godavaribuilders,Properties,Properties2,Godavariaboutus,Godavaricontactus,};
+export { Home, Contact, About, Services, Styleguide ,Godavaribuilders,Properties,Properties2,Godavariaboutus,Godavaricontact};

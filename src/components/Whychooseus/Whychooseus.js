@@ -4,7 +4,11 @@ import RowIcon1 from "./Choose-Images/Choose-RowIcon1.svg";
 import RowIcon2 from "./Choose-Images/Choose-RowIcon2.svg";
 import RowIcon3 from "./Choose-Images/Choose-RowIcon3.svg";
 
+import Whychooseblocks from "./../Whychooseblocks/Whychooseblocks";
+
 const Whychooseus = () => {
+  const description =
+    "Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.";
   return (
     <>
       <div className="Choose-container">
@@ -19,30 +23,24 @@ const Whychooseus = () => {
           </p>
         </div>
         <div className="Choose-blocks">
-          <div className="Choose-row" id="Choose-live-block">
-            <img className="Choose-icon" src={RowIcon1} alt="RowIcon1" />
-            <h6 className="Choose-block-head">Go Live in Minutes</h6>
-            <p className="Choose-block-content">
-              Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,
-              maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.
-            </p>
-          </div>
-          <div className="Choose-row" id="Choose-service-block">
-            <img className="Choose-icon" src={RowIcon2} alt="RowIcon2" />
-            <h6 className="Choose-block-head">Manage like A Pro</h6>
-            <p className="Choose-block-content">
-              Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,
-              maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.
-            </p>
-          </div>
-          <div className="Choose-row" id="Choose-scale-block">
-            <img className="Choose-icon" src={RowIcon3} alt="RowIcon3" />
-            <h6 className="Choose-block-head">Scale to Success</h6>
-            <p className="Choose-block-content">
-              Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam,
-              maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.
-            </p>
-          </div>
+          <Whychooseblocks
+            img={RowIcon1}
+            heading="Go Live in Minutes"
+            content={description}
+            text="Live Icon"
+          />
+          <Whychooseblocks
+            img={RowIcon2}
+            heading="Manage like A Pro"
+            content={description}
+            text="Pro Icon"
+          />
+          <Whychooseblocks
+            img={RowIcon3}
+            heading="Scale to Success"
+            content={description}
+            text="Scale Icon"
+          />
         </div>
       </div>
     </>
