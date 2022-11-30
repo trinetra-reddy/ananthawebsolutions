@@ -32,4 +32,5 @@ import DataValues from "./DataValues/DataValues";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
 import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus};
+import Locations from "./Locations/Locations";
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,RoadMap,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations};
