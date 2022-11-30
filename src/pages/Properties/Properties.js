@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,RoadMap } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import yourdreamhousebuildingimage from "./building-2.jpeg";
+import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
+import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
+import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
 import './Properties.scss';
 import img1 from "./img1.svg";
 import img2 from "./img2.svg";
@@ -14,7 +17,7 @@ const Properties = () => {
     return (
         <div> 
             <Godavariheader />
-            <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} imgPath={yourdreamhousebuildingimage}/>
+            <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="contactus" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={yourdreamhousebuildingimage}/>
             <Specifications/>
             <Floorplan img1={img1} img2={img2}/>
             <RoadMap />

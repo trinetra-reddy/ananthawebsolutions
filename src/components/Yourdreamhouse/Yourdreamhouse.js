@@ -4,6 +4,7 @@ import yourdreamhousecontactus from "./yourdreamhousecontactus.svg";
 import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
 import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
 import './Yourdreamhouse.scss';
+import Propertiesfooter from '../Propertiesfooter/Propertiesfooter';
 
 const Yourdreamhouse = (props) => {
     return (
@@ -17,7 +18,7 @@ const Yourdreamhouse = (props) => {
                         <p>{props.description}</p>
                     </div>
                     <div>
-                    <button className="improving-contactus-button">Contactus<img src={yourdreamhousecontactus} alt="VectorImage" /></button>
+                    <button className="improving-contactus-button">{props.btn}<img src={props.img}/></button>
                     </div>
                     <div>
                     <button className="yourdream-house-left-button"><img src={leftarrowyourdreamhouse} alt="left arrow" /></button>

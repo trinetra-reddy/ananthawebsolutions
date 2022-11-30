@@ -3,7 +3,7 @@
   padding: 0 10px;
 }
 .Specify-header {
-  font-weight: 600;
+  font-weight: 700;
   line-height: 32px;
 }
 .Specify-header-border {
@@ -12,28 +12,10 @@
   margin-top: -5px;
   margin-bottom: 50px;
 }
-.Specify-div-header-wrapper {
-  display: flex;
-}
-.Specify-div-icon {
-  padding-right: 10px;
-  width: 25px;
-  height: 25px;
-}
-.Specify-div-header {
-  font-weight: 600;
-  font-size: 14px;
-}
-.Specify-div-content {
-  padding-top: 10px;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: left;
-}
 
 @media screen and (min-width: 998px) {
   .Specify-main-container {
-    padding: 0 108px;
+    padding: 60px 108px;
   }
   .Specify-structure1-grid {
     grid-area: struct1;
@@ -78,6 +60,6 @@
       "electrical electrical paint feature"
       "flooring flooring lobby toilet"
       "facilities facilities door door";
-    gap: 30px;
+    gap: 20px 30px;
   }
 }

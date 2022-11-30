@@ -16,11 +16,11 @@ const Improvingpeople = (props) => {
                         <p>{props.description}</p>
                     </div>
                     <div>
-                        <button className="improving-contactus-button">Contactus<img src={Improvingcontactus} alt="VectorImage" /></button>
+                        <button className="improving-contactus-button">{props.btn}<img src={props.img} alt="VectorImage" /></button>
                     </div>
                     <div>
-                        <button className="improving-button-left"><img src={leftarrowimproving} alt="improvingcontactus" /></button>
-                        <button className="improving-button-right"><img src={rightarrowimproving} alt="improvingcontactus" /></button>
+                        <button className="improving-button-left"><img src={props.leftarrowimg}/></button>
+                        <button className="improving-button-right"><img src={props.rightarrowimg} /></button>
                     </div>
                 </div>
                 <div className="improving-people-right">

@@ -1,7 +1,4 @@
 import React from 'react';
-import Yourjourneycontactus from "./Yourjourneycontactus.svg";
-import leftarrowyourjourney from "./leftarrowyourjourney.png";
-import rightarrowyourjourney from "./rightarrowyourjourney.png";
 import './Yourjourney.scss';
 
 const Yourjourney = (props) => {
@@ -15,12 +12,12 @@ const Yourjourney = (props) => {
                     <div className="your-journey-left-content">
                         <p>{props.description}</p>
                     </div>
+                    {!props.hideBtn &&<div>
+                        <button className="your-journey-contactus-button">{props.btn}<img src={props.img}/></button>
+                    </div> }
                     <div>
-                        <button className="your-journey-contactus-button">Contactus<img src={Yourjourneycontactus} alt="VectorImage" /></button>
-                    </div>
-                    <div>
-                        <button className="your-journey-button-left"><img src={leftarrowyourjourney} alt="arrowleft" /></button>
-                        <button className="your-journey-button-right"><img src={rightarrowyourjourney} alt="arrowright" /></button>
+                        <button className="your-journey-button-left"><img src={props.leftarrowimg} alt="arrowleft" /></button>
+                        <button className="your-journey-button-right"><img src={props.rightarrowimg} alt="arrowright" /></button>
                     </div>
                 </div>
                 <div className="your-journey-right">
