@@ -55,7 +55,7 @@ const Contactus = () => {
               placeholder="Enter Your Message Here..."
             />
           </div>
-          <button className="Contactus-button" type="submit" click="OnClick">
+          <button className="Contactus-button" type="submit">
             Submit Message
             <img
               className="Contactus-vectorImage"
