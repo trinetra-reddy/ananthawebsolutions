@@ -2,9 +2,12 @@ import React from "react";
 import "./Godavaricontactus.scss";
 import Locations from "../Locations/Locations";
 import LocationIcon from "./LocationIcon.svg";
+import MessageIcon from "./MessageIcon.svg";
 const Godavaricontactus = () => {
-  const map =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.1688261186528!2d77.53443313587825!3d14.6469047904435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb135a1a082c657%3A0x1924ed05e2103a21!2sAlamur%2C%20Kakkalapalle%20Rural%2C%20Andhra%20Pradesh%20515002%2C%20India!5e0!3m2!1sen!2sus!4v1668018257685!5m2!1sen!2sus";
+  const location1 =
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975927.9236631559!2d75.47574729999998!3d14.699342100000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb6b57ba85275bb%3A0x2415d1769c313736!2sTHE%20RURAL%20EDUCATION%20AND%20DEVELOPMENT%20TRUST!5e0!3m2!1sen!2sin!4v1669902750578!5m2!1sen!2sin";
+  const location2 =
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61760.293185130125!2d77.49444353125003!3d14.654901300000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1357ddf997b99%3A0xadb455e6c1015458!2sSri%20satya%20sai%20junior%20college%2C%20Alamur%20Road!5e0!3m2!1sen!2sin!4v1669902985630!5m2!1sen!2sin";
   return (
     <>
       <div className="g-contactus-main">
@@ -15,20 +18,68 @@ const Godavaricontactus = () => {
           <Locations
             img={LocationIcon}
             address="Prasanthi nagar, near amaravati car decors, beside Rural development and Educational trust school, Anantapuram town, Anantapuram - 515 001."
-            locationmap={map}
+            locationmap={location1}
           />
           <Locations
             img={LocationIcon}
             address="# Opp: sri sai Jr.college, Beside HP petrol bunk, alamuru Road, Anantapur-515001"
-            locationmap={map}
+            locationmap={location2}
           />
         </div>
+
         <div className="g-contactus-body-wrapper">
-        <div className="g-contactus-body-header-wrapper">
-                <h3 className="g-contactus-body-header">Get in touch</h3>
+          <div className="g-contactus-body-header-wrapper">
+            <h3 className="g-contactus-body-header">Get in touch</h3>
+          </div>
+          <div className="g-contactus-body-content">
+            <div className="g-contactus-form-wrapper">
+              <form className="g-contactus-form">
+                <div className="g-contactus-input-wrapper1">
+                  <div className="g-contactus-input-subwrap">
+                    <label className="g-contactus-labels">Name</label>
+                    <br></br>
+                    <input className="g-contactus-inputs" type="text"></input>
+                  </div>
+                  <div className="g-contactus-input-subwrap">
+                    <label className="g-contactus-labels">Phone</label>
+                    <br></br>
+                    <input className="g-contactus-inputs" type="text"></input>
+                  </div>
+                </div>
+                <div className="g-contactus-input-wrapper2">
+                  <label className="g-contactus-labels">Email</label>
+                  <br></br>
+                  <input className="g-contactus-inputs" type="text"></input>
+                </div>
+                <div className="g-contactus-input-wrapper3">
+                  <label className="g-contactus-labels">Message</label>
+                  <br></br>
+                  <input
+                    className="g-contactus-inputs"
+                    id="g-contactus-input3"
+                    type="text"
+                  ></input>
+                </div>
+                <div className="g-contactus-button-wrapper">
+                  <button className="g-contactus-button">
+                    {" "}
+                    <img
+                      className="g-contactus-messageicon"
+                      src={MessageIcon}
+                      alt="icon"
+                    ></img>
+                    Send Message
+                  </button>
+                </div>
+              </form>
             </div>
-        <div className="g-conatactus-form-wrapper">
-        </div>
+            <div className="g-contactus-companydetails">
+              <h2 className="g-contactus-companyname">
+                HPR Godavari buldersand developers
+              </h2>
+              <h2 className="g-contactus-companyname">Logo</h2>
+            </div>
+          </div>
         </div>
       </div>
     </>
