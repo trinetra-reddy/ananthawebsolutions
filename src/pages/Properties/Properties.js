@@ -20,7 +20,7 @@ const Properties = () => {
             <Godavariheader />
             <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="contactus" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={yourdreamhousebuildingimage}/>
             <Specifications/>
-            <Floorplan />
+            <Floorplan img1={img1} img2={img2} />
             <div className="road-map">
             <Road roadImage={roadImg} width="583px" height="555px" roadtext="800Meters to D-Mart" roadtext2="200 Meters to Tapovanam Circle" heading="Location Advantages"/>
             <Map />
