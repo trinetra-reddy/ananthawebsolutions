@@ -28,9 +28,16 @@ import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
 import ProjectButtons from "./ProjectButtons/ProjectButtons";
 import Specifications from "./Specifications/Specifications";
 import Yourjourney from "./Yourjourney/Yourjourney";
+import Locations from "./Locations/Locations";
+import Title from "./Title/Title";
 import DataValues from "./DataValues/DataValues";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
 import Map from "./Map/Map";
+import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,Road,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,SpecificationValues,Whychooseblocks,DataValues,Map};
+
+
+
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations};
+

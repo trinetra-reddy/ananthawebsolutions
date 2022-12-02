@@ -1,21 +1,18 @@
 import React from 'react';
 import './Floorplan.scss';
-import img1 from "./img1.svg";
-import img2 from "./img2.svg";
-const Floorplan = () => {
+import Title from '../Title/Title';
+
+const Floorplan = (props) => {
      return (
        <>
           <div className="floorplan-main">
-            <div className="floor-plan">
-            <span className="floor1">Floor</span>
-            <span className="floor2">  Plan</span>
-            </div>
+            <Title name="Floor" name2=" Plan" />
           <div className="floorplan-text">
           Build by best engineers and created best floor plan
           </div>
           <div className="floorplan-img">
-            <img className="floorplan-img1" src={img1} alt="typical-floorplan" />
-            <img className="floorplan-img2" src={img2} alt="stilt-floorplan" />
+            <img className="floorplan-img1" src={props.img1}alt="typical-floorplan" />
+            <img className="floorplan-img2" src={props.img2} alt="stilt-floorplan" />
           </div>
           </div>
        </>

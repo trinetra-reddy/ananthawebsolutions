@@ -5,18 +5,14 @@ import vector from "./Vector.svg";
 import vector1 from "./vector1.svg";
 import vector2 from "./vector2.svg";
 import './Properties.scss';
-const Properties = () => {
+import Title from '../Title/Title';
+const Properties = (props) => {
     return (
         <>
         <div className="prop-main">
         <div className="properties-main">
             <div className="row">
-                <div className="properties">
-                <div className="col-12 "> 
-            <span className="prop1">Prope</span>
-            <span className="prop2">rties</span>
-            </div>
-            </div>
+               <Title name={props.name} name2={props.name2} />
             <div className="prop-text1 col-12 col-lg-6">Committed to building long-term relationships with our partners, suppliers and clients.</div>
             <div className="prop-text2 col-12 col-lg-6">
                 <div>

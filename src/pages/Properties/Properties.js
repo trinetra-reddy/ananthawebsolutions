@@ -8,7 +8,8 @@ import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
 import roadImg from "../../components/Road/roadImg.jpg";
 import './Properties.scss';
-
+import img1 from "./img1.svg";
+import img2 from "./img2.svg";
 
 
 const Properties = () => {
