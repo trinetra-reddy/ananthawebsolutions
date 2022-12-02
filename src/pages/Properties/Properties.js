@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,RoadMap } from "../../components";
+import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import yourdreamhousebuildingimage from "./building-2.jpeg";
 import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
 import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
+import roadImg from "../../components/Road/roadImg.jpg";
 import './Properties.scss';
 
 
@@ -19,7 +20,11 @@ const Properties = () => {
             <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="contactus" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={yourdreamhousebuildingimage}/>
             <Specifications/>
             <Floorplan />
-            <RoadMap />
+            <div className="road-map">
+            <Road roadImage={roadImg} width="583px" height="555px" roadtext="800Meters to D-Mart" roadtext2="200 Meters to Tapovanam Circle" heading="Location Advantages"/>
+            <Map />
+            </div>
+            
             <Propertiesfooter />
         </div>
     );

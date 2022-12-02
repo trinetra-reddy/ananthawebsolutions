@@ -6,7 +6,7 @@ const ProjectButtons =(props)=>{
         <>
             <div className="projectButtons-buttons">
                 <button className="projectButtons-image1"><img className="ProjectButtons-img" src={props.image4} alt="vector" /></button>
-                <img className="projectButtons-img2" src={props.image5} alt="vector" />
+                <button className="projectButton2"><img className="projectButtons-img2" src={props.image5} alt="vector" /></button>
             </div>
         </>
     );
