@@ -1,6 +1,6 @@
 import React from 'react';
 import './Godavariaboutus.scss';
-
+import DataValues from "../DataValues/DataValues";
 const Godavariaboutus = () => {
     return (
         <>

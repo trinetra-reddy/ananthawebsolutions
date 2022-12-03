@@ -1,0 +1,35 @@
+#location-heading{
+    text-align:center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 135%;
+    padding-bottom: 26px;
+}
+.roadmap-right{
+    margin:20px;
+}
+.roadmap-right iframe{
+    width:100%;
+    height:auto;
+}
+@media screen and (min-width:992px){
+    .roadmap-right iframe{
+        width:300px;
+        height:380px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .roadmap-right{
+        margin:0 0 82px 0;
+    }
+    .roadmap-right iframe{
+        width:350px;
+        height: 400px;   
+    }
+}
+@media screen and (min-width:1366px){
+    .roadmap-right iframe{
+        width: 482px;
+        height: 419px;   
+    }
+}
