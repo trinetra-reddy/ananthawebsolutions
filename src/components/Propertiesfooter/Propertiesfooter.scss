@@ -28,6 +28,10 @@
   font-weight: 300;
   font-size: 12px;
   text-align: left;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
 }
 .Propertiesfooter-borderline {
   margin: 30px 0;
@@ -40,16 +44,14 @@
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+.Propertiesfooter-redirect:hover {
+  color: $white;
+}
 .Propertiesfooter-redirect-wrapper1 {
   margin-bottom: 20px;
 }
 .Propertiesfooter-redirect-wrapper2 {
   margin-bottom: 20px;
-  &:hover {
-    ul {
-      display: block;
-    }
-  }
 }
 #Propertiesfooter-redirect3 {
   padding-right: 5px;
@@ -62,8 +64,8 @@
   height: 36px;
 }
 .Propertiesfooter-dropdown {
-  display: none;
   margin-left: -32px;
+  list-style: none;
 }
 
 @media screen and (min-width: 425px) {
@@ -94,8 +96,16 @@
   }
   .Propertiesfooter-redirect-wrapper2 {
     margin: 0 30px 0 0;
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
   }
   .Propertiesfooter-contact-details {
     max-width: 100%;
+  }
+  .Propertiesfooter-dropdown {
+    display: none;
   }
 }

@@ -18,10 +18,22 @@ const Propertiesfooter = () => {
           <div className="Propertiesfooter-contact">
             <h6 className="Propertiesfooter-contact-header">Contact Us</h6>
             <p className="Propertiesfooter-contact-details">
-              Pratap reddy : +91 87122 44534
+              Pratap reddy :{" "}
+              <a
+                className="Propertiesfooter-contact-details"
+                href="tel:+9187122 44534"
+              >
+                +91 87122 44534
+              </a>
             </p>
             <p className="Propertiesfooter-contact-details">
-              Rajshekar : +91 93477 05148
+              Rajshekar :{" "}
+              <a
+                className="Propertiesfooter-contact-details"
+                href="tel:+9193477 05148"
+              >
+                +91 93477 05148
+              </a>
             </p>
             <p className="Propertiesfooter-contact-details">
               Prasanthi nagar, near amaravati car decors, beside Rural
