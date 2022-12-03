@@ -17,7 +17,7 @@ const Properties2 = (props) => {
         <>
         <Godavariheader />
         <Yourjourney heading="Your journey to get dream home is very near now" description={yourjourneydescription} imgPath={yourjourneybuildingimage}/>
-        <Floorplan img1={img1} img2={img2}/>
+        <Floorplan img1={img1} img2={img2} classname="prop-2"/>
         <Propertiesfooter />
         </>
      
