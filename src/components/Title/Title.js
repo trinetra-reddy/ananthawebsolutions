@@ -4,7 +4,7 @@ import './Title.scss';
      return (
         <>
         <div className="title-main">
-            <span className="title-wrapper">
+            <span className={`${props.classname} title-wrapper`}>
                 {props.name}
             </span>
             <span>
