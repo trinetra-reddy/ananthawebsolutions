@@ -11,21 +11,21 @@
   font-weight: 700;
   width: 100%;
   line-height: 24px;
-  padding: 25px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 .godavari-aboutus-1-right p {
   font-size: 14px;
   font-weight: 400;
   width: 100%;
   line-height: 14px;
-  padding: 25px 10px 10px 10px;
+  padding: 0px 10px 10px 10px;
 }
 .godavari-aboutus-2 p {
   font-size: 14px;
   font-weight: 400;
   width: 100%;
   line-height: 14px;
-  padding: 25px 10px 10px 10px;
+  padding: 0px 10px 10px 10px;
 }
 .godavari-aboutus-hr {
   padding-right: 10px;
@@ -37,7 +37,7 @@
 
 @media screen and (min-width: 768px) {
   .godavari-aboutus {
-    margin-top: 135px;
+    margin-top: 60px;
   }
   .godavari-aboutus-heading h2 {
     font-weight: 700;
@@ -71,7 +71,6 @@
     font-weight: 700;
     line-height: 42px;
     padding: 0px;
-    margin-top: 25px;
   }
 
   .godavari-aboutus-1-right {
