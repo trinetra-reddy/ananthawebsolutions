@@ -4,7 +4,7 @@ import "./HappyClientsDetails.scss";
 const HappyClientsDetails=(props)=>{
     return (
         <>
-            <div className="happyclientsdetails-main" style={{margin:props.happymargin}}>
+            <div className="happyclientsdetails-main">
                     <div className="happyclientsdetails-img">
                         <img className="happyclientsdetails-img1" src={props.image2} alt="Client1"/>
                     </div>

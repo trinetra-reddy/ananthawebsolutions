@@ -11,15 +11,24 @@
 }
 .happyclientsdetails-main{
     margin:20px;
-    display:flex;
-}
-.happyclientsdetails{
-    padding-left:24px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:768px){
     .happyclientsdetails-main{
-        margin:0 0px 30px 0px;
         display:flex;
+        margin:0 0px 30px 0px;
+        gap:10px;
+    }
+    .happyclientsdetails{
+        padding-left:24px;
     }
 }
+@media screen and (min-width:768px){
+    .happyclientsdetails-main{
+        padding:20px;
+    }
+    .happyclientsdetails{
+        padding-left:24px;
+    }
+}
+

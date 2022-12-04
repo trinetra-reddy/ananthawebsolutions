@@ -7,7 +7,7 @@ const SpecificationValues = (props) => {
       <div className="specifyVal-main-container">
         <div className="specifyVal-header">
           <div className="specifyVal-icon-wrapper">
-            <img className="specifyVal-icon" src={props.img} />
+            <img className="specifyVal-icon" src={props.img} alt="Icon" />
           </div>
           <div className="specifyVal-heading-wrapper">
             <h3 className="specifyVal-heading">{props.heading}</h3>

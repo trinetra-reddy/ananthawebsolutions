@@ -23,9 +23,9 @@ const Godavariaboutus = () => {
             <div>
             <Godavariheader />
             <Godavariaboutus2 heading="About Us" heading1="We were originally established as a constractor to major indias housebuilders" description={godavariaboutus2description} imgPath={godavariaboutus2buildingimage}/>
-            <Ourculture name="our W" name2="ork Culture" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image}/>
-            <Ourculture name="why" name2=" Us" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={Whyus} imgPosition="right" bgColor="#026b33" textColor="white" border="4px solid white" />
-            <Ourculture name="Our V" name2="ission" description={ourVisionDes} linkeddescription={ourCultureDes} imgPath={Ourvision}/> 
+            <Ourculture name="Our W" name2="ork Culture" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image} background="#FAFAFA"/>
+            <Ourculture name="Why" name2=" Us" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={Whyus} imgPosition="right" bgColor="#026b33" textColor="white" border="4px solid white" />
+            <Ourculture name="Our V" name2="ission" description={ourVisionDes} linkeddescription={ourCultureDes} imgPath={Ourvision} background="#FAFAFA"/> 
             
             
 
@@ -43,6 +43,7 @@ const Godavariaboutus = () => {
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
             </div>
+            
             <Propertiesfooter />
             
         </div>

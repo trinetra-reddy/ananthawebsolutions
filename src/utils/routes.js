@@ -1,4 +1,4 @@
-import { Home, Contact, About, Services, Styleguide, Godavaribuilders,Properties,Properties2,Godavariaboutus,Godavaricontactus } from "../pages";
+import { Home, Contact, About, Services, Styleguide, Godavaribuilders,Properties,Properties2,Godavariaboutus,Godavaricontact } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
@@ -38,8 +38,8 @@ export const routes = [{
     path: CONSTANTS.ROUTES.GODAVARIABOUTUS_PAGE,
     isExact: true
 },{
-    component: <Godavaricontactus />,
-    path: CONSTANTS.ROUTES.GODAVARICONTACTUS_PAGE,
+    component: <Godavaricontact />,
+    path: CONSTANTS.ROUTES.GODAVARICONTACT_PAGE,
     isExact: true
 }
 ];

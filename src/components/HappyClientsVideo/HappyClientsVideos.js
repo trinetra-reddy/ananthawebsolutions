@@ -4,10 +4,8 @@ import "./HappyClientsVideos.scss";
 const HappyClientsVideos=(props)=>{
     return(
         <>
-        <div className="happyclientsvideo-main" style={{marginLeft:props.marginvideo}} >
-          <div className={`happyclientsvideos ${props.videopath}`}>
+        <div className="happyclientsvideo-main" >
             <embed className="happyclients-video" src={props.videoUrl} autoplay controls ></embed>
-          </div>
         </div>
        
         </>

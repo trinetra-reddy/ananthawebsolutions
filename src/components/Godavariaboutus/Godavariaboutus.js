@@ -1,14 +1,17 @@
-import React from "react";
-import "./Godavariaboutus.scss";
-import { DataValues } from "../../components";
-
+import React from 'react';
+import './Godavariaboutus.scss';
+import DataValues from "../DataValues/DataValues";
 const Godavariaboutus = () => {
-  return (
-    <>
-      <div className="godavari-aboutus">
+    return (
+        <>
+        <div className="godavari-aboutus">
         <div className="godavari-aboutus-heading">
+<<<<<<< HEAD
           <span className="aboutusheading1">About</span>
           <span className="aboutusheading2">Us</span>
+=======
+            <h2>About Us</h2>
+>>>>>>> 9c581d4a03729b2c2c01fc398466bf71e8755fb7
         </div>
         <div className="godavari-aboutus-1">
           <div className="godavari-aboutus-1-left">
@@ -46,7 +49,8 @@ const Godavariaboutus = () => {
             count="400+"
             description="Workers with more than 10 year’s
 service"
-          />
+         />
+          
           <DataValues
             heading="Years Experience"
             count="11+"
