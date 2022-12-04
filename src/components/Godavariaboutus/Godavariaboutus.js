@@ -6,12 +6,7 @@ const Godavariaboutus = () => {
         <>
         <div className="godavari-aboutus">
         <div className="godavari-aboutus-heading">
-<<<<<<< HEAD
-          <span className="aboutusheading1">About</span>
-          <span className="aboutusheading2">Us</span>
-=======
             <h2>About Us</h2>
->>>>>>> 9c581d4a03729b2c2c01fc398466bf71e8755fb7
         </div>
         <div className="godavari-aboutus-1">
           <div className="godavari-aboutus-1-left">
