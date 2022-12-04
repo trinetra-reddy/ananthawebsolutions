@@ -10,7 +10,7 @@ const Floorplan = (props) => {
           <div className="floorplan-text">
           Build by best engineers and created best floor plan
           </div>
-          <div className="floorplan-img">
+          <div className={`floorplan-img ${props.background}`}>
             <img className="floorplan-img1" src={props.img1}alt="typical-floorplan" />
             <img className="floorplan-img2" src={props.img2} alt="stilt-floorplan" />
           </div>

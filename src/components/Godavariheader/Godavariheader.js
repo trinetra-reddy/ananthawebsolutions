@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import './Godavariheader.scss';
-import godavarimenu from '../../images/menu-icon.png';
-import godavariclose from '../../images/close-icon.png';
+import godavarimenu from '../../images/menu-open.svg';
+import godavariclose from '../../images/menu-close.svg';
 import Headercontactus from "./Headercontactus.svg";
 import { Link } from "react-router-dom";
 
@@ -56,7 +56,6 @@ const Godavariheader = () => {
         </div>
       </nav>
     </header>
-
   );
 };
 

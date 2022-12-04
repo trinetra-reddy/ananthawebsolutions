@@ -78,6 +78,20 @@
   .improving-people-right {
     margin-right: 108px;
     flex: 50%;
+  .improving-button-left img {
+    width: 21px;
+  }
+  .improving-button-right {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 50px;
+    border: 1px solid rgb(180, 176, 176);
+    margin-top: 49px;
+    margin-left: auto;
+  }
+  .improving-button-right img {
+    width: 21px;
   }
 
   .improving-people-right-image {

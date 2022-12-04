@@ -6,9 +6,11 @@
 }
 .floorplan-img1 {
   width: 100%;
+  margin-bottom:20px;
 }
 .floorplan-img2 {
   width: 100%;
+  margin-bottom:10px;
 }
 .floor1 {
   padding-right: 5px;
@@ -27,6 +29,7 @@
 }
 .floorplan-text{
   margin-bottom:15px;
+  margin-top:10px;
 }
 
 @media screen and (min-width: 998px) {
@@ -54,19 +57,22 @@ line-height: 39px;
     display: flex;
     top:250px;
     margin-top:40px;
-    
-    
+    &.white{
+         .floorplan-img1{
+          background:white;
+        padding:22px 69px 23px 69px;
+         }
+         .floorplan-img2{
+          background:white;
+          padding:26px 107px 27px 107px;
+         }
+       }
   }
-  .floorplan-img1 {
-    width: 500px;
-    height: 350px;
-
-  }
-  .floorplan-img2 {
-    width: 490px;
+  .floorplan-img1{
     height: 345px;
   }
 }
+
 @media screen and (min-width:1200px){
   .floorplan-main{
     padding-left:70px;
