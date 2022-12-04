@@ -1,9 +1,11 @@
-.godavari-aboutus-heading {
+.godavari-aboutus-heading h2{
+  padding: 30px 0px 0px 10px;
   font-size: 28px;
   font-weight: 700;
-  padding-left: 10px;
 }
-
+.aboutusheading1 {
+  border-bottom: 4px solid rgba(2, 107, 51, 1);
+}
 .godavari-aboutus-1-left p {
   font-size: 24px;
   font-weight: 700;
@@ -11,7 +13,6 @@
   line-height: 24px;
   padding: 25px 10px 10px 10px;
 }
-
 .godavari-aboutus-1-right p {
   font-size: 14px;
   font-weight: 400;
@@ -19,7 +20,6 @@
   line-height: 14px;
   padding: 25px 10px 10px 10px;
 }
-
 .godavari-aboutus-2 p {
   font-size: 14px;
   font-weight: 400;
@@ -27,18 +27,34 @@
   line-height: 14px;
   padding: 25px 10px 10px 10px;
 }
-
 .godavari-aboutus-hr {
   padding-right: 10px;
   padding-left: 10px;
 }
+.godavari-aboutus-columns {
+  padding-left: 10px;
+}
 
 @media screen and (min-width: 768px) {
+  .godavari-aboutus {
+    margin-top: 135px;
+  }
   .godavari-aboutus-heading h2 {
     font-weight: 700;
     padding: 60px 0px 40px 108px;
+    font-size: 32px;
   }
-
+  .aboutusheading1 {
+    border-bottom: 4px solid rgba(2, 107, 51, 1);
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 108px;
+  }
+  .aboutusheading2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px 0px 0px 10px;
+  }
   .godavari-aboutus-1 {
     display: flex;
     flex-direction: row;
@@ -51,9 +67,11 @@
   }
 
   .godavari-aboutus-1-left p {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 42px;
+    padding: 0px;
+    margin-top: 25px;
   }
 
   .godavari-aboutus-1-right {

@@ -136,6 +136,10 @@
       width: 100%;
       font-weight: 600;
     }
+    .navbar__link a:hover .underline {
+      background-color: rgb(102, 30, 30);
+      width: 100%;
+    }
     .hamburgermenu {
       display: none;
     }
