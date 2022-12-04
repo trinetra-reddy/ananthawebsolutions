@@ -43,25 +43,15 @@
   font-weight: 200;
   font-size: 14px;
   letter-spacing: 0.5px;
-}
-.Propertiesfooter-redirect:hover {
-  color: $white;
+  &:hover {
+    color: $white;
+  }
 }
 .Propertiesfooter-redirect-wrapper1 {
   margin-bottom: 20px;
 }
 .Propertiesfooter-redirect-wrapper2 {
   margin-bottom: 20px;
-}
-#Propertiesfooter-redirect3 {
-  padding-right: 5px;
-}
-.Propertiesfooter-button-wrapper {
-  background-color: $color-15;
-  border-radius: 5px;
-  padding: 5px 10px;
-  border: none;
-  height: 36px;
 }
 .Propertiesfooter-dropdown {
   margin-left: -32px;

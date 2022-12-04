@@ -1,7 +1,8 @@
 import React from "react";
 import "./Propertiesfooter.scss";
 import { Link } from "react-router-dom";
-import VectorImage from "./PropertiesfooterVector.svg";
+import Contactusbutton from "../Contactusbutton/Contactusbutton";
+
 const Propertiesfooter = () => {
   return (
     <>
@@ -66,20 +67,7 @@ const Propertiesfooter = () => {
               </li>
             </ul>
           </div>
-          <button className="Propertiesfooter-button-wrapper">
-            <Link
-              className="Propertiesfooter-redirect"
-              id="Propertiesfooter-redirect3"
-              to="/g-contact-us"
-            >
-              Contactus
-            </Link>
-            <img
-              className="Propertiesfooter-vectorimage"
-              src={VectorImage}
-              alt="VectorImage"
-            />
-          </button>
+          <Contactusbutton />
         </div>
       </div>
     </>
