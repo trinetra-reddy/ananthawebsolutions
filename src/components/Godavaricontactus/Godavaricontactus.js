@@ -33,35 +33,66 @@ const Godavaricontactus = () => {
           </div>
           <div className="g-contactus-body-content">
             <div className="g-contactus-form-wrapper">
-              <form className="g-contactus-form">
+              <form
+                className="g-contactus-form"
+                id="fs-frm"
+                name="simple-contact-form"
+                acceptCharset="utf-8"
+                action="https://formspree.io/f/xlevpvdb"
+                method="post"
+              >
                 <div className="g-contactus-input-wrapper1">
                   <div className="g-contactus-input-subwrap">
-                    <label className="g-contactus-labels">Name</label>
+                    <label for="name" className="g-contactus-labels">
+                      Name
+                    </label>
                     <br></br>
-                    <input className="g-contactus-inputs" type="text"></input>
+                    <input
+                      className="g-contactus-inputs"
+                      id="name"
+                      name="name"
+                      type="text"
+                    ></input>
                   </div>
                   <div className="g-contactus-input-subwrap">
-                    <label className="g-contactus-labels">Phone</label>
+                    <label for="phone" className="g-contactus-labels">
+                      Phone
+                    </label>
                     <br></br>
-                    <input className="g-contactus-inputs" type="text"></input>
+                    <input
+                      className="g-contactus-inputs"
+                      id="phone"
+                      name="phone"
+                      type="text"
+                    ></input>
                   </div>
                 </div>
                 <div className="g-contactus-input-wrapper2">
-                  <label className="g-contactus-labels">Email</label>
-                  <br></br>
-                  <input className="g-contactus-inputs" type="text"></input>
-                </div>
-                <div className="g-contactus-input-wrapper3">
-                  <label className="g-contactus-labels">Message</label>
+                  <label for="email" className="g-contactus-labels">
+                    Email
+                  </label>
                   <br></br>
                   <input
                     className="g-contactus-inputs"
-                    id="g-contactus-input3"
+                    id="email"
+                    name="email"
+                    type="email"
+                  ></input>
+                </div>
+                <div className="g-contactus-input-wrapper3">
+                  <label for="message" className="g-contactus-labels">
+                    Message
+                  </label>
+                  <br></br>
+                  <input
+                    className="g-contactus-inputs"
+                    id="g-contactus-inputmessage"
+                    name="message"
                     type="text"
                   ></input>
                 </div>
                 <div className="g-contactus-button-wrapper">
-                  <button className="g-contactus-button">
+                  <button className="g-contactus-button" type="submit">
                     {" "}
                     <img
                       className="g-contactus-messageicon"

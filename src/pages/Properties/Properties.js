@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import yourdreamhousebuildingimage from "./building-2.jpeg";
-import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
-import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
+import leftarrowyourdreamhouse from "../../images/vector-left-arrow.svg";
+import rightarrowyourdreamhouse from "../../images/vector-right-arrow.svg";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
 import roadImg from "../../components/Road/roadImg.jpg";
 import './Properties.scss';
@@ -18,7 +18,7 @@ const Properties = () => {
     return (
         <div> 
             <Godavariheader />
-            <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="contactus" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={yourdreamhousebuildingimage}/>
+            <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="Contact us" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={yourdreamhousebuildingimage}/>
             <Specifications/>
             <Floorplan img1={img1} img2={img2} />
             <div className="road-map">
