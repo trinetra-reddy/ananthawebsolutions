@@ -4,8 +4,8 @@ import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeop
 import { CONSTANTS } from "../../utils/constants";
 import improvingpeoplebuildingimage from "../../images/building-1.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
-import leftarrowimproving from "./leftarrowimproving.png";
-import rightarrowimproving from "./rightarrowimproving.png";
+import leftarrowimproving from "../../images/vector-left-arrow.svg";
+import rightarrowimproving from "../../images/vector-right-arrow.svg";
 import './Godavari_Builders.scss';
 import happyimg1 from "../../components/HappyClients/underline.png";
 import happyimg2 from "../../components/HappyClients/happyboy.png";
@@ -20,7 +20,7 @@ const Godavari_Builders = () => {
     return (
         <div> 
             <Godavariheader />
-            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="contactus" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
+            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
             <Godavariaboutus />
             <Properties name="Prope" name2="reties" />
 

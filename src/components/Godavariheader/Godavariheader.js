@@ -56,7 +56,6 @@ const Godavariheader = () => {
         </div>
       </nav>
     </header>
-
   );
 };
 
