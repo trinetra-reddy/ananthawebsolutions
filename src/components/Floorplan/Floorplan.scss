@@ -44,7 +44,8 @@ line-height: 39px;
     height: 505px;
     position:relative;
     margin-bottom:150px;
-    padding-left:40px;
+    padding-left:108px;
+    padding-right:108px;
   
   }
   .floorplan-text {
@@ -60,14 +61,24 @@ line-height: 39px;
     &.white{
          .floorplan-img1{
           background:white;
-        padding:22px 69px 23px 69px;
+        padding:22px 50px 23px ;
          }
          .floorplan-img2{
           background:white;
-          padding:26px 107px 27px 107px;
+          padding:26px 80px 27px 80px;
          }
+        
        }
-  }
+      }
+      .flooplan-wrapper{
+        display:flex;
+        &.white{
+          .prop-button1{
+            position:relative;
+            margin-top:0px;
+          }
+        }
+      }
   .floorplan-img1{
     height: 345px;
   }

@@ -18,7 +18,7 @@ const Properties2 = (props) => {
         <>
         <Godavariheader />
         <Yourjourney heading="Your journey to get dream home is very near now" description={yourjourneydescription} btn="Contact us" img={Yourjourneycontactus} leftarrowimg={leftarrowyourjourney} rightarrowimg={rightarrowyourjourney} imgPath={yourjourneybuildingimage}/>
-        <Floorplan img1={img1} img2={img2} classname="prop-2"/>
+        <Floorplan img1={img1} img2={img2} background="white" />
         <div className="road-map">
             <Road roadImage={roadImg} width="583px" height="555px" roadtext="800Meters to D-Mart" roadtext2="200 Meters to Tapovanam Circle" heading="Location Advantages"/>
             <Map />
