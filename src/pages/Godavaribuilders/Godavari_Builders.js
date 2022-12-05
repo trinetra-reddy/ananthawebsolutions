@@ -7,11 +7,11 @@ import improvingcontactus from "./Improvingcontactusarrow.svg";
 import leftarrowimproving from "../../images/vector-left-arrow.svg";
 import rightarrowimproving from "../../images/vector-right-arrow.svg";
 import './Godavari_Builders.scss';
-import happyimg1 from "../../components/HappyClients/underline.png";
-import happyimg2 from "../../components/HappyClients/happyboy.png";
-import happyimg3 from "../../components/HappyClients/happygirl.png";
-import happyimg5 from "../../components/HappyClients/happyImage.png";
-import happyimg from "../../components/HappyClients/happyImg.png";
+import happyimg1 from "../../images/HappyClients/underline.png";
+import happyimg2 from "../../images/HappyClients/happyboy.png";
+import happyimg3 from "../../images/HappyClients/happygirl.png";
+import happyimg5 from "../../images/HappyClients/happyImage.png";
+import happyimg from "../../images/HappyClients/happyImg.png";
 
 
 const Godavari_Builders = () => {

@@ -5,11 +5,11 @@ import { CONSTANTS } from "../../utils/constants";
 import './Godavariaboutus.scss';
 import godavariaboutus2buildingimage from "./building-3.jpg";
 import image from './image.svg';
-import happyimg1 from "../../components/HappyClients/underline.png";
-import happyimg2 from "../../components/HappyClients/happyboy.png";
-import happyimg3 from "../../components/HappyClients/happygirl.png";
-import happyimg5 from "../../components/HappyClients/happyImage.png";
-import happyimg from "../../components/HappyClients/happyImg.png";
+import happyimg1 from "../../images/HappyClients/underline.png";
+import happyimg2 from "../../images/HappyClients/happyboy.png";
+import happyimg3 from "../../images/HappyClients/happygirl.png";
+import happyimg5 from "../../images/HappyClients/happyImage.png";
+import happyimg from "../../images/HappyClients/happyImg.png";
 import Ourvision from './Ourvision.svg';
 import Whyus from './Whyus.svg';
 
