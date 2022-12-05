@@ -32,8 +32,48 @@ import DataValues from "./DataValues/DataValues";
 import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
 import Map from "./Map/Map";
 import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
-<<<<<<< HEAD
+import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
-=======
+
+export {
+  Header,
+  Footer,
+  Banner,
+  Tech,
+  Whychooseus,
+  Quality,
+  About,
+  GetTouch,
+  Ourteam,
+  CompanyCulture,
+  CompanyVision,
+  Contactus,
+  Companymission,
+  Properties,
+  Propertiesfooter,
+  Floorplan,
+  Godavariheader,
+  Improvingpeople,
+  Godavariaboutus,
+  Yourdreamhouse,
+  WhyUs,
+  Road,
+  Map,
+  Ourculture,
+  HappyClientsVideos,
+  HappyClientsDetails,
+  ProjectHeadings,
+  ProjectButtons,
+  Godavariaboutus2,
+  Specifications,
+  Yourjourney,
+  Title,
+  SpecificationValues,
+  Whychooseblocks,
+  DataValues,
+  Godavaricontactus,
+  Locations,
+  Contactusbutton,
+};
