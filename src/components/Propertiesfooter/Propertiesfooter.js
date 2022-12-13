@@ -54,7 +54,7 @@ const Propertiesfooter = () => {
             <Link className="Propertiesfooter-redirect" to="#">
               Properties
             </Link>
-            <ul class="Propertiesfooter-dropdown">
+            <ul className="Propertiesfooter-dropdown">
               <li>
                 <Link className="Propertiesfooter-redirect" to="/g-properties">
                   Properties
