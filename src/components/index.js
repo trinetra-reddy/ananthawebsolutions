@@ -37,11 +37,49 @@ import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
 import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
+import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 
 
 
-export { Header, Footer,Banner,HappyClientsWrapper,Tech,Contactusbutton,Whychooseus,Quality,About,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations,CoreValuesComponent};
-
-
-
-
+export {
+  Header,
+  Footer,
+  Banner,
+  Tech,
+  Whychooseus,
+  Quality,
+  About,
+  GetTouch,
+  Ourteam,
+  CompanyCulture,
+  CompanyVision,
+  Contactus,
+  Companymission,
+  Properties,
+  Propertiesfooter,
+  Floorplan,
+  Godavariheader,
+  Improvingpeople,
+  Godavariaboutus,
+  Yourdreamhouse,
+  CoreValuesComponent,
+  Road,
+  Map,
+  Ourculture,
+  HappyClientsVideos,
+  HappyClientsDetails,
+  HappyClientsWrapper,
+  ProjectHeadings,
+  ProjectButtons,
+  Godavariaboutus2,
+  Specifications,
+  Yourjourney,
+  Title,
+  SpecificationValues,
+  Whychooseblocks,
+  DataValues,
+  Godavaricontactus,
+  Locations,
+  Contactusbutton,
+  Ongoingprojects
+};
