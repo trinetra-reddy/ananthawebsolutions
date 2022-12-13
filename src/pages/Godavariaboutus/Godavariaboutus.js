@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Godavariheader,Godavariaboutus2,ProjectHeadings, Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectButtons, Propertiesfooter } from "../../components";
+import { Godavariheader,Leadershipcomp,Godavariaboutus2,ProjectHeadings, Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectButtons, Propertiesfooter, Leadership } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Godavariaboutus.scss';
 import godavariaboutus2buildingimage from "./building-3.jpg";
@@ -12,6 +12,7 @@ import happyimg5 from "../../images/HappyClients/happyImage.png";
 import happyimg from "../../images/HappyClients/happyImg.png";
 import Ourvision from './Ourvision.svg';
 import Whyus from './Whyus.svg';
+import baba from '../../images/Baba_1.jpg';
 
 const Godavariaboutus = () => {
     console.log('about page ,,,')
@@ -24,6 +25,8 @@ const Godavariaboutus = () => {
             <div>
             <Godavariheader />
             <Godavariaboutus2 heading="About Us" heading1="We were originally established as a constractor to major indias housebuilders" description={godavariaboutus2description} imgPath={godavariaboutus2buildingimage}/>
+            <Leadershipcomp name="Pratap Reddy" img={baba}/>
+            <Leadershipcomp  name="Rajshekar" img ={baba} imgPosition="right" />
             <Ourculture name="Our W" name2="ork Culture" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image} background="#FAFAFA"/>
             <Ourculture name="Why" name2=" Us" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={Whyus} imgPosition="right" bgColor="#026b33" textColor="white" border="4px solid white" />
             <Ourculture name="Our V" name2="ission" description={ourVisionDes} linkeddescription={ourCultureDes} imgPath={Ourvision} background="#FAFAFA"/> 

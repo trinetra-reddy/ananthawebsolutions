@@ -36,6 +36,7 @@ import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
+import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 
 export {
   Header,
@@ -76,4 +77,5 @@ export {
   Godavaricontactus,
   Locations,
   Contactusbutton,
+  Leadershipcomp,
 };
