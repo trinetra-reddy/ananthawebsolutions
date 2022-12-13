@@ -6,10 +6,9 @@ import { Link } from "react-router-dom";
 const Contactusbutton = () => {
   return (
     <>
-      <div className="Contactusbutton-main">
         <button className="Contactusbutton-wrapper">
           <Link className="Contactusbutton-redirect" to="/g-contact-us">
-            Contactus
+            Contact Us
           </Link>
           <img
             className="Contactusbutton-vectorimage"
@@ -17,7 +16,6 @@ const Contactusbutton = () => {
             alt="VectorImage"
           />
         </button>
-      </div>
     </>
   );
 };

@@ -36,7 +36,11 @@ import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
+<<<<<<< HEAD
 import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
+=======
+import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
+>>>>>>> ee9339206e84a9344f6e6441f4e58bd36505d68c
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 
 
@@ -81,5 +85,6 @@ export {
   Godavaricontactus,
   Locations,
   Contactusbutton,
-  Ongoingprojects
+  Leadershipcomp,
+  Ongoingprojects,
 };

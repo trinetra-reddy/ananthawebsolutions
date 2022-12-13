@@ -3,6 +3,7 @@ import "./Godavaricontactus.scss";
 import Locations from "../Locations/Locations";
 import LocationIcon from "./LocationIcon.svg";
 import MessageIcon from "./MessageIcon.svg";
+import godavarilogo from "./Godavari-logo.jpg";
 const Godavaricontactus = () => {
   const location1 =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975927.9236631559!2d75.47574729999998!3d14.699342100000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb6b57ba85275bb%3A0x2415d1769c313736!2sTHE%20RURAL%20EDUCATION%20AND%20DEVELOPMENT%20TRUST!5e0!3m2!1sen!2sin!4v1669902750578!5m2!1sen!2sin";
@@ -108,7 +109,13 @@ const Godavaricontactus = () => {
               <h2 className="g-contactus-companyname">
                 HPR Godavari buldersand developers
               </h2>
-              <h2 className="g-contactus-companyname">Logo</h2>
+              <div className="g-contactus-logo-wrapper">
+                <img
+                  className="g-contactus-logo"
+                  src={godavarilogo}
+                  alt="godavarilogo"
+                />
+              </div>
             </div>
           </div>
         </div>
