@@ -37,11 +37,8 @@ import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
-<<<<<<< HEAD
 import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
-=======
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
->>>>>>> 6ce0da1cb3c1a2c29ed362b3afc13ae9116ba3f7
 
 export {
   Header,
@@ -83,9 +80,6 @@ export {
   Godavaricontactus,
   Locations,
   Contactusbutton,
-<<<<<<< HEAD
   Leadershipcomp,
-=======
-  Ongoingprojects
->>>>>>> 6ce0da1cb3c1a2c29ed362b3afc13ae9116ba3f7
+  Ongoingprojects,
 };
