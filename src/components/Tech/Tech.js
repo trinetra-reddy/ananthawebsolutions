@@ -24,17 +24,17 @@ const Tech=()=>{
             User Experience Design Visual & Graphic Design Product Design
             </div>
         </div>
-        <div class="tech-card">
-            <img class="tech-icons" src={mobileImg} alt="mobileIcon" />
+        <div className="tech-card">
+            <img className="tech-icons" src={mobileImg} alt="mobileIcon" />
             <h4>Mobile Development</h4>
-            <div class="tech-card-content">
+            <div className="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
             </div>
         </div>
-        <div class="tech-card"> 
-            <img class="tech-icons" src={uiuxImg} alt="uiuxIcon" />
+        <div className="tech-card"> 
+            <img className="tech-icons" src={uiuxImg} alt="uiuxIcon" />
             <h4>UIUX Design</h4>
-            <div class="tech-card-content">
+            <div className="tech-card-content">
                 User Experience Design Visual & Graphic Design Product Design
             </div>
         </div>

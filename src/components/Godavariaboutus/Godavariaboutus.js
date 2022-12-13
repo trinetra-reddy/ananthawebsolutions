@@ -15,7 +15,7 @@ const Godavariaboutus = () => {
               housebuilders
             </p>
           </div>
-          <div class="godavari-aboutus-1-right">
+          <div className="godavari-aboutus-1-right">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
               dolores laboriosam et itaque, eligendi tempore. Provident hic
