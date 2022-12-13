@@ -36,10 +36,11 @@ import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
+import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
 
 
 
-export { Header, Footer,Banner,Tech,Contactusbutton, Whychooseus,Quality,About,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations,CoreValuesComponent};
+export { Header, Footer,Banner,HappyClientsWrapper,Tech,Contactusbutton,Whychooseus,Quality,About,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations,CoreValuesComponent};
 
 
 
