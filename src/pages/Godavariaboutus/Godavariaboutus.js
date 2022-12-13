@@ -1,11 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
-import { Godavariheader, Godavariaboutus2, ProjectHeadings, Ourculture,CoreValuesComponent, HappyClientsVideos, ProjectButtons, Propertiesfooter, HappyClientsWrapper } from "../../components";
-=======
 import { Link } from "react-router-dom";
 import { CONSTANTS } from "../../utils/constants";
-import { Godavariheader,Leadershipcomp, Godavariaboutus2, ProjectHeadings, Ourculture, HappyClientsVideos, HappyClientsDetails, ProjectButtons, Propertiesfooter, HappyClientsWrapper,Leadership  } from "../../components";
->>>>>>> ee9339206e84a9344f6e6441f4e58bd36505d68c
+import { Godavariheader,Leadershipcomp, Godavariaboutus2, ProjectHeadings, Ourculture, HappyClientsVideos, HappyClientsDetails, ProjectButtons, Propertiesfooter, HappyClientsWrapper,Leadership ,CoreValuesComponent } from "../../components";
 
 import './Godavariaboutus.scss';
 import godavariaboutus2buildingimage from "./building-3.jpg";
@@ -15,12 +11,7 @@ import Whyus from './Whyus.svg';
 import happyimg1 from "../../images/HappyClients/underline.png";
 import happyimg5 from "../../images/HappyClients/happyImage.png";
 import happyimg from "../../images/HappyClients/happyImg.png";
-<<<<<<< HEAD
-=======
-import Ourvision from './Ourvision.svg';
-import Whyus from './Whyus.svg';
 import baba from '../../images/Baba_1.jpg';
->>>>>>> ee9339206e84a9344f6e6441f4e58bd36505d68c
 
 const Godavariaboutus = () => {
     const ourCultureDes = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa';
