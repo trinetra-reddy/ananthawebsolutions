@@ -37,6 +37,7 @@ import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
+import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 
 export {
@@ -79,5 +80,6 @@ export {
   Godavaricontactus,
   Locations,
   Contactusbutton,
-  Ongoingprojects
+  Leadershipcomp,
+  Ongoingprojects,
 };
