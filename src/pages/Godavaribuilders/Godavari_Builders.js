@@ -34,9 +34,9 @@ const Godavari_Builders = () => {
 
             <ProjectButtons image4={happyimg} image5={happyimg5} />
             <div class="happyvideos">
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
+            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/NJHw5cr_X34" />
+            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/S76DWblbhyM" />
+            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/ECIhrH5diZE"  />
             </div>
             
             <Propertiesfooter />
