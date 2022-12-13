@@ -31,7 +31,7 @@ const Quality = () => {
                 Sed ultricies eleifend eleifend.Sed tincidunt lectus justo.
               </p>
             </div>
-            <div class="quality-block">
+            <div className="quality-block">
               <img className="quality-icons" src={target} alt="targetIcon" />
               <h4 id="quality-h4">Excellent Price-Quality Ratio</h4>
 
@@ -40,8 +40,8 @@ const Quality = () => {
               </p>
             </div>
           </div>
-          <div class="quality-card">
-            <div class="quality-block">
+          <div className="quality-card">
+            <div className="quality-block">
               <img className="quality-icons" src={meetUps} alt="meetUpIcon" />
               <h4 id="quality-h4">Meetups for Developers </h4>
               <p id="quality-p">

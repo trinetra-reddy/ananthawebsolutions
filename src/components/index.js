@@ -24,6 +24,7 @@ import Road from "./Road/Road";
 import Ourculture from "./Ourculture/Ourculture";
 import HappyClientsVideos from "./HappyClientsVideo/HappyClientsVideos";
 import HappyClientsDetails from "./HappyClientsDetails/HappyClientsDetails";
+import HappyClientsWrapper from './HappyClientsDetails/HappyClientsWrapper';
 import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
 import ProjectButtons from "./ProjectButtons/ProjectButtons";
 import Specifications from "./Specifications/Specifications";
@@ -65,6 +66,7 @@ export {
   Ourculture,
   HappyClientsVideos,
   HappyClientsDetails,
+  HappyClientsWrapper,
   ProjectHeadings,
   ProjectButtons,
   Godavariaboutus2,
