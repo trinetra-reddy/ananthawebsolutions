@@ -19,7 +19,6 @@ import Godavariaboutus2 from "./Godavariaboutus2/Godavariaboutus2";
 import Improvingpeople from "./Improvingpeople/Improvingpeople";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
 import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
-import WhyUs from "./WhyUs/WhyUs";
 import Road from "./Road/Road";
 import Ourculture from "./Ourculture/Ourculture";
 import HappyClientsVideos from "./HappyClientsVideo/HappyClientsVideos";
@@ -35,9 +34,11 @@ import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
 import Map from "./Map/Map";
 import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
+import HappyClients from "./HappyClients/HappyClients";
+import CoreValuesComponent from "./CoreValuesComponent/CoreValuesComponent";
 
 
 
 
-export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,WhyUs,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations};
+export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,HappyClients,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations,CoreValuesComponent};
 
