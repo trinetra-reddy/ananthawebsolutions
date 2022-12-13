@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import './Godavariheader.scss';
-import godavarimenu from '../../images/menu-icon.png';
-import godavariclose from '../../images/close-icon.png';
+import godavarimenu from '../../images/menu-open.svg';
+import godavariclose from '../../images/menu-close.svg';
 import Headercontactus from "./Headercontactus.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Godavariheader = () => {
   useEffect(() => {
@@ -43,20 +43,19 @@ const Godavariheader = () => {
         </div>
 
         <div className="navbar__link hide">
-          <Link to="/godavari-builders">Home</Link>
-          <Link to="/g-about-us">About Us</Link>
+          <NavLink to="/godavari-builders" activeclassname="active">Home</NavLink>
+          <NavLink to="/g-about-us" activeclassname="active">About Us</NavLink>
           <div className="drop-down">
-            <Link href="#" className="drop-down-item">Properties</Link>
+            <a  className="drop-down-item">Properties</a>
             <ul class="dropdown">
-                  <li><Link to="/g-properties">Properties</Link></li>
-                  <li><Link to="/g-properties2">Properties2</Link></li>
+                  <li><NavLink to="/g-properties" activeclassname="active">Properties</NavLink></li>
+                  <li><NavLink to="/g-properties2" activeclassname="active">Properties2</NavLink></li>
               </ul>
           </div>
           <button className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></button>
         </div>
       </nav>
     </header>
-
   );
 };
 

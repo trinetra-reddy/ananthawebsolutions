@@ -27,13 +27,11 @@ import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
 import ProjectButtons from "./ProjectButtons/ProjectButtons";
 import Specifications from "./Specifications/Specifications";
 import Yourjourney from "./Yourjourney/Yourjourney";
-import Locations from "./Locations/Locations";
-import Title from "./Title/Title";
 import DataValues from "./DataValues/DataValues";
-import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
 import Map from "./Map/Map";
 import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
+<<<<<<< HEAD
 import HappyClients from "./HappyClients/HappyClients";
 import CoreValuesComponent from "./CoreValuesComponent/CoreValuesComponent";
 
@@ -42,3 +40,50 @@ import CoreValuesComponent from "./CoreValuesComponent/CoreValuesComponent";
 
 export { Header, Footer,Banner,Tech, Whychooseus,Quality,About ,HappyClients,GetTouch,Ourteam,CompanyCulture,CompanyVision,Contactus,Companymission,Properties,Propertiesfooter,Floorplan,Godavariheader,Improvingpeople,Godavariaboutus,Yourdreamhouse,Road,Map,Ourculture,HappyClientsVideos,HappyClientsDetails,ProjectHeadings,ProjectButtons,Godavariaboutus2,Specifications,Yourjourney,Title,SpecificationValues,Whychooseblocks,DataValues,Godavaricontactus,Locations,CoreValuesComponent};
 
+=======
+import Contactusbutton from "./Contactusbutton/Contactusbutton";
+import Title from "./Title/Title";
+import SpecificationValues from "./SpecificationValues/SpecificationValues";
+import Locations from "./Locations/Locations";
+
+export {
+  Header,
+  Footer,
+  Banner,
+  Tech,
+  Whychooseus,
+  Quality,
+  About,
+  GetTouch,
+  Ourteam,
+  CompanyCulture,
+  CompanyVision,
+  Contactus,
+  Companymission,
+  Properties,
+  Propertiesfooter,
+  Floorplan,
+  Godavariheader,
+  Improvingpeople,
+  Godavariaboutus,
+  Yourdreamhouse,
+  WhyUs,
+  Road,
+  Map,
+  Ourculture,
+  HappyClientsVideos,
+  HappyClientsDetails,
+  ProjectHeadings,
+  ProjectButtons,
+  Godavariaboutus2,
+  Specifications,
+  Yourjourney,
+  Title,
+  SpecificationValues,
+  Whychooseblocks,
+  DataValues,
+  Godavaricontactus,
+  Locations,
+  Contactusbutton,
+};
+>>>>>>> 6da8fdfda1975a5d6002c08f580f451817c6f124

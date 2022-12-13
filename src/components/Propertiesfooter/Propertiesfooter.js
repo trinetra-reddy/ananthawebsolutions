@@ -1,7 +1,8 @@
 import React from "react";
 import "./Propertiesfooter.scss";
 import { Link } from "react-router-dom";
-import VectorImage from "./PropertiesfooterVector.svg";
+import Contactusbutton from "../Contactusbutton/Contactusbutton";
+
 const Propertiesfooter = () => {
   return (
     <>
@@ -18,10 +19,22 @@ const Propertiesfooter = () => {
           <div className="Propertiesfooter-contact">
             <h6 className="Propertiesfooter-contact-header">Contact Us</h6>
             <p className="Propertiesfooter-contact-details">
-              Pratap reddy : +91 87122 44534
+              Pratap reddy :{" "}
+              <a
+                className="Propertiesfooter-contact-details"
+                href="tel:+9187122 44534"
+              >
+                +91 87122 44534
+              </a>
             </p>
             <p className="Propertiesfooter-contact-details">
-              Rajshekar : +91 93477 05148
+              Rajshekar :{" "}
+              <a
+                className="Propertiesfooter-contact-details"
+                href="tel:+9193477 05148"
+              >
+                +91 93477 05148
+              </a>
             </p>
             <p className="Propertiesfooter-contact-details">
               Prasanthi nagar, near amaravati car decors, beside Rural
@@ -54,20 +67,7 @@ const Propertiesfooter = () => {
               </li>
             </ul>
           </div>
-          <button className="Propertiesfooter-button-wrapper">
-            <Link
-              className="Propertiesfooter-redirect"
-              id="Propertiesfooter-redirect3"
-              to="/g-contact-us"
-            >
-              Contactus
-            </Link>
-            <img
-              className="Propertiesfooter-vectorimage"
-              src={VectorImage}
-              alt="VectorImage"
-            />
-          </button>
+          <Contactusbutton />
         </div>
       </div>
     </>

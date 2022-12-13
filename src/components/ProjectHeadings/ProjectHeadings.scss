@@ -1,19 +1,50 @@
-.projectheadings-main{
-    margin:20px;
+.projectheadings-main {
+  margin: 20px;
 }
-.projectheadings-heading{
-    font-size:32px;
-    font-weight:700;
-    color:black; 
+.projectheadings-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
 }
-.projectheadings-vector{
-    position: absolute;
-    width: 85px;
-    height: 4px;
+.projectheadings-vector {
+  position: absolute;
+  width: 85px;
+  height: 4px;
 }
+<<<<<<< HEAD
 @media screen and (min-width:1024px){
     .projectheadings-main{
         margin:80px 108px 23.5px 108px; 
     }
+=======
+@media screen and (min-width: 375px) {
+  .projectheadings-main {
+    margin-top: 40px;
+  }
 }
-
+@media screen and (min-width: 768px) {
+  .projectheadings-main {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 820px) {
+  .projectheadings-main {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .projectheadings-main {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projectheadings-main {
+    margin: 60px 108px 23.5px 108px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .projectheadings-main {
+    margin: 80px 108px 23.5px 108px;
+  }
+>>>>>>> 6da8fdfda1975a5d6002c08f580f451817c6f124
+}

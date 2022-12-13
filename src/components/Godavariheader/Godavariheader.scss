@@ -81,7 +81,7 @@
   }
   .drop-down {
     position: relative;
-    display: inline-block;
+    display: block;
     &:hover {
       ul {
         display: block;
@@ -135,6 +135,9 @@
     .navbar__link a:hover::after{
       width: 100%;
       font-weight: 600;
+    }
+    .navbar__link .active::after  {
+      width: 100%;
     }
     .hamburgermenu {
       display: none;

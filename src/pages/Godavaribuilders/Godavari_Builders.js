@@ -4,10 +4,18 @@ import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeop
 import { CONSTANTS } from "../../utils/constants";
 import improvingpeoplebuildingimage from "../../images/building-1.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
-import leftarrowimproving from "./leftarrowimproving.png";
-import rightarrowimproving from "./rightarrowimproving.png";
+import leftarrowimproving from "../../images/vector-left-arrow.svg";
+import rightarrowimproving from "../../images/vector-right-arrow.svg";
 import './Godavari_Builders.scss';
+<<<<<<< HEAD
 
+=======
+import happyimg1 from "../../images/HappyClients/underline.png";
+import happyimg2 from "../../images/HappyClients/happyboy.png";
+import happyimg3 from "../../images/HappyClients/happygirl.png";
+import happyimg5 from "../../images/HappyClients/happyImage.png";
+import happyimg from "../../images/HappyClients/happyImg.png";
+>>>>>>> 6da8fdfda1975a5d6002c08f580f451817c6f124
 
 
 const Godavari_Builders = () => {
@@ -16,11 +24,28 @@ const Godavari_Builders = () => {
     return (
         <div> 
             <Godavariheader />
-            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="contactus" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
+            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
             <Godavariaboutus />
             <Properties name="Prope" name2="reties" />
 
+<<<<<<< HEAD
             <HappyClients />
+=======
+            <ProjectHeadings name="Happy clients" image1={happyimg1} />
+            <ProjectButtons image4={happyimg} image5={happyimg5}/>
+
+            <div className="happyclient-details">
+            <HappyClientsDetails happyContent={happyClientDes} image2={happyimg2} client1="Krishna Kanth" />
+            <HappyClientsDetails happyContent={happyClientDes} image2={happyimg3}  client1="Ramika sayn"/>
+            </div>
+
+            <ProjectButtons image4={happyimg} image5={happyimg5} />
+            <div class="happyvideos">
+            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
+            </div>
+>>>>>>> 6da8fdfda1975a5d6002c08f580f451817c6f124
             
             <Propertiesfooter />
         </div>
