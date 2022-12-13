@@ -33,7 +33,7 @@ const Godavari_Builders = () => {
             </div>
 
             <ProjectButtons image4={happyimg} image5={happyimg5} />
-            <div class="happyvideos">
+            <div className="happyvideos">
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />

@@ -47,7 +47,7 @@ const Godavariheader = () => {
           <NavLink to="/g-about-us" activeclassname="active">About Us</NavLink>
           <div className="drop-down">
             <a  className="drop-down-item">Properties</a>
-            <ul class="dropdown">
+            <ul className="dropdown">
                   <li><NavLink to="/g-properties" activeclassname="active">Properties</NavLink></li>
                   <li><NavLink to="/g-properties2" activeclassname="active">Properties2</NavLink></li>
               </ul>
