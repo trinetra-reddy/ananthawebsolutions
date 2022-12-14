@@ -13,11 +13,14 @@
   flex-direction: column;
   gap: 20px;
 }
-.Ongoingproject-projects {
+.Ongoingproject-images {
   height: 300px;
   width: 100%;
 }
 @media screen and (min-width: 996px) {
+  .Ongoingproject-main {
+    padding: 60px 108px 0;
+  }
   .Ongoingproject-projects-wrapper {
     flex-direction: row;
     margin-top: 70px;

@@ -12,23 +12,23 @@ const Ongoingprojects = () => {
           <h1 className="Ongoingproject-header">ONGOING PROJECTS</h1>
         </div>
         <div className="Ongoingproject-projects-wrapper">
-          <div>
+          <div className="Ongoingproject-projects">
             <img
-              className="Ongoingproject-projects"
+              className="Ongoingproject-images"
               src={Ongoingproject1}
               alt="Ongoingproject1"
             ></img>
           </div>
-          <div>
+          <div className="Ongoingproject-projects">
             <img
-              className="Ongoingproject-projects"
+              className="Ongoingproject-images"
               src={Ongoingproject2}
               alt="Ongoingproject2"
             ></img>
           </div>
-          <div>
+          <div className="Ongoingproject-projects">
             <img
-              className="Ongoingproject-projects"
+              className="Ongoingproject-images"
               src={Ongoingproject3}
               alt="Ongoingproject3"
             ></img>
