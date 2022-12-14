@@ -53,7 +53,7 @@ const Godavariheader = () => {
                   <li><NavLink to="/g-properties2" activeclassname="active">Properties2</NavLink></li>
               </ul>
           </div>
-          <button className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></button>
+          <button className="header-contactus-button">Contact Us<img src={Headercontactus} alt="headercontactus" /></button>
         </div>
       </nav>
     </header>
