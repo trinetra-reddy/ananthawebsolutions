@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons } from "../../components";
+import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons,HappyClientsVideosWrapper,HappyClientsWrapper,} from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import improvingpeoplebuildingimage from "../../images/building-1.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
@@ -23,27 +23,22 @@ const Godavari_Builders = () => {
             <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
             <Godavariaboutus />
             <Properties name="Prope" name2="reties" />
-
+            
             <ProjectHeadings name="Happy clients" image1={happyimg1} />
             <ProjectButtons image4={happyimg} image5={happyimg5}/>
 
             <div className="happyclient-details">
-            <HappyClientsDetails happyContent={happyClientDes} image2={happyimg2} client1="Krishna Kanth" />
-            <HappyClientsDetails happyContent={happyClientDes} image2={happyimg3}  client1="Ramika sayn"/>
+                 <HappyClientsWrapper/>
             </div>
 
             <ProjectButtons image4={happyimg} image5={happyimg5} />
-<<<<<<< HEAD
-            <div class="happyvideos">
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/NJHw5cr_X34" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/S76DWblbhyM" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/ECIhrH5diZE"  />
-=======
-            <div className="happyvideos">
+            {/* <div className="happyvideos">
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
->>>>>>> 8cc1f5663649876b02da8e025ee9f0af6cd489a7
+            </div> */}
+            <div className="happyvideos">
+                <HappyClientsVideosWrapper />
             </div>
             
             <Propertiesfooter />

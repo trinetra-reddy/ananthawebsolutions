@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map } from "../../components";
+import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map, } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import yourdreamhousebuildingimage from "./building-2.jpeg";
 import leftarrowyourdreamhouse from "../../images/vector-left-arrow.svg";

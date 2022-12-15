@@ -1,5 +1,5 @@
 import React from "react";
-import { Godavariheader, Godavariaboutus2, ProjectHeadings, Ourculture, HappyClientsVideos, HappyClientsDetails, ProjectButtons, Propertiesfooter, HappyClientsWrapper } from "../../components";
+import { Godavariheader, Godavariaboutus2, ProjectHeadings, Ourculture, HappyClientsVideos, HappyClientsDetails, ProjectButtons, Propertiesfooter, HappyClientsWrapper, HappyClientsVideosWrapper } from "../../components";
 
 import './Godavariaboutus.scss';
 import godavariaboutus2buildingimage from "./building-3.jpg";
@@ -27,12 +27,14 @@ const Godavariaboutus = () => {
                 <HappyClientsWrapper/>
             </div>
             <ProjectButtons image4={happyimg} image5={happyimg5}/>
+            {/* <div className="happyvideos">
+                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+            </div> */}
             <div className="happyvideos">
-                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                <HappyClientsVideosWrapper />
             </div>
-
             <Propertiesfooter />
 
         </div>
