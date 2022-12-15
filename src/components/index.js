@@ -22,12 +22,8 @@ import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
 import Road from "./Road/Road";
 import Ourculture from "./Ourculture/Ourculture";
 import HappyClientsVideos from "./HappyClientsVideo/HappyClientsVideos";
-import HappyClientsDetails from "./HappyClientsDetails/HappyClientsDetails";
-<<<<<<< HEAD
-import HappyClientsWrapper from './HappyClientsDetails/HappyClientsWrapper';
 import HappyClientsVideosWrapper from "./HappyClientsVideo/HappyClientsVideosWrapper";
-=======
->>>>>>> cfa689e034adfeba24240d399ba200bae56f0a07
+import HappyClientsDetails from "./HappyClientsDetails/HappyClientsDetails";
 import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
 import ProjectButtons from "./ProjectButtons/ProjectButtons";
 import Specifications from "./Specifications/Specifications";

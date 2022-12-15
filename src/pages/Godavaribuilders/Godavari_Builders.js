@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons,HappyClientsVideosWrapper,HappyClientsWrapper,} from "../../components";
-=======
-import {Properties,Propertiesfooter,Ongoingprojects,HappyClientsWrapper,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,ProjectButtons } from "../../components";
-
->>>>>>> cfa689e034adfeba24240d399ba200bae56f0a07
+import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons,HappyClientsVideosWrapper,HappyClientsWrapper,Ongoingprojects} from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import improvingpeoplebuildingimage from "../../images/building-1.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
@@ -29,7 +24,6 @@ const Godavari_Builders = () => {
             <Properties name="Prope" name2="reties" />
             
             <ProjectHeadings name="Happy clients" image1={happyimg1} />
-<<<<<<< HEAD
             <ProjectButtons image4={happyimg} image5={happyimg5}/>
 
             <div className="happyclient-details">
@@ -44,17 +38,6 @@ const Godavari_Builders = () => {
             </div> */}
             <div className="happyvideos">
                 <HappyClientsVideosWrapper />
-=======
-            <div className="happyclient-details">                   
-                <HappyClientsWrapper/>
-            </div>
-
-            <ProjectButtons image4={happyimg} image5={happyimg5} />
-            <div className="happyvideos">
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
->>>>>>> cfa689e034adfeba24240d399ba200bae56f0a07
             </div>
             
             <Propertiesfooter />
