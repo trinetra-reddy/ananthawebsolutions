@@ -13,12 +13,11 @@
     padding-top: 10px;
     z-index: 10;
   }
+  .godavari_logo_wrapper{
+    margin-left: 10px;
+  }
   .godavari_logo {
-    font-size: 24px;
-    margin: 18px 0px 19px 53px;
-    font-weight: 700;
-    color: #000000;
-    text-decoration: none;
+    height : 70px;
   }
   .hamburgermenu {
     padding-right: 25px;
@@ -93,7 +92,9 @@
   }  
   
   @media screen and (min-width: 769px) {
-    
+    .godavari_logo_wrapper{
+      margin-left: 108px;
+    }
     .nav-bar {
      display: flex;
      justify-content: space-between;

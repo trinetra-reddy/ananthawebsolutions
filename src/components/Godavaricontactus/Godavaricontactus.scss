@@ -77,7 +77,13 @@
   line-height: 43.2px;
   text-align: center;
 }
-
+.g-contactus-logo-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+.g-contactus-logo {
+  height: 70px;
+}
 @media screen and (min-width: 998px) {
   .g-contactus-main {
     padding: 60px 108px;

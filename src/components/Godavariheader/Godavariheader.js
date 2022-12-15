@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import './Godavariheader.scss';
+import godavarilogo from "./Godavari-logo.jpg";
 import godavarimenu from '../../images/menu-open.svg';
 import godavariclose from '../../images/menu-close.svg';
 import Headercontactus from "./Headercontactus.svg";
@@ -30,9 +31,9 @@ const Godavariheader = () => {
   return (
     <header>
       <nav className="nav-bar">
-
-        <a href="#"className="godavari_logo" alt="logo">LOGO</a>
-
+        <div className="godavari_logo_wrapper">
+        <img className="godavari_logo" src={godavarilogo} alt="godavarilogo" />
+        </div>
         <div className="hamburgermenu" onClick={onToggleclick}>
           <div className="menu">
             <img src={godavarimenu} className="godavarimenu" alt="hamburger" />
@@ -52,7 +53,11 @@ const Godavariheader = () => {
                   <li><NavLink to="/g-properties2" activeclassname="active">Properties2</NavLink></li>
               </ul>
           </div>
+<<<<<<< HEAD
           <NavLink to="/g-contact-us" className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></NavLink>
+=======
+          <button className="header-contactus-button">Contact Us<img src={Headercontactus} alt="headercontactus" /></button>
+>>>>>>> cfa689e034adfeba24240d399ba200bae56f0a07
         </div>
       </nav>
     </header>
