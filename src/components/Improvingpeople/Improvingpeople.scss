@@ -1,3 +1,4 @@
+@import "../../styles/variables";
 .improving-people {
   display: flex;
   flex-direction: column;
@@ -22,11 +23,11 @@
 }
 
 .improving-button-left {
-  background-color: white;
+  background-color: $white;
   border-radius: 20px;
   padding: 6px 10px;
   width: 50px;
-  border: 1px solid rgb(180, 176, 176);
+  border: 1px solid $color-28;
   margin-top: 49px;
 }
 .improving-button-left img {
@@ -37,7 +38,7 @@
   border-radius: 20px;
   padding: 6px 10px;
   width: 50px;
-  border: 1px solid rgb(180, 176, 176);
+  border: 1px solid $color-28;
   margin-top: 49px;
   margin-left: 267px;
 }
@@ -49,7 +50,7 @@
   width: 100%;
   height: 250px;
   padding: 10px;
-  border: 1px silod#fff;
+  border: 1px solid $white;
   border-radius: 20px;
 }
 
@@ -83,7 +84,7 @@
     border-radius: 20px;
     padding: 6px 10px;
     width: 50px;
-    border: 1px solid rgb(180, 176, 176);
+    border: 1px solid $color-28;
     margin-top: 49px;
     margin-left: auto;
   }

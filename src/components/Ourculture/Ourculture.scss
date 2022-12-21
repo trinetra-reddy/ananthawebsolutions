@@ -1,5 +1,6 @@
+@import "../../styles/variables";
 .culture-head1{
-    border-bottom :4px solid #026b33;
+    border-bottom :4px solid $color-15;
     
 }
 .culture-main{
@@ -8,7 +9,7 @@
     line-height: 39px;
 }
 .our-culture-main{
-    background-color: #FAFAFA;
+    background-color: $color-29;
     padding:10px;
 }
 .culture-description{

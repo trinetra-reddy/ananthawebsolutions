@@ -1,3 +1,4 @@
+@import "../../styles/variables";
 .your-journey {
     display: flex;
     flex-direction: column;
@@ -26,19 +27,19 @@
   }
   
   .your-journey-contactus-button{
-    background-color: #026B33;
+    background-color: $color-15;
     border: none;
-    color: #fff;
+    color: $white;
     border-radius: 4px;
     padding: 8px 16px;
     font-size: 14px;
   }
   .your-journey-button-left {
-    background-color: white;
+    background-color: $white;
     border-radius: 20px;
     padding: 6px 10px;
     width: 50px;
-    border: 1px solid rgb(180, 176, 176);
+    border: 1px solid $color-28;
     margin-top: 49px;
   }
   .your-journey-button-left img {
@@ -49,7 +50,7 @@
     border-radius: 20px;
     padding: 6px 10px;
     width: 50px;
-    border: 1px solid rgb(180, 176, 176);
+    border: 1px solid $color-28;
     margin-top: 49px;
     margin-left: auto;
   }
@@ -61,7 +62,7 @@
     width: 100%;
     height: 250px;
     padding: 10px;
-    border: 1px silod#fff;
+    border: 1px solid $white;
     border-radius: 20px;
   }
   

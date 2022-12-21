@@ -72,7 +72,7 @@
         padding: 20px 10px;
         width: auto;
         position: absolute;
-        background: rgb(173,216,230);
+        background: $color-31;
         color: $white;
         display: flex;
         flex-direction: column;
@@ -100,7 +100,7 @@
         position: relative;
         &::after {
           position: absolute;
-          background-color: rgba(0,0,0,0.2);
+          background-color: $color-30;
           top:0;
           bottom: 0;
           right: 0;
