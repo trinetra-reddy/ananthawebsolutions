@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 .footer-a{
-  color:white;
+  color:$white;
   text-decoration:none;
 }
 .footer-main-container {
@@ -100,13 +100,13 @@ margin:5px;
   width: 100%;
   padding: 18px 36px;
   margin: 8px 0;
-  border: 1px solid #ccc;
+  border: 1px solid $color-22;
   box-sizing: border-box;
   height: 35px;
   margin-top: 18px;
   border-radius: 5px;
   border: 1px solid $primary-color;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06); 
+  box-shadow: 0 20px 30px 0 $color-23; 
 
 }
 .footer-container-4 .footer-email input,
@@ -210,13 +210,13 @@ input::-webkit-input-placeholder {
     width: 70%;
     padding: 12px 30px;
     margin: 8px 0;
-    border: 1px solid #ccc;
+    border: 1px solid $color-22;
     box-sizing: border-box;
     height: 35px;
     margin-top: 18px;
     border-radius: 5px;
     border: 1px solid $primary-color;
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06); 
+    box-shadow: 0 20px 30px 0 $color-23; 
   }
   .footer-container-4 .footer-email input,
   input::-webkit-input-placeholder {
@@ -317,13 +317,13 @@ input::-webkit-input-placeholder {
     width: 90%;
     padding: 16px 36px;
     margin: 8px 0;
-    border: 1px solid #ccc;
+    border: 1px solid $color-22;
     box-sizing: border-box;
     height: 35px;
     margin-top: 18px;
     border-radius: 5px;
     border: 1px solid $primary-color;
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06); 
+    box-shadow: 0 20px 30px 0 $color-23; 
   }
   .footer-container-4 .footer-email input,
   input::-webkit-input-placeholder {
