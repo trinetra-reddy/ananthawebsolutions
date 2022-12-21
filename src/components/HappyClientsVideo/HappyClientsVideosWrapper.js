@@ -27,16 +27,16 @@ const HappyClientsVideosWrapper = (props) => {
                 className="clientsvideos-swiper"
             >
                 <SwiperSlide>
-                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/ECIhrH5diZE" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/S76DWblbhyM" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/ECIhrH5diZE" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                    <HappyClientsVideos videoUrl="https://www.youtube.com/embed/NJHw5cr_X34" />
                 </SwiperSlide>
             </Swiper>
 

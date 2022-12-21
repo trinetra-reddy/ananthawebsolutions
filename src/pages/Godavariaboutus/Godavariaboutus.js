@@ -32,9 +32,9 @@ const Godavariaboutus = () => {
             </div>
             <ProjectButtons image4={happyimg} image5={happyimg5}/>
             {/* <div className="happyvideos">
-                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-                <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
+                <HappyClientsVideos videoUrl="https://www.youtube.com/watch?v=NJHw5cr_X34" />
+                <HappyClientsVideos videoUrl="https://www.youtube.com/watch?v=S76DWblbhyM" />
+                <HappyClientsVideos videoUrl="https://www.youtube.com/watch?v=ECIhrH5diZE" />
             </div> */}
             <div className="happyvideos">
                 <HappyClientsVideosWrapper />
