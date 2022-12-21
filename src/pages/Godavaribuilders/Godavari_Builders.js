@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons,HappyClientsVideosWrapper,HappyClientsWrapper,Ongoingprojects} from "../../components";
+import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons,HappyClientsVideosWrapper,HappyClientsWrapper,Ongoingprojects, ImageCarousel} from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import improvingpeoplebuildingimage from "../../images/building-1.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
@@ -18,7 +18,8 @@ const Godavari_Builders = () => {
     return (
         <div> 
             <Godavariheader />
-            <Improvingpeople heading="Improving people’s futures through bulding" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
+            <ImageCarousel />
+            <Improvingpeople heading="Improving people’s futures through building" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
             <Ongoingprojects />
             <Godavariaboutus />
             <Properties name="Prope" name2="reties" />

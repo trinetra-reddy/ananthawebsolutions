@@ -40,6 +40,7 @@ import Locations from "./Locations/Locations";
 import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
 import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
+import ImageCarousel from "./ImageCarousel/ImageCarousel";
 
 
 
@@ -86,4 +87,5 @@ export {
   Contactusbutton,
   Leadershipcomp,
   Ongoingprojects,
+  ImageCarousel,
 };
