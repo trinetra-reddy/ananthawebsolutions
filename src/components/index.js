@@ -22,6 +22,7 @@ import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
 import Road from "./Road/Road";
 import Ourculture from "./Ourculture/Ourculture";
 import HappyClientsVideos from "./HappyClientsVideo/HappyClientsVideos";
+import HappyClientsVideosWrapper from "./HappyClientsVideo/HappyClientsVideosWrapper";
 import HappyClientsDetails from "./HappyClientsDetails/HappyClientsDetails";
 import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
 import ProjectButtons from "./ProjectButtons/ProjectButtons";
@@ -39,6 +40,7 @@ import Locations from "./Locations/Locations";
 import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
 import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
+import ImageCarousel from "./ImageCarousel/ImageCarousel";
 
 
 
@@ -70,6 +72,7 @@ export {
   HappyClientsVideos,
   HappyClientsDetails,
   HappyClientsWrapper,
+  HappyClientsVideosWrapper,
   ProjectHeadings,
   ProjectButtons,
   Godavariaboutus2,
@@ -84,4 +87,5 @@ export {
   Contactusbutton,
   Leadershipcomp,
   Ongoingprojects,
+  ImageCarousel,
 };

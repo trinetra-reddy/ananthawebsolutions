@@ -49,11 +49,11 @@ const Godavariheader = () => {
           <div className="drop-down">
             <a  className="drop-down-item">Properties</a>
             <ul className="dropdown">
-                  <li><NavLink to="/g-properties" activeclassname="active">Properties</NavLink></li>
+                  <li><NavLink to="/g-properties" activeclassname="active">Properties1</NavLink></li>
                   <li><NavLink to="/g-properties2" activeclassname="active">Properties2</NavLink></li>
               </ul>
           </div>
-          <button className="header-contactus-button">Contact Us<img src={Headercontactus} alt="headercontactus" /></button>
+          <NavLink to="/g-contact-us"className="header-contactus-button">Contact Us<img src={Headercontactus} alt="headercontactus" /></NavLink>
         </div>
       </nav>
     </header>
