@@ -2,7 +2,8 @@ import { Home, Contact, About, Services, Styleguide, Godavaribuilders,Properties
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
-    component: <Home />,
+    // component: <Home />,
+    component: <Godavaribuilders />,
     path: CONSTANTS.ROUTES.HOME_PAGE,
     isExact: true
 }, {
