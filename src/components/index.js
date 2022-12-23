@@ -19,12 +19,11 @@ import Godavariaboutus2 from "./Godavariaboutus2/Godavariaboutus2";
 import Improvingpeople from "./Improvingpeople/Improvingpeople";
 import Godavariaboutus from "./Godavariaboutus/Godavariaboutus";
 import Yourdreamhouse from "./Yourdreamhouse/Yourdreamhouse";
-import WhyUs from "./WhyUs/WhyUs";
 import Road from "./Road/Road";
 import Ourculture from "./Ourculture/Ourculture";
 import HappyClientsVideos from "./HappyClientsVideo/HappyClientsVideos";
+import HappyClientsVideosWrapper from "./HappyClientsVideo/HappyClientsVideosWrapper";
 import HappyClientsDetails from "./HappyClientsDetails/HappyClientsDetails";
-import HappyClientsWrapper from './HappyClientsDetails/HappyClientsWrapper';
 import ProjectHeadings from "./ProjectHeadings/ProjectHeadings";
 import ProjectButtons from "./ProjectButtons/ProjectButtons";
 import Specifications from "./Specifications/Specifications";
@@ -33,12 +32,17 @@ import DataValues from "./DataValues/DataValues";
 import Whychooseblocks from "./Whychooseblocks/Whychooseblocks";
 import Map from "./Map/Map";
 import Godavaricontactus from "./Godavaricontactus/Godavaricontactus";
+import CoreValuesComponent from "./CoreValuesComponent/CoreValuesComponent";
 import Contactusbutton from "./Contactusbutton/Contactusbutton";
 import Title from "./Title/Title";
 import SpecificationValues from "./SpecificationValues/SpecificationValues";
 import Locations from "./Locations/Locations";
+import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
 import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
+import ImageCarousel from "./ImageCarousel/ImageCarousel";
+
+
 
 export {
   Header,
@@ -61,13 +65,14 @@ export {
   Improvingpeople,
   Godavariaboutus,
   Yourdreamhouse,
-  WhyUs,
+  CoreValuesComponent,
   Road,
   Map,
   Ourculture,
   HappyClientsVideos,
   HappyClientsDetails,
   HappyClientsWrapper,
+  HappyClientsVideosWrapper,
   ProjectHeadings,
   ProjectButtons,
   Godavariaboutus2,
@@ -82,4 +87,5 @@ export {
   Contactusbutton,
   Leadershipcomp,
   Ongoingprojects,
+  ImageCarousel,
 };

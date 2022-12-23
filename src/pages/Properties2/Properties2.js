@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Godavariheader,Yourjourney,Floorplan,Road,Map, Propertiesfooter } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
-import roadImg from "../../components/Road/roadImg.jpg";
-import yourjourneybuildingimage from "./building-2.jpeg";
+import roadImg from "../../images/Properties2.jpg";
+import Appartmentimage from "../../images/House.jpg";
 import leftarrowyourjourney from "../../images/vector-left-arrow.svg";
 import rightarrowyourjourney from "../../images/vector-right-arrow.svg";
 import Yourjourneycontactus from "./Yourjourneycontactus.svg";
@@ -17,7 +17,7 @@ const Properties2 = (props) => {
     return (
         <>
         <Godavariheader />
-        <Yourjourney heading="Your journey to get dream home is very near now" description={yourjourneydescription} btn="Contact us" img={Yourjourneycontactus} leftarrowimg={leftarrowyourjourney} rightarrowimg={rightarrowyourjourney} imgPath={yourjourneybuildingimage}/>
+        <Yourjourney heading="Your journey to get dream home is very near now" description={yourjourneydescription} btn="Contact us" img={Yourjourneycontactus} leftarrowimg={leftarrowyourjourney} rightarrowimg={rightarrowyourjourney} imgPath={Appartmentimage}/>
         <Floorplan img1={img1} img2={img2} background="white" />
         <div className="road-map">
             <Road roadImage={roadImg} width="583px" height="555px" roadtext="800Meters to D-Mart" roadtext2="200 Meters to Tapovanam Circle" heading="Location Advantages"/>

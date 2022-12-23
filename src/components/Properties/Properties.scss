@@ -1,6 +1,7 @@
+@import "../../styles/variables";
 .properties-main {
-  background-color: #026b33;
-  color: white;
+  background-color: $color-15;
+  color: $white;
   width: 100%;
   padding: 15px;
   
@@ -11,7 +12,7 @@
   line-height: 39px;
 }
 .prop1 {
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid $white;
 }
 .prop-text1 {
   margin-top: 15px;
@@ -31,9 +32,9 @@
   font-size: 18px;
 }
 .prop-button1 {
-  background-color: #026b33 ; /* Green */
-  border: 1px solid white;
-  color: white;
+  background-color: $color-15 ; /* Green */
+  border: 1px solid $white;
+  color: $white;
   padding: 4px 12px;
   text-align: center;
   text-decoration: none;
@@ -96,9 +97,9 @@
     margin-top: 37px;
   }
   .prop-button1 {
-    background-color:  #026b33; /* Green */
-    border:1px solid white;
-    color: white;
+    background-color:  $color-15; /* Green */
+    border:1px solid $white;
+    color: $white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -176,7 +177,7 @@
     margin-top: 47px;
   }
   .prop-button1 {
-    color: white;
+    color: $white;
     text-align: center;
     text-decoration: none;
     display: inline-block;

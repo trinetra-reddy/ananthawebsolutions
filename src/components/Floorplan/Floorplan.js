@@ -1,4 +1,7 @@
 import React from 'react';
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import './Floorplan.scss';
 import Title from '../Title/Title';
 import vector from "./Vector.svg";
@@ -20,8 +23,35 @@ const Floorplan = (props) => {
             </div>
             </div>
           <div className={`floorplan-img ${props.background}`}>
-            <img className="floorplan-img1" src={props.img1}alt="typical-floorplan" />
-            <img className="floorplan-img2" src={props.img2} alt="stilt-floorplan" />
+          <Swiper
+                                    spaceBetween={50}
+                                    slidesPerView={2}
+                                    onSlideChange={() => console.log('slide change')}
+                                    onSwiper={(swiper) => console.log(swiper)}
+                                    autoplay={{
+                                        delay: 2500,
+                                        disableOnInteraction: false,
+                                    }}
+                                    pagination={{
+                                        clickable: true,
+                                    }}
+                                    navigation={true}
+                                    modules={[Autoplay, Pagination, Navigation]}
+                                    className="floorplan-swiper"
+                                >
+                                    <SwiperSlide>
+                                    <img className="floorplan-img1" src={props.img1}alt="typical-floorplan" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <img className="floorplan-img2" src={props.img2} alt="stilt-floorplan" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <img className="floorplan-img1" src={props.img1}alt="typical-floorplan" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                    <img className="floorplan-img2" src={props.img2} alt="stilt-floorplan" />
+                                    </SwiperSlide>
+                                </Swiper>
           </div>
           
           </div>

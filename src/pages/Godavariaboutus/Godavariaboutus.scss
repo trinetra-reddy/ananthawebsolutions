@@ -1,14 +1,16 @@
-
-@media screen and (min-width:1024px){
+@media screen and (min-width:992px){
     .happyclient-details{
         display:flex;
-        margin-left:108px;
-        margin-right:108px;
+    }
+}
+@media screen and (min-width:1024px){
+    .happyclient-details{
+        margin:23px 108px;
     }
     .happyvideos{
         display:flex;
-        margin-left:108px;
-        margin-right: 108px;
+        margin:23px 108px;
         justify-content: space-between;
     }
 }
+

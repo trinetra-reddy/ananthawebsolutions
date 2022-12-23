@@ -11,28 +11,24 @@ const Godavariaboutus = () => {
         <div className="godavari-aboutus-1">
           <div className="godavari-aboutus-1-left">
             <p>
-              We were originally established as a constractor to major indias
+              We were originally established as a constractor to major
               housebuilders
             </p>
           </div>
           <div className="godavari-aboutus-1-right">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              dolores laboriosam et itaque, eligendi tempore. Provident hic
-              totam libero quia ad quidem. Rerum ipsa totam architecto a
-              temporibus? Nostrum, fugit.
+            HPR GODAVARI Builders & Developers was built on the pillars of trust, leadership and innovation by the founders.
+             We are taking calculated steps and marching towards becoming a leading developer in the Anantapur,
+              irrespective of whether it is commercial, retail and residential space our primary focus is on 
+              maintaining the highest level of quality in our work
             </p>
           </div>
         </div>
         <div className="godavari-aboutus-2">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            incidunt illum harum voluptates quidem? Mollitia quis ipsam eius
-            vero consequatur hic nobis quod, repellat deleniti porro doloremque
-            incidunt totam asperiores! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Doloremque incidunt illum harum voluptates quidem?
-            Mollitia quis ipsam eius vero consequatur hic nobis quod, repellat
-            deleniti porro doloremqu
+          Our aim is to develop residential and commercial spaces that easily conquer the hearts of buyers through unique 
+          aesthetic appeal. By providing top class features and facilities in properties we develop to be successful in attaining 
+          leadership position in the real estate industry and overtime to become the preferred brand when it comes to real-estate development.
           </p>
         </div>
         <div className="godavari-aboutus-hr">

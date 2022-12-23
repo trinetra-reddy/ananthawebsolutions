@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import './Godavariheader.scss';
+import godavarilogo from "./Godavari-logo.jpg";
 import godavarimenu from '../../images/menu-open.svg';
 import godavariclose from '../../images/menu-close.svg';
 import Headercontactus from "./Headercontactus.svg";
@@ -30,9 +31,9 @@ const Godavariheader = () => {
   return (
     <header>
       <nav className="nav-bar">
-
-        <a href="#"className="godavari_logo" alt="logo">LOGO</a>
-
+        <div className="godavari_logo_wrapper">
+        <img className="godavari_logo" src={godavarilogo} alt="godavarilogo" />
+        </div>
         <div className="hamburgermenu" onClick={onToggleclick}>
           <div className="menu">
             <img src={godavarimenu} className="godavarimenu" alt="hamburger" />
@@ -48,11 +49,11 @@ const Godavariheader = () => {
           <div className="drop-down">
             <a  className="drop-down-item">Properties</a>
             <ul className="dropdown">
-                  <li><NavLink to="/g-properties" activeclassname="active">Properties</NavLink></li>
-                  <li><NavLink to="/g-properties2" activeclassname="active">Properties2</NavLink></li>
+                  <li><NavLink to="/g-properties2" activeclassname="active">Properties1</NavLink></li>
+                  <li><NavLink to="/g-properties" activeclassname="active">Properties2</NavLink></li>
               </ul>
           </div>
-          <button className="header-contactus-button">Contactus<img src={Headercontactus} alt="headercontactus" /></button>
+          <NavLink to="/g-contact-us"className="header-contactus-button">Contact Us<img src={Headercontactus} alt="headercontactus" /></NavLink>
         </div>
       </nav>
     </header>

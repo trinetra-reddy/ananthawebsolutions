@@ -1,10 +1,11 @@
+@import "../../styles/variables";
 .projectheadings-main {
   margin: 20px;
 }
 .projectheadings-heading {
   font-size: 32px;
   font-weight: 700;
-  color: black;
+  color: $black;
 }
 .projectheadings-vector {
   position: absolute;

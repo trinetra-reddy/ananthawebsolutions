@@ -22,7 +22,6 @@ const Yourjourney = (props) => {
                 </div>
                 <div className="your-journey-right">
                     <img className="your-journey-right-image" src={props.imgPath} />
-                    
                 </div>
             </div>
         </>

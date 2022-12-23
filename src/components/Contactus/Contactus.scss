@@ -24,7 +24,7 @@
   padding: 12px;
   border: none;
   border-radius: 8px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 4px 15px $color-18;
   background: $white;
   margin-bottom: 12px;
   width: 100%;
@@ -67,7 +67,7 @@
   margin-top: 12px;
 }
 .Contactus-address-wrapper:hover {
-  box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.2);
+  box-shadow: 0px 2px 25px $color-19;
   border-left: 4px solid $color-11;
 }
 .Contactus-location-content {

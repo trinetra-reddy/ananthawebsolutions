@@ -7,7 +7,7 @@
   margin-top: 30px;
 }
 .GetTouch-header-1 {
-  background-image: $color-3;
+  background-image: $gradientcolor-5;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
@@ -33,14 +33,14 @@
   border-radius: 35px;
   padding: 14px;
   margin-top: 45px;
-  box-shadow: 0 9px 68px 0 rgb(62 57 107 / 20%);
+  box-shadow: 0 9px 68px 0 $color-24;
   display: inline-block;
 }
 .GetTouch-input {
   border-radius: 25px;
-  border: 1px solid #eee;
+  border: 1px solid $color-25;
   font-size: 16px;
-  outline: green;
+  outline: $color-15;
   line-height: 1.5;
   width: 100%;
   letter-spacing: 1px;
