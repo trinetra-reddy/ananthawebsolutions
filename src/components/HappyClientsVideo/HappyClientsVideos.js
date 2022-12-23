@@ -5,7 +5,7 @@ const HappyClientsVideos=(props)=>{
     return(
         <>
         <div className="happyclientsvideo-main" >
-            <embed className="happyclients-video" src={props.videoUrl} autoPlay controls ></embed>
+            <iframe className="happyclients-video" src={props.videoUrl} autoPlay controls ></iframe>
         </div>
        
         </>

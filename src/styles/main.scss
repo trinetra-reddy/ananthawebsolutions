@@ -9,6 +9,7 @@
 :root {
   --swiper-navigation-color: #026b33 !important;
   --swiper-theme-color: #026b33 !important;
+  --swiper-navigation-size: 30px;
   }
   
 .swiper {
@@ -41,4 +42,25 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .top-carousel-nav {
+    .swiper-wrapper {
+      padding-top: 50px;
+    }
+  
+    .swiper-button-prev {
+      top: 0;
+      z-index: 1000;
+      margin-top: 0;
+      right: 67px;
+      left: auto;
+    }
+    .swiper-button-next {
+      top: 0;
+      z-index: 1000;
+      margin-top: 0;
+      right: 10px;
+      left: auto;
+    }
   }

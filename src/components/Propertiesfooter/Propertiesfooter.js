@@ -50,22 +50,15 @@ const Propertiesfooter = () => {
               About us
             </Link>
           </div>
-          <div className="Propertiesfooter-redirect-wrapper2">
-            <Link className="Propertiesfooter-redirect" to="#">
-              Properties
+          <div className="Propertiesfooter-redirect-wrapper1">
+            <Link className="Propertiesfooter-redirect" to="/luxury-houses">
+              Luxury Houses
             </Link>
-            <ul className="Propertiesfooter-dropdown">
-              <li>
-                <Link className="Propertiesfooter-redirect" to="/g-properties">
-                  Properties
-                </Link>
-              </li>
-              <li>
-                <Link className="Propertiesfooter-redirect" to="/g-properties2">
-                  Properties2
-                </Link>
-              </li>
-            </ul>
+          </div>
+          <div className="Propertiesfooter-redirect-wrapper1">
+            <Link className="Propertiesfooter-redirect" to="/little-oaks">
+              Little OAKS
+            </Link>
           </div>
           <Contactusbutton />
         </div>

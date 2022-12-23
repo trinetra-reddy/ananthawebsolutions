@@ -49,8 +49,8 @@ const Godavariheader = () => {
           <div className="drop-down">
             <a  className="drop-down-item">Properties</a>
             <ul className="dropdown">
-                  <li><NavLink to="/g-properties2" activeclassname="active">Properties1</NavLink></li>
-                  <li><NavLink to="/g-properties" activeclassname="active">Properties2</NavLink></li>
+                  <li><NavLink to="/luxury-houses" activeclassname="active">Luxury Houses</NavLink></li>
+                  <li><NavLink to="/little-oaks" activeclassname="active">Little OAKS</NavLink></li>
               </ul>
           </div>
           <NavLink to="/g-contact-us"className="header-contactus-button">Contact Us<img src={Headercontactus} alt="headercontactus" /></NavLink>

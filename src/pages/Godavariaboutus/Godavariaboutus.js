@@ -1,14 +1,13 @@
 import React from "react";
-import { Godavariheader, Godavariaboutus2, ProjectHeadings, Ourculture, HappyClientsVideos, HappyClientsDetails, ProjectButtons, Propertiesfooter, HappyClientsWrapper, HappyClientsVideosWrapper, Leadershipcomp } from "../../components";
+import { Godavariheader, Godavariaboutus2, ProjectHeadings, Ourculture,  Propertiesfooter, HappyClientsWrapper, HappyClientsVideosWrapper, Leadershipcomp } from "../../components";
 
 import './Godavariaboutus.scss';
-import godavariaboutus2buildingimage from "./building-3.jpg";
+import homeImage from '../../images/carouselImages/home2.jpeg';
+
 import image from './image.svg';
 import Ourvision from './Ourvision.svg';
 import Whyus from './Whyus.svg';
 import happyimg1 from "../../images/HappyClients/underline.png";
-import happyimg5 from "../../images/HappyClients/happyImage.png";
-import happyimg from "../../images/HappyClients/happyImg.png";
 import baba from '../../images/Baba_1.jpg';
 
 const Godavariaboutus = () => {
@@ -20,7 +19,7 @@ const Godavariaboutus = () => {
     return (
         <div>
             <Godavariheader />
-            <Godavariaboutus2 heading="About Us" heading1="We were originally established as a constractor to major indias housebuilders" description={godavariaboutus2description} imgPath={godavariaboutus2buildingimage}/>
+            <Godavariaboutus2 heading="About Us" heading1="We were originally established as a constractor to major indias housebuilders" description={godavariaboutus2description} imgPath={homeImage}/>
             <Leadershipcomp name="Pratap Reddy" img={baba}/>
             <Leadershipcomp  name="Rajshekar" img ={baba} imgPosition="right" />
             <Ourculture name="Our W" name2="ork Culture" description={ourCultureDes} linkeddescription={ourCultureDes} imgPath={image} background="#FAFAFA" />
@@ -30,7 +29,6 @@ const Godavariaboutus = () => {
             <div className="happyclient-details">                   
                 <HappyClientsWrapper/>
             </div>
-            <ProjectButtons image4={happyimg} image5={happyimg5}/>
             {/* <div className="happyvideos">
                 <HappyClientsVideos videoUrl="https://www.youtube.com/watch?v=NJHw5cr_X34" />
                 <HappyClientsVideos videoUrl="https://www.youtube.com/watch?v=S76DWblbhyM" />
