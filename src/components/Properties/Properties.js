@@ -61,13 +61,13 @@ const Properties = (props) => {
                                         <img src={Propimages1} />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimages1} />
+                                        <img src={Propimage2} />
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <img src={Propimages1} />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimages1} />
+                                        <img src={Propimage2} />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>

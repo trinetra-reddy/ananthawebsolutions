@@ -2,9 +2,9 @@ import React from "react";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Carouselimage1 from "../../images/Appartment.jpg";
-import Carouselimage2 from "../../images/Carouselimage2.jpg";
-import Carouselimage3 from "../../images/Carouselimage3.jpg";
+import Carouselimage1 from "../../images/appartmentimage.jpeg";
+import Carouselimage2 from "../../images/houseimage.jpg";
+import Carouselimage3 from "../../images/openplotimage.jpeg";
 
 const ImageCarousel = () => {
     const navigationPrevRef = React.useRef(null)
