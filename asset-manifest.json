@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ananthawebsolutions/static/css/main.28aba804.css",
-    "main.js": "/ananthawebsolutions/static/js/main.45d69efa.js",
+    "main.css": "/ananthawebsolutions/static/css/main.b61b37d2.css",
+    "main.js": "/ananthawebsolutions/static/js/main.26cbd698.js",
     "static/media/image.svg": "/ananthawebsolutions/static/media/image.903d96f25f43bc7c988e11c60b043910.svg",
     "static/media/Propimages1.svg": "/ananthawebsolutions/static/media/Propimages1.6c036401328d5b11a5308f7129aa5e9c.svg",
     "static/media/Ourvision.svg": "/ananthawebsolutions/static/media/Ourvision.9d6303278cf5b7a12d2c160ce697554d.svg",
@@ -80,11 +80,11 @@
     "static/media/structure1.svg": "/ananthawebsolutions/static/media/structure1.e85723a353af45cb901f1e55c93db847.svg",
     "static/media/Vector 2.svg": "/ananthawebsolutions/static/media/Vector 2.260e0123a7bd56876e5e8270308cc6c0.svg",
     "static/media/vector2.svg": "/ananthawebsolutions/static/media/vector2.77391b13867410f1f49ac747e8115dd6.svg",
-    "main.28aba804.css.map": "/ananthawebsolutions/static/css/main.28aba804.css.map",
-    "main.45d69efa.js.map": "/ananthawebsolutions/static/js/main.45d69efa.js.map"
+    "main.b61b37d2.css.map": "/ananthawebsolutions/static/css/main.b61b37d2.css.map",
+    "main.26cbd698.js.map": "/ananthawebsolutions/static/js/main.26cbd698.js.map"
   },
   "entrypoints": [
-    "static/css/main.28aba804.css",
-    "static/js/main.45d69efa.js"
+    "static/css/main.b61b37d2.css",
+    "static/js/main.26cbd698.js"
   ]
 }
