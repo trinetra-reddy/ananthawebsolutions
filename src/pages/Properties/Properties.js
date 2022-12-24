@@ -1,5 +1,5 @@
 import React from "react";
-import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map, } from "../../components";
+import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map} from "../../components";
 import leftarrowyourdreamhouse from "../../images/vector-left-arrow.svg";
 import rightarrowyourdreamhouse from "../../images/vector-right-arrow.svg";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
@@ -8,6 +8,7 @@ import HouseImage from "../../images/carouselImages/little_OAKS.jpg";
 import './Properties.scss';
 import img1 from "../../images/floorplan.jpeg";
 import img2 from "../../images/stiltfloor.jpeg";
+
 
 
 const Properties = () => {

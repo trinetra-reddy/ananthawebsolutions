@@ -15,10 +15,6 @@ const Yourjourney = (props) => {
                     {!props.hideBtn &&<div>
                         <button className="your-journey-contactus-button">{props.btn}<img src={props.img}/></button>
                     </div> }
-                    <div>
-                        <button className="your-journey-button-left"><img src={props.leftarrowimg} alt="arrowleft" /></button>
-                        <button className="your-journey-button-right"><img src={props.rightarrowimg} alt="arrowright" /></button>
-                    </div>
                 </div>
                 <div className="your-journey-right">
                     <img className="your-journey-right-image" src={props.imgPath} />

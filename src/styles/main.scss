@@ -12,6 +12,15 @@
   --swiper-navigation-size: 30px;
   }
   
+.component-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  @media screen and (min-width: 988px) {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+
 .swiper {
     width: 100%;
     height: 100%;

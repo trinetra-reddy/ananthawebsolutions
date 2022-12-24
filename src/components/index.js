@@ -41,7 +41,7 @@ import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
 import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 import ImageCarousel from "./ImageCarousel/ImageCarousel";
-
+import Amenities from './Amenities/Amenities';
 
 
 export {
@@ -88,4 +88,5 @@ export {
   Leadershipcomp,
   Ongoingprojects,
   ImageCarousel,
+  Amenities
 };
