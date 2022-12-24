@@ -1,6 +1,4 @@
 import React from "react";
-import Yourdreamhouseimage from "./building-2.jpeg";
-import yourdreamhousecontactus from "./yourdreamhousecontactus.svg";
 import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
 import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
 import "./Yourdreamhouse.scss";

@@ -1,6 +1,6 @@
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Propimages1 from './Propimages1.svg';
 import Propimage2 from './Propimage2.svg';
@@ -10,8 +10,6 @@ import vector2 from "./vector2.svg";
 import './Properties.scss';
 import Title from '../Title/Title';
 const Properties = (props) => {
-    const navigationPrevRef = React.useRef(null)
-    const navigationNextRef = React.useRef(null);
     return (
         <>
 
@@ -58,16 +56,16 @@ const Properties = (props) => {
                                     className="propeties-swiper"
                                 >
                                     <SwiperSlide>
-                                        <img src={Propimages1} />
+                                        <img src={Propimages1} alt="property 1"/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimages1} />
+                                        <img src={Propimage2} alt="property 2"/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimages1} />
+                                        <img src={Propimages1} alt="property 3"/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimages1} />
+                                        <img src={Propimage2} alt="property 4"/>
                                     </SwiperSlide>
                                 </Swiper>
                             </div>

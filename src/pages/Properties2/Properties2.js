@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Godavariheader,Yourjourney,Floorplan,Road,Map, Propertiesfooter } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import roadImg from "../../images/Properties2.jpg";
-import Appartmentimage from "../../images/House.jpg";
+import Appartmentimage from "../../images/carouselImages/House.jpg";
 import leftarrowyourjourney from "../../images/vector-left-arrow.svg";
 import rightarrowyourjourney from "../../images/vector-right-arrow.svg";
 import Yourjourneycontactus from "./Yourjourneycontactus.svg";

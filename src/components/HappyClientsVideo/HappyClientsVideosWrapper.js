@@ -1,30 +1,28 @@
 import React from "react";
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import HappyClientsVideos from "./HappyClientsVideos";
 
 
 const HappyClientsVideosWrapper = (props) => {
-    const navigationPrevRef = React.useRef(null)
-    const navigationNextRef = React.useRef(null);
     return (
         <>
             <Swiper
-                spaceBetween={10}
-                slidesPerView={2}
+                slidesPerView={3}
+                spaceBetween={30}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                // }}
                 pagination={{
                     clickable: true,
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="clientsvideos-swiper"
+                className="clientsvideos-swiper top-carousel-nav"
             >
                 <SwiperSlide>
                     <HappyClientsVideos videoUrl="https://www.youtube.com/embed/ECIhrH5diZE" />

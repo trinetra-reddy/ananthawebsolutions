@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map, } from "../../components";
-import { CONSTANTS } from "../../utils/constants";
 import leftarrowyourdreamhouse from "../../images/vector-left-arrow.svg";
 import rightarrowyourdreamhouse from "../../images/vector-right-arrow.svg";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
 import roadImg from "../../images/Properties1.jpg";
-import HouseImage from "../../images/Appartment.jpg";
+import HouseImage from "../../images/carouselImages/little_OAKS.jpg";
 import './Properties.scss';
 import img1 from "../../images/floorplan.jpeg";
 import img2 from "../../images/stiltfloor.jpeg";

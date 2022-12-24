@@ -107,7 +107,7 @@ const Godavaricontactus = () => {
             </div>
             <div className="g-contactus-companydetails">
               <h2 className="g-contactus-companyname">
-                HPR Godavari buldersand developers
+                HPR Godavari Bulders and Developers
               </h2>
               <div className="g-contactus-logo-wrapper">
                 <img

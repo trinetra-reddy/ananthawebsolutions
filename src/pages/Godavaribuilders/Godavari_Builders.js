@@ -1,15 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideos,HappyClientsDetails,ProjectButtons,HappyClientsVideosWrapper,HappyClientsWrapper,Ongoingprojects, ImageCarousel} from "../../components";
-import { CONSTANTS } from "../../utils/constants";
-import improvingpeoplebuildingimage from "../../images/building-1.jpg";
+import littleOAKS from "../../images/carouselImages/little_OAKS.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
 import leftarrowimproving from "../../images/vector-left-arrow.svg";
 import rightarrowimproving from "../../images/vector-right-arrow.svg";
 import './Godavari_Builders.scss';
 import happyimg1 from "../../images/HappyClients/underline.png";
-import happyimg5 from "../../images/HappyClients/happyImage.png";
-import happyimg from "../../images/HappyClients/happyImg.png";
 
 
 const Godavari_Builders = () => {
@@ -19,24 +15,17 @@ const Godavari_Builders = () => {
         <div> 
             <Godavariheader />
             <ImageCarousel />
-            <Improvingpeople heading="Improving people’s futures through building" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={improvingpeoplebuildingimage}/>
+            <Improvingpeople heading="Improving people’s futures through building" description={improvingpeopledescription} btn="Contact us" img={improvingcontactus} leftarrowimg={leftarrowimproving} rightarrowimg={rightarrowimproving} imgPath={littleOAKS}/>
             <Ongoingprojects />
             <Godavariaboutus />
             <Properties name="Prope" name2="reties" />
             
             <ProjectHeadings name="Happy clients" image1={happyimg1} />
-            <ProjectButtons image4={happyimg} image5={happyimg5}/>
 
             <div className="happyclient-details">
                  <HappyClientsWrapper/>
             </div>
 
-            <ProjectButtons image4={happyimg} image5={happyimg5} />
-            {/* <div className="happyvideos">
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />
-            <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo"  />
-            </div> */}
             <div className="happyvideos">
                 <HappyClientsVideosWrapper />
             </div>

@@ -47,10 +47,10 @@
 .yourdream-house-right-image {
   position: relative;
   width: 100%;
-  height: 250px;
+  // height: 250px;
   padding: 10px;
   border: 1px silod $white;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 988px) {
@@ -96,7 +96,6 @@
   .yourdream-house-right-image {
     position: relative;
     width: 100%;
-    height: 82vh;
     padding: 0px;
     margin-top: 60px;
   }
