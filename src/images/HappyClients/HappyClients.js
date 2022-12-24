@@ -20,7 +20,7 @@ const HappyClients=()=>{
     return (
         <>
             <ProjectHeadings name="Happy clients" image1={happyimg1} />
-            <ProjectButtons image4={happyimg} image5={happyimg5}/>
+            {/* <ProjectButtons image4={happyimg} image5={happyimg5}/> */}
 
            
                 <div className="happyclient-details">
@@ -29,7 +29,7 @@ const HappyClients=()=>{
                 </div>  
             
 
-            <ProjectButtons image4={happyimg} image5={happyimg5} />
+            {/* <ProjectButtons image4={happyimg} image5={happyimg5} /> */}
             
             <div class="happyvideos">
             <HappyClientsVideos videoUrl="https://www.youtube.com/embed/9MfX6D9jXwo" />

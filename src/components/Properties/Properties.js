@@ -33,15 +33,15 @@ const Properties = (props) => {
 
                                 <span className="prop-project col-6 ">Our Projects</span>
                                 <img className="prop-proj-img" src={vector2} alt="vector2" />
-                                <button className="prop-button1 col-2"><img className="prop-button-img" src={vector} alt="vector" /></button>
-                                <button className="prop-button2 col-3">next<img className="prop-button-img1" src={vector1} alt="vector" /> </button>
+                                {/* <button className="prop-button1 col-2"><img className="prop-button-img" src={vector} alt="vector" /></button>
+                                <button className="prop-button2 col-3">next<img className="prop-button-img1" src={vector1} alt="vector" /> </button> */}
                             </div>
                         </div>
                         <div className="row">
-                            <div className="prop-images col-12 col-lg-6">
+                            <div className="prop-images">
                                 <Swiper
                                     spaceBetween={50}
-                                    slidesPerView={2}
+                                    slidesPerView={3}
                                     onSlideChange={() => console.log('slide change')}
                                     onSwiper={(swiper) => console.log(swiper)}
                                     autoplay={{
@@ -56,16 +56,16 @@ const Properties = (props) => {
                                     className="propeties-swiper"
                                 >
                                     <SwiperSlide>
-                                        <img src={Propimages1} alt="property 1"/>
+                                        <img className="prop-img-ele" src={Propimages1} alt="property 1"/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimage2} alt="property 2"/>
+                                        <img className="prop-img-ele" src={Propimage2} alt="property 2"/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimages1} alt="property 3"/>
+                                        <img className="prop-img-ele" src={Propimages1} alt="property 3"/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={Propimage2} alt="property 4"/>
+                                        <img className="prop-img-ele" src={Propimage2} alt="property 4"/>
                                     </SwiperSlide>
                                 </Swiper>
                             </div>

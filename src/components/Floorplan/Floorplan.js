@@ -4,8 +4,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Floorplan.scss';
 import Title from '../Title/Title';
-import vector from "./Vector.svg";
-import vector1 from "./vector1.svg";
+
 const Floorplan = (props) => {
   return (
     <>

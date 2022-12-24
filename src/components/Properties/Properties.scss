@@ -201,3 +201,15 @@
     margin-left: 24px;
   }
 }
+
+.prop-images {
+  margin-top: 40px;
+  .swiper-slide {
+    background-color: transparent;
+  }
+}
+.prop-img-ele {
+  height: 350px !important;
+  width: auto !important;
+  // background-color: $white;
+}
