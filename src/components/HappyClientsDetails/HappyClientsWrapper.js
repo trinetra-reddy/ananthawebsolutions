@@ -17,7 +17,7 @@ const HappyClientsWrapper=()=>{
     return (
         <>       
              <Swiper
-                    spaceBetween={50}
+                    spaceBetween={10}
                     slidesPerView={2}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
@@ -42,7 +42,7 @@ const HappyClientsWrapper=()=>{
                         <HappyClientsDetails happyContent={happyClientDes3} image2={happyimg2} client1="Trinethra Reddy" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <HappyClientsDetails happyContent={happyClientDes4} image2={happyimg3} client1="Giridhar" />
+                        <HappyClientsDetails happyContent={happyClientDes4} image2={happyimg2} client1="Giridhar" />
                     </SwiperSlide>                    
                 </Swiper>
             
