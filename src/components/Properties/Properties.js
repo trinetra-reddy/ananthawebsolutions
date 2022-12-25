@@ -40,18 +40,16 @@ const Properties = (props) => {
                         <div className="row">
                             <div className="prop-images">
                                 <Swiper
-                                    spaceBetween={50}
+                                    spaceBetween={30}
                                     slidesPerView={3}
-                                    onSlideChange={() => console.log('slide change')}
-                                    onSwiper={(swiper) => console.log(swiper)}
-                                    autoplay={{
+                                        autoplay={{
                                         delay: 2500,
                                         disableOnInteraction: false,
                                     }}
                                     pagination={{
                                         clickable: true,
                                     }}
-                                    navigation={true}
+                                    navigation={false}
                                     modules={[Autoplay, Pagination, Navigation]}
                                     className="propeties-swiper"
                                 >

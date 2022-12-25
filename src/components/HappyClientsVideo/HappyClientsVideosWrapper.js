@@ -11,8 +11,6 @@ const HappyClientsVideosWrapper = (props) => {
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 // autoplay={{
                 //     delay: 2500,
                 //     disableOnInteraction: false,
